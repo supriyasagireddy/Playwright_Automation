@@ -1,0 +1,541 @@
+# Page snapshot
+
+```yaml
+- link "DuckDuckGo":
+  - /url: /?t=h_
+- combobox: Playwright
+- button "search": S
+- banner:
+  - img
+  - paragraph: Upgrade to our browser.
+- img
+- img
+- img
+- paragraph:
+  - text: Try the
+  - strong: DuckDuckGo Browser.
+  - text: Fast. Free. Private.
+- link "Download Browser":
+  - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__popover
+  - img
+  - text: Download Browser
+- paragraph: Free
+- button:
+  - img
+- button "Open menu":
+  - text: Open menu
+  - img
+- navigation:
+  - list:
+    - listitem:
+      - link "All":
+        - /url: /?t=h_&q=Playwright&ia=web
+        - img
+        - text: All
+    - listitem:
+      - link "Images":
+        - /url: /?t=h_&q=Playwright&ia=images&iax=images
+    - listitem:
+      - link "Videos":
+        - /url: /?t=h_&q=Playwright&ia=videos&iax=videos
+    - listitem:
+      - link "News":
+        - /url: /?t=h_&q=Playwright&ia=news&iar=news
+    - listitem:
+      - link "Maps":
+        - /url: /?t=h_&q=Playwright&iaxm=maps
+  - list:
+    - listitem:
+      - link "Assist":
+        - /url: /?t=h_&q=Playwright&ia=web&assist=true
+        - img
+        - text: Assist
+    - listitem:
+      - link "Duck.ai":
+        - /url: /?t=h_&q=Playwright&ia=chat
+        - img
+        - text: Duck.ai
+    - listitem:
+      - button "Search Settings ✀":
+        - img
+        - text: Search Settings ✀
+- navigation:
+  - text: Always protected
+  - switch "✓"
+  - text: "India (en) Safe search: moderate Any time"
+- list:
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: playwright.dev
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Aplaywright.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Aplaywright.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain playwright.dev":
+        - /url: /?q=Playwright+site:playwright.dev&t=h_
+        - img
+      - paragraph: Playwright
+      - link "https://playwright.dev":
+        - /url: https://playwright.dev/
+        - paragraph: https://playwright.dev
+      - heading "Fast and reliable end-to-end testing for modern web apps | Playwright" [level=2]:
+        - link "Fast and reliable end-to-end testing for modern web apps | Playwright":
+          - /url: https://playwright.dev/
+      - text: Playwright is a tool that enables reliable and fast end-to-end testing for web apps across browsers, platforms, and languages. It supports cross-browser, cross-platform, cross-language, and mobile web testing with features like auto-wait, web-first assertions, tracing, and full isolation.
+      - list:
+        - listitem:
+          - link "Installation Playwright Test was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation of Google Chrome for Android and Mobile Safari.":
+            - /url: https://playwright.dev/docs/intro
+            - heading "Installation" [level=3]
+            - paragraph: Playwright Test was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation of Google Chrome for Android and Mobile Safari.
+        - listitem:
+          - link "Vs Code Playwright Test was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation of Google Chrome for Android and Mobile Safari.":
+            - /url: https://playwright.dev/docs/getting-started-vscode
+            - heading "Vs Code" [level=3]
+            - paragraph: Playwright Test was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation of Google Chrome for Android and Mobile Safari.
+        - listitem:
+          - 'link "API Playwright module provides a method to launch a browser instance. The following is a typical example of using Playwright to drive automation: const { chromium , firefox , webkit } = require ( ''playwright'' ) ;"':
+            - /url: https://playwright.dev/docs/api/class-playwright
+            - heading "API" [level=3]
+            - paragraph: "Playwright module provides a method to launch a browser instance. The following is a typical example of using Playwright to drive automation: const { chromium , firefox , webkit } = require ( 'playwright' ) ;"
+        - listitem:
+          - link "Community Check out our contributing guide if you would like to contribute to Playwright. Community Discord Join our community Discord Server to connect with other developers using Playwright, ask questions in our 'help-playwright' forum, share your articles and videos and join live events on the Playwright stage. Community LinkedIn":
+            - /url: https://playwright.dev/community/welcome
+            - heading "Community" [level=3]
+            - paragraph: Check out our contributing guide if you would like to contribute to Playwright. Community Discord Join our community Discord Server to connect with other developers using Playwright, ask questions in our 'help-playwright' forum, share your articles and videos and join live events on the Playwright stage. Community LinkedIn
+        - listitem:
+          - link "Net Net - Fast and reliable end-to-end testing for modern web apps | Playwright":
+            - /url: https://playwright.dev/dotnet/
+            - heading "Net" [level=3]
+            - paragraph: Net - Fast and reliable end-to-end testing for modern web apps | Playwright
+        - listitem:
+          - link "Codegen Playwright comes with the ability to generate tests for you as you perform actions in the browser and is a great way to quickly get started with testing. Playwright will look at your page and figure out the best locator, prioritizing role, text and test id locators. If the generator finds multiple elements matching the locator, it will improve ...":
+            - /url: https://playwright.dev/docs/codegen
+            - heading "Codegen" [level=3]
+            - paragraph: Playwright comes with the ability to generate tests for you as you perform actions in the browser and is a great way to quickly get started with testing. Playwright will look at your page and figure out the best locator, prioritizing role, text and test id locators. If the generator finds multiple elements matching the locator, it will improve ...
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: github.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Agithub.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Agithub.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain github.com":
+        - /url: /?q=Playwright+site:github.com&t=h_
+        - img
+      - paragraph: Github
+      - link "https://github.com › microsoft › playwright":
+        - /url: https://github.com/microsoft/playwright
+        - paragraph: https://github.com › microsoft › playwright
+      - heading "Playwright - GitHub" [level=2]:
+        - link "Playwright - GitHub":
+          - /url: https://github.com/microsoft/playwright
+      - text: Playwright is a framework for testing Chromium, Firefox and WebKit with a single API. It offers features such as auto-wait, web-first assertions, tracing, codegen, inspector and more.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: en.wikipedia.org
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Aen.wikipedia.org"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Aen.wikipedia.org"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain en.wikipedia.org":
+        - /url: /?q=Playwright+site:en.wikipedia.org&t=h_
+        - img
+      - paragraph: Wikipedia
+      - link "https://en.wikipedia.org › wiki › Playwright_(software)":
+        - /url: https://en.wikipedia.org/wiki/Playwright_(software)
+        - paragraph: https://en.wikipedia.org › wiki › Playwright_(software)
+      - heading "Playwright (software) - Wikipedia" [level=2]:
+        - link "Playwright (software) - Wikipedia":
+          - /url: https://en.wikipedia.org/wiki/Playwright_(software)
+      - text: Playwright is an open-source library for automating browser tasks and web scraping in Chromium, Firefox and WebKit. It supports multiple languages, features and a test runner called @playwright/test.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: lambdatest.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Awww.lambdatest.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Awww.lambdatest.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain lambdatest.com":
+        - /url: /?q=Playwright+site:www.lambdatest.com&t=h_
+        - img
+      - paragraph: LambdaTest
+      - link "https://www.lambdatest.com › playwright":
+        - /url: https://www.lambdatest.com/playwright
+        - paragraph: https://www.lambdatest.com › playwright
+      - 'heading "What Is Playwright: A Tutorial on How to Use Playwright - LambdaTest" [level=2]':
+        - 'link "What Is Playwright: A Tutorial on How to Use Playwright - LambdaTest"':
+          - /url: https://www.lambdatest.com/playwright
+      - text: Sep 17, 2024·Learn how to set up and use Playwright, an open-source automation framework that works with Chromium, Firefox, and WebKit browsers. See practical examples of testing web applications with Playwright TypeScript API and LambdaTest eCommerce Playground website.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: learn.microsoft.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Alearn.microsoft.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Alearn.microsoft.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain learn.microsoft.com":
+        - /url: /?q=Playwright+site:learn.microsoft.com&t=h_
+        - img
+      - paragraph: Microsoft Learn
+      - link "https://learn.microsoft.com › en-us › training › modules › build-with-playwright":
+        - /url: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+        - paragraph: https://learn.microsoft.com › en-us › training › modules › build-with-playwright
+      - heading "Build your first end-to-end test with Playwright - Training" [level=2]:
+        - link "Build your first end-to-end test with Playwright - Training":
+          - /url: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+      - text: "How to use Playwright to test a sample web application. How to run tests, view test reports, and understand the structure of a Playwright project. How to use Visual Studio Code to run tests, debug tests, and record new tests. Add Prerequisites. To get started with Playwright, you should have:"
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: browserstack.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Awww.browserstack.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Awww.browserstack.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain browserstack.com":
+        - /url: /?q=Playwright+site:www.browserstack.com&t=h_
+        - img
+      - paragraph: BrowserStack
+      - link "https://www.browserstack.com › guide › playwright-tutorial":
+        - /url: https://www.browserstack.com/guide/playwright-tutorial
+        - paragraph: https://www.browserstack.com › guide › playwright-tutorial
+      - 'heading "Playwright Automation Framework: Tutorial - BrowserStack" [level=2]':
+        - 'link "Playwright Automation Framework: Tutorial - BrowserStack"':
+          - /url: https://www.browserstack.com/guide/playwright-tutorial
+      - text: Aug 21, 2024·Learn how to use Playwright, an open-source test automation library, with NodeJS and VSCode. Explore the features, advantages, and limitations of Playwright and how to run tests on real devices and browsers.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: playwright.dev
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Aplaywright.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Aplaywright.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain playwright.dev":
+        - /url: /?q=Playwright+site:playwright.dev&t=h_
+        - img
+      - paragraph: Playwright
+      - link "https://playwright.dev › docs › intro":
+        - /url: https://playwright.dev/docs/intro
+        - paragraph: https://playwright.dev › docs › intro
+      - heading "Installation | Playwright" [level=2]:
+        - link "Installation | Playwright":
+          - /url: https://playwright.dev/docs/intro
+      - text: Playwright Test was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation of Google Chrome for Android and Mobile Safari.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: npmjs.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Awww.npmjs.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Awww.npmjs.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain npmjs.com":
+        - /url: /?q=Playwright+site:www.npmjs.com&t=h_
+        - img
+      - paragraph: npm
+      - link "https://www.npmjs.com › package › playwright":
+        - /url: https://www.npmjs.com/package/playwright
+        - paragraph: https://www.npmjs.com › package › playwright
+      - heading "playwright - npm" [level=2]:
+        - link "playwright - npm":
+          - /url: https://www.npmjs.com/package/playwright
+      - text: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reliable and fast.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: toolsqa.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Awww.toolsqa.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Awww.toolsqa.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain toolsqa.com":
+        - /url: /?q=Playwright+site:www.toolsqa.com&t=h_
+        - img
+      - paragraph: Tools QA
+      - link "https://www.toolsqa.com › playwrite › software-testing › introduction-to-the-playwright":
+        - /url: https://www.toolsqa.com/playwrite/software-testing/introduction-to-the-playwright
+        - paragraph: https://www.toolsqa.com › playwrite › software-testing › introduction-to-the-playwright
+      - heading "Introduction to the Playwright Framework - Tools QA" [level=2]:
+        - link "Introduction to the Playwright Framework - Tools QA":
+          - /url: https://www.toolsqa.com/playwrite/software-testing/introduction-to-the-playwright
+      - text: Oct 1, 2023·Playwright is an open-source framework for web application testing developed by Microsoft. It supports multiple browser engines, platforms, tabs, and features to prevent flaky tests and enhance test execution speed.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: testautomationtools.dev
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20site%3Atestautomationtools.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-site%3Atestautomationtools.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain testautomationtools.dev":
+        - /url: /?q=Playwright+site:testautomationtools.dev&t=h_
+        - img
+      - paragraph: Test Automation Tools Blog
+      - link "https://testautomationtools.dev › playwright-overview":
+        - /url: https://testautomationtools.dev/playwright-overview/
+        - paragraph: https://testautomationtools.dev › playwright-overview
+      - heading "What is Playwright? Its Features, Advantages, and Disadvantages" [level=2]:
+        - link "What is Playwright? Its Features, Advantages, and Disadvantages":
+          - /url: https://testautomationtools.dev/playwright-overview/
+      - text: Nov 20, 2023·Playwright is an open-source framework for end-to-end testing of web applications across multiple browsers and platforms. Learn about its features, advantages, disadvantages, and how to get started with it in JavaScript/TypeScript.
+  - listitem:
+    - button "Learn More About Assist"
+    - button "Assist Settings"
+    - paragraph: Playwright is an open-source automation library developed by Microsoft for testing web applications across different browsers like Chromium, Firefox, and WebKit. It allows developers to automate browser tasks and create reliable end-to-end tests using a single API.
+    - link "Wikipedia":
+      - /url: https://en.wikipedia.org/wiki/Playwright_(software)
+      - img
+      - text: Wikipedia
+    - link "GitHub":
+      - /url: https://github.com/microsoft/playwright
+      - img
+      - text: GitHub
+    - paragraph: Auto-generated based on listed sources. May contain inaccuracies.
+    - textbox "Ask a follow-up question"
+    - button "Chat":
+      - img
+      - text: Chat
+    - text: Was this helpful?
+    - button "Positive feedback":
+      - img
+    - button "Negative feedback":
+      - img
+  - listitem:
+    - paragraph: Searches related to Playwright
+    - list:
+      - listitem:
+        - link "playwright for windows 10":
+          - /url: "?q=playwright%20for%20windows%2010&t=h_"
+      - listitem:
+        - link "playwright official website":
+          - /url: "?q=playwright%20official%20website&t=h_"
+      - listitem:
+        - link "playwright meaning":
+          - /url: "?q=playwright%20meaning&t=h_"
+      - listitem:
+        - link "playwright download for windows 10":
+          - /url: "?q=playwright%20download%20for%20windows%2010&t=h_"
+    - list:
+      - listitem:
+        - link "playwright download":
+          - /url: "?q=playwright%20download&t=h_"
+      - listitem:
+        - link "playwright is used for":
+          - /url: "?q=playwright%20is%20used%20for&t=h_"
+      - listitem:
+        - link "playwright examples":
+          - /url: "?q=playwright%20examples&t=h_"
+      - listitem:
+        - link "playwright for python":
+          - /url: "?q=playwright%20for%20python&t=h_"
+- button "More results"
+- list:
+  - listitem:
+    - link "More Images":
+      - /url: /?q=Playwright&ia=images&iax=images
+      - img
+      - text: More Images
+    - link "Playwright":
+      - /url: https://en.wikipedia.org/wiki/Playwright
+      - heading "Playwright" [level=2]
+    - text: A playwright or dramatist is a person who writes plays, which are a form of drama that primarily consists of dialogue between characters and is intended for theatrical performance rather than just reading. Ben Jonson coined the term "playwright" and is the first person in English literature to refer to playwrights as separate from poets. The earliest playwrights in Western literature with surviving works are the Ancient Greeks.
+    - link "Wikipedia":
+      - /url: https://en.wikipedia.org/wiki/Playwright
+    - text: Was this helpful?
+    - button "Positive feedback":
+      - img
+    - button "Negative feedback":
+      - img
+- list:
+  - button "Close menu":
+    - text: Close menu
+    - img
+  - paragraph: Upgrade to our Private Browser
+  - paragraph: Fast. Secure. Free.
+  - link "Install Windows Browser":
+    - /url: /windows
+    - img
+    - text: Install Windows Browser
+  - list:
+    - listitem: Search
+    - listitem:
+      - link "Homepage":
+        - /url: https://start.duckduckgo.com/
+    - listitem:
+      - link "Themes":
+        - /url: /settings#appearance
+    - listitem:
+      - link "Settings":
+        - /url: /settings
+  - list:
+    - listitem: Share Feedback
+    - listitem:
+      - button "Positive feedback":
+        - img
+      - button "Negative feedback":
+        - img
+  - list:
+    - listitem: Downloads
+    - listitem:
+      - link "iOS Browser":
+        - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+    - listitem:
+      - link "Android Browser":
+        - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+    - listitem:
+      - link "Mac Browser":
+        - /url: /mac?origin=funnel_browser_searchresults
+    - listitem:
+      - link "Windows Browser":
+        - /url: /windows?origin=funnel_browser_searchresults
+    - listitem:
+      - link "Browser Extensions":
+        - /url: /duckduckgo-help-pages/desktop/adding-duckduckgo-to-your-browser/
+  - list:
+    - listitem: More From DuckDuckGo
+    - listitem:
+      - link "Duck.ai":
+        - /url: https://duck.ai
+      - text: NEW
+    - listitem:
+      - link "Email Protection":
+        - /url: /email
+    - listitem:
+      - link "Newsletter":
+        - /url: /newsletter
+    - listitem:
+      - link "Blog":
+        - /url: /blog
+  - list:
+    - listitem: Learn More
+    - listitem:
+      - link "What’s New":
+        - /url: /updates
+    - listitem:
+      - link "Compare Privacy":
+        - /url: /compare-privacy
+    - listitem:
+      - link "About Our Browser":
+        - /url: /app
+    - listitem:
+      - link "About DuckDuckGo":
+        - /url: /about
+  - list:
+    - listitem: Other Resources
+    - listitem:
+      - link "Help":
+        - /url: /duckduckgo-help-pages
+    - listitem:
+      - link "Community":
+        - /url: https://www.reddit.com/r/duckduckgo/
+    - listitem:
+      - link "Careers":
+        - /url: /careers
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /privacy
+    - listitem:
+      - link "Terms of Service":
+        - /url: /terms
+    - listitem:
+      - link "Press Kit":
+        - /url: /press
+    - listitem:
+      - link "Advertise on Search":
+        - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+- img
+- heading "Get Our Windows Browser" [level=3]
+- paragraph: Protect your data as you search and browse.
+- link "Download":
+  - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__footercard
+  - img
+  - text: Download
+- button "Share Feedback"
+```

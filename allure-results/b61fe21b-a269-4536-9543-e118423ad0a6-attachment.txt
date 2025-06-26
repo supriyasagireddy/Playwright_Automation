@@ -1,0 +1,14 @@
+Column Name:  Moderators  1 
+Column Name:  Service Providers  10 
+Column Name:   Brands  3 
+Column Name:  B2B  7 
+----------------------------------------------
+Column Name:  Moderators  1 
+Column Name:  Service Providers  10 
+Column Name:   Brands  3 
+Column Name:  B2B  7 
+----------------------------------------------
+Column Name:  Moderators  1 
+Column Name:  Service Providers  10 
+Column Name:   Brands  3 
+Column Name:  B2B  7 

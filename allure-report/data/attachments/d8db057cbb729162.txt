@@ -1,0 +1,2 @@
+Dialog type is : confirm
+Alert message is : Are you sure?

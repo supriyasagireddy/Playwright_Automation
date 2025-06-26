@@ -1,0 +1,2 @@
+Dialog type is : prompt
+Alert message is : What is your tool of choice?

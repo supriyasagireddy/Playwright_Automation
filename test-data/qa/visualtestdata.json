@@ -1,0 +1,12 @@
+[
+  {
+    "name": "homepage-desktop",
+    "url": "https://portal.afterbuy.in/#/login",
+    "viewport": { "width": 1496, "height": 261 }
+  },
+  {
+    "name": "login-mobile",
+    "url": "https://portal.afterbuy.in/#/login",
+    "viewport": { "width": 320, "height": 261 }
+  }
+]

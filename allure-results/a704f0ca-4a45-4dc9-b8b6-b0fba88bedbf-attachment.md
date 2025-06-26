@@ -1,0 +1,547 @@
+# Page snapshot
+
+```yaml
+- dialog
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: IN
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: playwright
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dplaywright&hl=en&ec=65620
+- navigation:
+  - tab "Home":
+    - link "Home":
+      - /url: /
+  - tab "Shorts"
+  - tab "Subscriptions":
+    - link "Subscriptions":
+      - /url: /feed/subscriptions
+  - tab "You":
+    - link "You":
+      - /url: /feed/you
+  - tab "History":
+    - link "History":
+      - /url: /feed/history
+- main:
+  - tablist:
+    - tab "All" [selected]
+    - tab "Shorts"
+    - tab "Videos"
+    - tab "Unwatched"
+    - tab "Watched"
+    - tab "Recently uploaded"
+    - tab "Live"
+    - tab "Automation interview questions"
+    - tab "Vs cypress"
+    - tab "Automation telugu"
+    - tab "Vs selenium"
+    - tab "Java"
+    - tab "Automation tamil"
+    - tab "Installation"
+    - tab "React"
+    - tab "Codegen"
+    - tab "Typescript"
+    - tab "Api testing"
+    - tab "C#"
+    - tab "Python"
+    - tab "Javascript"
+    - tab "Playlists"
+    - tab "Under 4 min"
+    - tab "4 - 20 min"
+    - tab "Over 20 min"
+  - button "Next"
+  - button "Search filters": Filters
+  - tooltip "tooltip"
+  - link "Automate Login-Workflow Testing with Playwright - Playwright Library":
+    - /url: https://www.google.com/aclk?sa=l&ai=DChcSEwiSlt2us4KOAxX0F4MDHVGIN1kYABAEGgJzZg&co=1&gclid=EAIaIQobChMIkpbdrrOCjgMV9BeDAx1RiDdZEAAYASAAEgIxvPD_BwE&sig=AOD64_1EA-HLSCbM04eKkdCqIAINWWS9_Q&adurl=https://www.educative.io/projects/automate-login-workflow-testing-with-playwright%3Futm_campaign%3Dbrand_educative%26utm_source%3Dgoogle%26utm_medium%3Dppc%26utm_content%3Dperformance_max_india%26utm_term%3D%26aff%3DK3Zq%26utm_term%3D%26utm_campaign%3D%255BNew%255D%2BPerformance%2BMax%26utm_source%3Dadwords%26utm_medium%3Dppc%26hsa_acc%3D5451446008%26hsa_cam%3D18931439518%26hsa_grp%3D%26hsa_ad%3D%26hsa_src%3Dx%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D2%26gad_campaignid%3D18924941403&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=0
+  - link "Learn to automate login workflows and test front-end applications using Playwright for browser automation and reporting. 2+ Million...":
+    - /url: https://www.google.com/aclk?sa=l&ai=DChcSEwiSlt2us4KOAxX0F4MDHVGIN1kYABAEGgJzZg&co=1&gclid=EAIaIQobChMIkpbdrrOCjgMV9BeDAx1RiDdZEAAYASAAEgIxvPD_BwE&sig=AOD64_1EA-HLSCbM04eKkdCqIAINWWS9_Q&adurl=https://www.educative.io/projects/automate-login-workflow-testing-with-playwright%3Futm_campaign%3Dbrand_educative%26utm_source%3Dgoogle%26utm_medium%3Dppc%26utm_content%3Dperformance_max_india%26utm_term%3D%26aff%3DK3Zq%26utm_term%3D%26utm_campaign%3D%255BNew%255D%2BPerformance%2BMax%26utm_source%3Dadwords%26utm_medium%3Dppc%26hsa_acc%3D5451446008%26hsa_cam%3D18931439518%26hsa_grp%3D%26hsa_ad%3D%26hsa_src%3Dx%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D2%26gad_campaignid%3D18924941403&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=7
+  - text: Sponsored · https://www.educative.io/
+  - button "My Ad Center"
+  - heading "Playwright with Javascript tutorials" [level=3]:
+    - link "Playwright with Javascript tutorials":
+      - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+  - link "SDET- QA":
+    - /url: /@sdetpavan
+  - link "Playlist":
+    - /url: /@sdetpavan
+  - link "Playwright with Javascript | Introduction | Playwright Vs Selenium Vs Cypress | Part 1 · 24:31":
+    - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+  - link "Playwright with Javascript | Installation | Part 2 · 28:05":
+    - /url: /watch?v=ldEqdMGyh9Y&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+  - link "View full playlist":
+    - /url: /playlist?list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+  - heading "Playwright Beginner Tutorials" [level=3]:
+    - link "Playwright Beginner Tutorials":
+      - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+  - link "Automation Step by Step":
+    - /url: /@RaghavPal
+  - link "Course":
+    - /url: /@RaghavPal
+  - link "Playwright Beginner Tutorial 1 | What is Playwright · 13:05":
+    - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+  - link "Playwright Beginner Tutorial 2 | How to install · 25:46":
+    - /url: /watch?v=IB2P1FBXjcQ&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+  - link "View full course":
+    - /url: /playlist?list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+  - heading "How to Use Playwright MCP for AI-Powered End-to-End Testing" [level=3]
+  - status:
+    - paragraph
+  - text: "Apidog MCP Server: Give Agentic AI direct access to your API"
+  - img "Sponsored":
+    - paragraph: Sponsored
+    - text: ·
+  - text: https://www.apidog.com/
+  - link "Help Docs"
+  - link "Apidog pricing"
+  - link "Apidog Products"
+  - button
+  - heading "Shorts" [level=2]
+  - 'heading "What is Playwright? #playwright, 9.7 thousand views - play Short" [level=3]':
+    - 'link "What is Playwright? #playwright"':
+      - /url: /shorts/E_bWHVGymQE
+  - button "More actions"
+  - 'heading "Selenium Vs Playwright : Which Tool Is Better, 84 thousand views - play Short" [level=3]':
+    - 'link "Selenium Vs Playwright : Which Tool Is Better"':
+      - /url: /shorts/ktzCWrO44wY
+  - button "More actions"
+  - heading "Selenium VS Playwright VS Cypress, 12 thousand views - play Short" [level=3]:
+    - link "Selenium VS Playwright VS Cypress":
+      - /url: /shorts/0LKpcArklXk
+  - button "More actions"
+  - 'heading "Here for you - Playwright Beginner tutorials | #AskRaghav, 34 thousand views - play Short" [level=3]':
+    - 'link "Here for you - Playwright Beginner tutorials | #AskRaghav"':
+      - /url: /shorts/sR6yqAxTGdY
+  - button "More actions"
+  - heading "10X Faster Testing?! Playwright vs Selenium, 31 thousand views - play Short" [level=3]:
+    - link "10X Faster Testing?! Playwright vs Selenium":
+      - /url: /shorts/eBT4hQscYog
+  - button "More actions"
+  - button "Show more"
+  - heading "Playwright with Java latest] - UI + API Automation + End To End Framework" [level=3]:
+    - link "Playwright with Java latest] - UI + API Automation + End To End Framework":
+      - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "Naveen AutomationLabs":
+    - /url: /@naveenautomationlabs
+  - link "Playlist":
+    - /url: /@naveenautomationlabs
+  - link "#1 - Playwright - Test Automation Tool | Overview & Introduction · 24:44":
+    - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "#2 - Cypress vs Playwright · 19:52":
+    - /url: /watch?v=7Fyfc7zD4V4&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "View full playlist":
+    - /url: /playlist?list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "FreeStanding Apartments in Kollur":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cl1yWOpZWaPyJNfmNmsMPr7u_4AHU_MGTf-rEhuGeFLCQHxABIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHs6paXKakCG6tkbdzMSD6oAwTIAwqqBJ4CT9AH4Zz9CDVrrHazAtGBGjf9ksCQzz3mB04_EiJPsqzbyG80FJ5IqSsPok41BdTJjmWLoW2RZgtgep7lsjaK-fFTaOOUijd9qkCfknlFET9l4PUe0uGajMX2A8MCLj6kK69-Ui5TIAYzhLyF9AO8lS3nHkf65KpKvOfrCbRbynFyPaFt7aKH187Y3n8dO75jeANCOvm_6l24qu7k16Iy1oYhkMRqWV3FYmitBsPwBgPcg8qIBcrvLM8LLe6TpnrWtvo1D_-ePrhJxpw7xi4WY6SCYzdYOBmiZGI4HOFZV6uDLzVX3mJ1moRXq-lDqh7n3m3AyyKhvGJFSMHPtrxPM5mw3EcLbBE6Y_U5Ba4J9xbqUdH_EanUfBuveNxfhpIFCAgTeNLLg58EoAZugAfsouf2A5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHpcyxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFi4-s6us4KOA5oJIWh0dHBzOi8vd3d3LnNhbXJhY2FuYXN3YXN0aGkuY29tL7EJUidBsnj4EoHICQDICYoCmAsBugs1CAMQBRgEIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgbQCxKaDQESqg0CSU7IDQHSDfUBaHR0cHM6Ly93d3cuc2FtcmFjYW5hc3dhc3RoaS5jb20vP1ByaW1hcnlzb3VyY2U9RGlnaXRhbCUyME1hcmtldGluZyZzZWNvbmRhcnlzb3VyY2U9R29vZ2xlJnRlcnRpYXJ5c291cmNlPUdvb2dsZSUyMERpc2NvdmVyeSZjYW1wYWlnbl9pZD0yMjQ3MzgzNzA0NiZhZHNldF9pZD0xNzk3OTMwNTgyNzMmYWRpZD03NDc3NTcwMTgyNDMmZGV2aWNlPWMmZXh0ZW5zaW9uaWQ9Jm5ldHdvcms9JmRldmljZW1vZGVsPSZnYWRfc291cmNlPTK4E____________wGIFAOwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF65ENkwxmgmEuhcGKAAwADgB0BgB8BgB&gclid=EAIaIQobChMI_I7PrrOCjgMV-YZmAh2v3Q8cEAEYASAAEgJYnPD_BwE&num=1&cid=CAASFeRoSL0j3a10cSxaQ5u2Io4jO619Hw&sig=AOD64_1evZZI5f8fX5LYUYsaO7_S98ljbg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Book now & Avail Home Loan Offers. 5 Mins from ORR Exit 2 Kollur, near IT hubs":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cl1yWOpZWaPyJNfmNmsMPr7u_4AHU_MGTf-rEhuGeFLCQHxABIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHs6paXKakCG6tkbdzMSD6oAwTIAwqqBJ4CT9AH4Zz9CDVrrHazAtGBGjf9ksCQzz3mB04_EiJPsqzbyG80FJ5IqSsPok41BdTJjmWLoW2RZgtgep7lsjaK-fFTaOOUijd9qkCfknlFET9l4PUe0uGajMX2A8MCLj6kK69-Ui5TIAYzhLyF9AO8lS3nHkf65KpKvOfrCbRbynFyPaFt7aKH187Y3n8dO75jeANCOvm_6l24qu7k16Iy1oYhkMRqWV3FYmitBsPwBgPcg8qIBcrvLM8LLe6TpnrWtvo1D_-ePrhJxpw7xi4WY6SCYzdYOBmiZGI4HOFZV6uDLzVX3mJ1moRXq-lDqh7n3m3AyyKhvGJFSMHPtrxPM5mw3EcLbBE6Y_U5Ba4J9xbqUdH_EanUfBuveNxfhpIFCAgTeNLLg58EoAZugAfsouf2A5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHpcyxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFi4-s6us4KOA5oJIWh0dHBzOi8vd3d3LnNhbXJhY2FuYXN3YXN0aGkuY29tL7EJUidBsnj4EoHICQDICYoCmAsBugs1CAMQBRgEIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgbQCxKaDQESqg0CSU7IDQHSDfUBaHR0cHM6Ly93d3cuc2FtcmFjYW5hc3dhc3RoaS5jb20vP1ByaW1hcnlzb3VyY2U9RGlnaXRhbCUyME1hcmtldGluZyZzZWNvbmRhcnlzb3VyY2U9R29vZ2xlJnRlcnRpYXJ5c291cmNlPUdvb2dsZSUyMERpc2NvdmVyeSZjYW1wYWlnbl9pZD0yMjQ3MzgzNzA0NiZhZHNldF9pZD0xNzk3OTMwNTgyNzMmYWRpZD03NDc3NTcwMTgyNDMmZGV2aWNlPWMmZXh0ZW5zaW9uaWQ9Jm5ldHdvcms9JmRldmljZW1vZGVsPSZnYWRfc291cmNlPTK4E____________wGIFAOwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF65ENkwxmgmEuhcGKAAwADgB0BgB8BgB&gclid=EAIaIQobChMI_I7PrrOCjgMV-YZmAh2v3Q8cEAEYASAAEgJYnPD_BwE&num=1&cid=CAASFeRoSL0j3a10cSxaQ5u2Io4jO619Hw&sig=AOD64_1evZZI5f8fX5LYUYsaO7_S98ljbg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · Samracana Swasthi
+  - button "My Ad Center"
+  - link:
+    - /url: /@Playwrightdev
+  - link "Playwright @Playwrightdev•20.3K subscribers Playwright enables reliable end-to-end testing for modern web apps. - Any browser, any platform, one API - Resilient, no flaky ...":
+    - /url: /@Playwrightdev
+  - link "Subscribe":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dplaywright%26continue_action%3DQUFFLUhqbHpPODZXN294UjJLeUFuM2N6VlhpclRSUHM3d3xBQ3Jtc0ttUk9tMzJHUHNYbmg0WllVTEpFUlBVZnp3RDN6VEtuWW92Yjhfam0wWF8zQXNKTzFFcnVJVWpNYlhRdGZhN2ZVWWhJSmU3aDZncVNHRlJGck9QZ1IyUlVkN2R1dndPVTJvU3Ayc3Ayd0VCODFMYU1LOHdmQUVhbm4wY1dzMFUtT3N1NGdicDU4RjVkcnFPcXgyVHR4QjVmWnNVOFpzNTFjY0ttSUJRYlNWX0U1UGsyMk1BZ2x3TkFlUWVRT01oQWxacUhiUlI&hl=en
+  - 'heading "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes" [level=3]':
+    - 'link "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes"':
+      - /url: /watch?v=wawbt1cATsk&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours]"
+  - button "Action menu"
+  - text: 250K views •2 years ago
+  - link "Go to channel":
+    - /url: /@LambdaTest
+  - link "LambdaTest":
+    - /url: /@LambdaTest
+  - text: Join as we walk you through the fundamentals of Playwright - one of the most powerful automation frameworks. From setting up ...
+  - tooltip "tooltip"
+  - text: 12 chapters
+  - button "Introduction | What is Playwright? | How to write a basic script with Playwright using functions & selectors? | Playwright’s futuristic features | How to interact with inputs and buttons? | Alerts and dropdowns in Playwright | Frames and Window handling in Playwright | How to handle date picker/calendar in Playwright? | Uploading and downloading files in Playwright | Page Object Model in Playwright | Playwright fixtures | Cross-browser testing in Playwright and execution on the LambdaTest platform"
+  - button "More"
+  - heading "Shorts" [level=2]
+  - 'heading "#5 Playwright Vs Selenium Automation | Playwright Tutorial #playwright #testing #e2e, 18 thousand views - play Short" [level=3]':
+    - 'link "#5 Playwright Vs Selenium Automation | Playwright Tutorial #playwright #testing #e2e"':
+      - /url: /shorts/A_ZIG_ClXew
+  - button "More actions"
+  - heading "Python 🐍 + Playwright 🎭 = Powerful Automations ⚡️, 26 thousand views - play Short" [level=3]:
+    - link "Python 🐍 + Playwright 🎭 = Powerful Automations ⚡️":
+      - /url: /shorts/VIaxjCWJ9rE
+  - button "More actions"
+  - 'heading "What is Playwright? #frontenddevelopment #playwright #testingframework, 1.9 thousand views - play Short" [level=3]':
+    - 'link "What is Playwright? #frontenddevelopment #playwright #testingframework"':
+      - /url: /shorts/h0YlZXQcPZk
+  - button "More actions"
+  - heading "How to Launch Chrome using java + Playwright, 16 thousand views - play Short" [level=3]:
+    - link "How to Launch Chrome using java + Playwright":
+      - /url: /shorts/eZuZys-66N4
+  - button "More actions"
+  - 'heading "Playwright Automation Tool #seleniumwebtesting #seleniumtesting #softwaretesting #testing, 6.4 thousand views - play Short" [level=3]':
+    - 'link "Playwright Automation Tool #seleniumwebtesting #seleniumtesting #softwaretesting #testing"':
+      - /url: /shorts/fkydu6EsiR4
+  - button "More actions"
+  - button "Show more"
+  - 'heading "Introduction to Playwright: What is Playwright? 30 seconds" [level=3]':
+    - 'link "Introduction to Playwright: What is Playwright? 30 seconds"':
+      - /url: /watch?v=SW3TqvhrzU4&pp=ygUKcGxheXdyaWdodNIHCQm-CQGHKiGM7w%3D%3D
+      - text: "Introduction to Playwright: What is Playwright?"
+  - button "Action menu"
+  - text: 39K views •3 years ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+  - tooltip "tooltip"
+  - heading "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [level=3]:
+    - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes":
+      - /url: /watch?v=788GvvcfwTY&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial"
+  - button "Action menu"
+  - text: 40K views •5 months ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: "Playwright Automation Using TypeScript Full Course | Playwright TypeScript Beginner Tutorials: Playwright enables reliable ..."
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - text: 58 chapters
+  - button
+  - button "More"
+  - link "G+50 Floors | 885 Flats | 5.03 Acres":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3mh6OpZWaPyJNfmNmsMPr7u_4AG13o7Vf5aAkNu3FLCQHxACIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAG3uMn8AqkCG6tkbdzMSD6oAwTIAwqqBJ4CT9AH4Zz9CDVrrHazAtGBGjf9ksCQzz3mB04_EiJPsqzbyG80FJ5IqSsPok41BdTJjmWLoW2RZgtgep7lsjaK-fFTaOOUijd9qkCfknlFET9l4PUe0uGajMX2A8MCLj6kK69-Ui5TIAYzhLyF9AO8lS3nHkf65KpKvOfrCbRbynFyPaFt7aKH187Y3n8dO75jeANCOvm_6l24qu7k16Iy1oYhkMRqWV3FYmitBsPwBgPcg8qIBcrvLM8LLe6TpnrWtvo1D_-ePrhJxpw7xi4WY6SCYzdYOEOtZGI4HOFFdLqSLzVXokoihoFXq-lDqh7n3tfG6yKhvGJFSMHP8546fJmwnW8sNxE6Y_U5Ba4J92_abZ7_EanUfBvSQrIEhpIFCAgTeK7j1IMBoAZugAexx7aDAZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHpcyxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFi4-s6us4KOA5oJGWh0dHBzOi8vYXNibC5pbi9icm9hZHdheS-xCY8hPAHk0_qdyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIF0AsSmg0BEqoNAklOyA0B0g1daHR0cHM6Ly9hc2JsLmluL2Jyb2Fkd2F5Lz91dG1fc291cmNlPUdvb2dsZSZ1dG1fbWVkaXVtPUNQTCZ1dG1fY2FtcGFpZ249VVJMLTI0MjkmZ2FkX3NvdXJjZT0yuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRcDwnDVw19MCboXBigAMAA4AdAYAfAYAQ&gclid=EAIaIQobChMI_I7PrrOCjgMV-YZmAh2v3Q8cEAEYAiAAEgIXAPD_BwE&num=2&cid=CAASFeRoSL0j3a10cSxaQ5u2Io4jO619Hw&sig=AOD64_3zCjRbDGS1yCeeTkHDGDPjof2vmw&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Looking for more space, more amenities, more value? ASBL Broadway delivers it all @2.5Cr":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3mh6OpZWaPyJNfmNmsMPr7u_4AG13o7Vf5aAkNu3FLCQHxACIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAG3uMn8AqkCG6tkbdzMSD6oAwTIAwqqBJ4CT9AH4Zz9CDVrrHazAtGBGjf9ksCQzz3mB04_EiJPsqzbyG80FJ5IqSsPok41BdTJjmWLoW2RZgtgep7lsjaK-fFTaOOUijd9qkCfknlFET9l4PUe0uGajMX2A8MCLj6kK69-Ui5TIAYzhLyF9AO8lS3nHkf65KpKvOfrCbRbynFyPaFt7aKH187Y3n8dO75jeANCOvm_6l24qu7k16Iy1oYhkMRqWV3FYmitBsPwBgPcg8qIBcrvLM8LLe6TpnrWtvo1D_-ePrhJxpw7xi4WY6SCYzdYOEOtZGI4HOFFdLqSLzVXokoihoFXq-lDqh7n3tfG6yKhvGJFSMHP8546fJmwnW8sNxE6Y_U5Ba4J92_abZ7_EanUfBvSQrIEhpIFCAgTeK7j1IMBoAZugAexx7aDAZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHpcyxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFi4-s6us4KOA5oJGWh0dHBzOi8vYXNibC5pbi9icm9hZHdheS-xCY8hPAHk0_qdyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIF0AsSmg0BEqoNAklOyA0B0g1daHR0cHM6Ly9hc2JsLmluL2Jyb2Fkd2F5Lz91dG1fc291cmNlPUdvb2dsZSZ1dG1fbWVkaXVtPUNQTCZ1dG1fY2FtcGFpZ249VVJMLTI0MjkmZ2FkX3NvdXJjZT0yuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRcDwnDVw19MCboXBigAMAA4AdAYAfAYAQ&gclid=EAIaIQobChMI_I7PrrOCjgMV-YZmAh2v3Q8cEAEYAiAAEgIXAPD_BwE&num=2&cid=CAASFeRoSL0j3a10cSxaQ5u2Io4jO619Hw&sig=AOD64_3zCjRbDGS1yCeeTkHDGDPjof2vmw&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · Ashoka Builders Pvt Ltd
+  - button "My Ad Center"
+  - 'heading "Playwright vs Selenium: What Advantages Make Playwright the Winner in Automation Testing Battle 🏆 11 minutes, 18 seconds" [level=3]':
+    - 'link "Playwright vs Selenium: What Advantages Make Playwright the Winner in Automation Testing Battle 🏆 11 minutes, 18 seconds"':
+      - /url: /watch?v=X08AwI35xdo&pp=ygUKcGxheXdyaWdodNIHCQm-CQGHKiGM7w%3D%3D
+      - text: "Playwright vs Selenium: What Advantages Make Playwright the Winner in Automation Testing Battle 🏆"
+  - button "Action menu"
+  - text: 54K views •1 year ago
+  - link "Go to channel":
+    - /url: /@ExecuteAutomation
+  - link "Execute Automation":
+    - /url: /@ExecuteAutomation
+  - text: Discover the ultimate winner in the automation battle as we explore the compelling advantages that propel Playwright to victory ...
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - text: 11 chapters
+  - button "Introduction | Playwright Modern and Speed | Native Parallel execution support | Auto-waiting Mechanism | Native Playwright Tests | Reporting and Custom Reporting | Playwright Configurations | Wide Range of Testing supports | UI Mode, CodeGen, VSCode plugin, Trace viewer and more | ARIA locator support | Playwright frequent releases and more ..."
+  - button "More"
+  - 'heading "Playwright TypeScript #41 How to Group & Run Playwright Tests? Playwright Tutorial 6 minutes, 35 seconds" [level=3]':
+    - 'link "Playwright TypeScript #41 How to Group & Run Playwright Tests? Playwright Tutorial 6 minutes, 35 seconds"':
+      - /url: /watch?v=0jEWcCYPqS0&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: "Playwright TypeScript #41 How to Group & Run Playwright Tests? Playwright Tutorial"
+  - button "Action menu"
+  - text: 60 views •1 day ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: "Playwright TypeScript #41 How to Group & Run Playwright Tests | Playwright Automation Tutorial: Playwright Testing Tutorial: ..."
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - img "4K":
+    - paragraph: 4K
+  - heading "How to Generate Playwright Tests using MCP + Copilot 3 minutes, 8 seconds" [level=3]:
+    - link "How to Generate Playwright Tests using MCP + Copilot 3 minutes, 8 seconds":
+      - /url: /watch?v=AaCj939XIQ4&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: How to Generate Playwright Tests using MCP + Copilot
+  - button "Action menu"
+  - text: 55K views •1 month ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: Learn how to generate end-to-end tests with Playwright MCP—even when you don't have access to the source code! In this ...
+  - tooltip "tooltip"
+  - heading "React Testing with Playwright (Complete Tutorial) 32 minutes" [level=3]:
+    - link "React Testing with Playwright (Complete Tutorial) 32 minutes":
+      - /url: /watch?v=3NW0Mz943_E&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: React Testing with Playwright (Complete Tutorial)
+  - button "Action menu"
+  - text: 37K views •11 months ago
+  - link "Go to channel":
+    - /url: /@cosdensolutions
+  - link "Cosden Solutions":
+    - /url: /@cosdensolutions
+  - text: In this video we will learn about testing your React applications using Playwright. Playwright is an end-to-end testing tool that ...
+  - tooltip "tooltip"
+  - img "Closed captions":
+    - paragraph: CC
+  - heading "Channels new to you" [level=2]
+  - heading "What’s New in Playwright v1.52 & v1.53 – AI Fixes, Describable Locators, HTML Titles & More! 6 minutes, 13 seconds" [level=3]:
+    - link "What’s New in Playwright v1.52 & v1.53 – AI Fixes, Describable Locators, HTML Titles & More! 6 minutes, 13 seconds":
+      - /url: /watch?v=6s4hQy5Nel0&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: What’s New in Playwright v1.52 & v1.53 – AI Fixes, Describable Locators, HTML Titles & More!
+  - button "Action menu"
+  - text: 5.9K views •4 days ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: In versions 1.52 and 1.53, you can now fix test failures with AI, add locator.describe() for better trace and report visibility, customize ...
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - text: 8 chapters
+  - button "welcome & agenda | demo | describe a locator | title in HTML report | toContainClass | children and url in aria snapshots | test runner updates | recap"
+  - button "More"
+  - heading "Debug Playwright Tests with AI – Fix Failures Instantly 2 minutes, 58 seconds" [level=3]:
+    - link "Debug Playwright Tests with AI – Fix Failures Instantly 2 minutes, 58 seconds":
+      - /url: /watch?v=Ec_3h5Q8RHY&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: Debug Playwright Tests with AI – Fix Failures Instantly
+  - button "Action menu"
+  - text: 7.3K views •11 days ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: Watch how AI makes debugging faster than ever. In this video, we walk through how to use Copilot in VS Code and Playwright's ...
+  - tooltip "tooltip"
+  - 'heading "Playwright MCP Server: Auto-Generate Test code while running UI Operation 🎭🤖 9 minutes, 33 seconds" [level=3]':
+    - 'link "Playwright MCP Server: Auto-Generate Test code while running UI Operation 🎭🤖 9 minutes, 33 seconds"':
+      - /url: /watch?v=mAlewlB6as0&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: "Playwright MCP Server: Auto-Generate Test code while running UI Operation 🎭🤖"
+  - button "Action menu"
+  - text: 15K views •2 months ago
+  - link "Go to channel":
+    - /url: /@ExecuteAutomation
+  - link "Execute Automation":
+    - /url: /@ExecuteAutomation
+  - text: Automatic Code Generation using Playwright MCP Server In this video, we explore how Playwright MCP Server can ...
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - text: +5 more
+  - link "Saket Bhusattva | Villas at Kompally":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CBb7gOpZWaPyJNfmNmsMPr7u_4AGGzsD7f8CMgpauFGQQAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABsd7NwiipAhurZG3czEg-qAMEyAMKqgSuAk_QB-Gc_Qg1a6x2swLRgRo3_ZLAkM895gdOPxIiT7Ks28hvNBSeSKkrD6JONQXUyY5li6FtkWYLYHqe5bI2ivnxU2jjlIo3fapAn5J5RRE_ZeD1HtLhmozF9gPDAi4-pCuvflIuUyAGM4S8hfQDvJUt5x5H-uSqSrzn6wm0W8pxcj2hbe2ih9fO2N5_HTu-Y3gDQjr5v-pduKru5NeiMtaGIZDEalldxWJorQbD8AYD3IPKiAXK7yzPCy3uk6Z61rb6NQ__nj64ScacO8YuFmOkgmM3WDh5t2RiPBzhf2by5y41V_ptYKCDV6vpQ6oe594kC44jobxiRUjRz4DiAnaGsLNkewIREn5XvvOWLSqyPqxRzisyfMLGHbQ6y7Ko41Uc62Vo0K0xZQxgNLJtkgUICBN49sSWpQOgBm6AB7GWnqIDkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeCqrECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf8y7ECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAelzLECqAeBxhuoB_yvsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWLj6zq6zgo4DmgkjaHR0cHM6Ly9zYWtldGdyb3VwLmNvbS9iaHVzYXR2YS1scC-xCSA1uAgDSBRmyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIF0AsSmg0BEqoNAklOyA0B0g3uAWh0dHBzOi8vc2FrZXRncm91cC5jb20vYmh1c2F0dmEtbHAvP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09ZGVtYW5kX2dlbiZ1dG1fY2FtcGFpZ249RE1fQmh1c2F0dHZhX0RlbWFuZF9HZW5fSW5NYXJrZXQwMV8xNF9NYXlfMjAyNSZ1dG1fdGVybT0mdXRtX2FkZ3JvdXA9SW5NYXJrZXQwMSZ1dG1fbWF0Y2h0eXBlPSZ1dG1fZGV2aWNlPWMmc3JkPTY4MjRjYTc4NWQ4ZGVmM2FhYmNkNWY1MiZnYWRfc291cmNlPTK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF1Lf2r4kW1JxuhcGKAAwADgB0BgB8BgB&gclid=EAIaIQobChMI_I7PrrOCjgMV-YZmAh2v3Q8cEAEYAyAAEgKXGfD_BwE&num=3&cid=CAASFeRoSL0j3a10cSxaQ5u2Io4jO619Hw&sig=AOD64_1gOEKXFOpZN6rlB_AofBY7aZGqbg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "5 Mins from Kandlakoya IT park. 15 mins from Big Bazaar, D-Mart, Vijetha & Cine Planet":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CBb7gOpZWaPyJNfmNmsMPr7u_4AGGzsD7f8CMgpauFGQQAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABsd7NwiipAhurZG3czEg-qAMEyAMKqgSuAk_QB-Gc_Qg1a6x2swLRgRo3_ZLAkM895gdOPxIiT7Ks28hvNBSeSKkrD6JONQXUyY5li6FtkWYLYHqe5bI2ivnxU2jjlIo3fapAn5J5RRE_ZeD1HtLhmozF9gPDAi4-pCuvflIuUyAGM4S8hfQDvJUt5x5H-uSqSrzn6wm0W8pxcj2hbe2ih9fO2N5_HTu-Y3gDQjr5v-pduKru5NeiMtaGIZDEalldxWJorQbD8AYD3IPKiAXK7yzPCy3uk6Z61rb6NQ__nj64ScacO8YuFmOkgmM3WDh5t2RiPBzhf2by5y41V_ptYKCDV6vpQ6oe594kC44jobxiRUjRz4DiAnaGsLNkewIREn5XvvOWLSqyPqxRzisyfMLGHbQ6y7Ko41Uc62Vo0K0xZQxgNLJtkgUICBN49sSWpQOgBm6AB7GWnqIDkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeCqrECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf8y7ECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAelzLECqAeBxhuoB_yvsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWLj6zq6zgo4DmgkjaHR0cHM6Ly9zYWtldGdyb3VwLmNvbS9iaHVzYXR2YS1scC-xCSA1uAgDSBRmyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIF0AsSmg0BEqoNAklOyA0B0g3uAWh0dHBzOi8vc2FrZXRncm91cC5jb20vYmh1c2F0dmEtbHAvP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09ZGVtYW5kX2dlbiZ1dG1fY2FtcGFpZ249RE1fQmh1c2F0dHZhX0RlbWFuZF9HZW5fSW5NYXJrZXQwMV8xNF9NYXlfMjAyNSZ1dG1fdGVybT0mdXRtX2FkZ3JvdXA9SW5NYXJrZXQwMSZ1dG1fbWF0Y2h0eXBlPSZ1dG1fZGV2aWNlPWMmc3JkPTY4MjRjYTc4NWQ4ZGVmM2FhYmNkNWY1MiZnYWRfc291cmNlPTK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF1Lf2r4kW1JxuhcGKAAwADgB0BgB8BgB&gclid=EAIaIQobChMI_I7PrrOCjgMV-YZmAh2v3Q8cEAEYAyAAEgKXGfD_BwE&num=3&cid=CAASFeRoSL0j3a10cSxaQ5u2Io4jO619Hw&sig=AOD64_1gOEKXFOpZN6rlB_AofBY7aZGqbg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · Saket Engineers
+  - button "My Ad Center"
+  - heading "Let AI Explore Your Site & Write Tests with Playwright MCP! 4 minutes, 50 seconds" [level=3]:
+    - link "Let AI Explore Your Site & Write Tests with Playwright MCP! 4 minutes, 50 seconds":
+      - /url: /watch?v=IixdI2bTR1g&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: Let AI Explore Your Site & Write Tests with Playwright MCP!
+  - button "Action menu"
+  - text: 30K views •4 days ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: What if your tests could write themselves by actually using your app like a real user? In this video, we demo the Playwright MCP ...
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - heading "Playwright by Testers Talk☑️" [level=3]:
+    - link "Playwright by Testers Talk☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08":
+    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "Playwright API Testing Tutorial Crash Course 2024 · 1:59:55":
+    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - heading "People also search for" [level=2]
+  - link "Selenium":
+    - /url: /results?search_query=Selenium+%28software%29&sp=EiOSASAKCS9tLzBjODI4dioTU2VsZW5pdW0gKHNvZnR3YXJlKXgB
+  - link "Appium":
+    - /url: /results?search_query=Appium&sp=EhqSARcKDS9nLzExYzU5NDFyejEqBkFwcGl1bXgB
+  - link "pytest":
+    - /url: /results?search_query=pytest&sp=EhqSARcKDS9nLzExaDRxNHpudmQqBnB5dGVzdHgB
+  - link "Jest":
+    - /url: /results?search_query=Jest&sp=EhiSARUKDS9nLzExaHo2cThrOXEqBEplc3R4AQ%253D%253D
+  - link "Vite":
+    - /url: /results?search_query=Vite&sp=EhiSARUKDS9nLzExcnZrNHAya3oqBFZpdGV4AQ%253D%253D
+  - link "npm":
+    - /url: /results?search_query=npm&sp=EhSSAREKCi9tLzBneDI1ZG4qA25wbXgB
+  - link "Apache JMeter":
+    - /url: /results?search_query=Apache+JMeter&sp=Eh2SARoKCS9tLzA0eXBjaCoNQXBhY2hlIEpNZXRlcngB
+  - link "Software Testing":
+    - /url: /results?search_query=Software+Testing&sp=Eh-SARwKCC9tLzA3NmRuKhBTb2Z0d2FyZSBUZXN0aW5neAE%253D
+  - link "Scrapy":
+    - /url: /results?search_query=Scrapy&sp=EheSARQKCi9tLzBoZ2x6MHQqBlNjcmFweXgB
+  - link "Tricentis Tosca":
+    - /url: /results?search_query=Tricentis+Tosca&sp=EiCSAR0KCi9tLzA0M2p6MmQqD1RyaWNlbnRpcyBUb3NjYXgB
+  - button
+  - heading "Getting Started with Playwright and VS Code 7 minutes, 23 seconds" [level=3]:
+    - link "Getting Started with Playwright and VS Code 7 minutes, 23 seconds":
+      - /url: /watch?v=Xz6lhEzgI5I&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: Getting Started with Playwright and VS Code
+  - button "Action menu"
+  - text: 87K views •2 years ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: Let's get started with Playwright using the VS Code Extension. In this video we will walk though how to install the extension, then ...
+  - tooltip "tooltip"
+  - text: 6 chapters
+  - button "Installing the VS Code extension | Installing Playwright | Exploring what was installed | Understanding the example Test | Running the test | Run tests on different browsers"
+  - button "More"
+  - heading "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [level=3]:
+    - link "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes":
+      - /url: /watch?v=pq20Gd4LXeI&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: Playwright Automation Tutorial for Beginners from Scratch
+  - button "Action menu"
+  - text: 87K views •9 months ago
+  - link "Go to channel":
+    - /url: /@Mukeshotwani
+  - link "Mukesh otwani":
+    - /url: /@Mukeshotwani
+  - img "Verified":
+    - paragraph
+  - text: Welcome to this Playwright Automation Tutorial for Beginners!. If you're planning to learn Playwright from scratch then your search ...
+  - tooltip "tooltip"
+  - text: 29 chapters
+  - button
+  - button "More"
+  - heading "From related searches" [level=2]
+  - heading "JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal | 3 hours, 31 minutes" [level=3]:
+    - link "JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal | 3 hours, 31 minutes":
+      - /url: /watch?v=SoW2pBak1_Q&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal |
+  - button "Action menu"
+  - text: 1.1M views •4 years ago
+  - link "Go to channel":
+    - /url: /@RaghavPal
+  - link "Automation Step by Step":
+    - /url: /@RaghavPal
+  - img "Verified":
+    - paragraph
+  - text: 01:13:03 How to use Recording Templates 01:14:49 Blazemeter Recorder 01:23:41 Getting data from CSV file 01:35:49 Config ...
+  - tooltip "tooltip"
+  - text: 37 chapters
+  - button
+  - button "More"
+  - heading "Pytest Tutorial – How to Test Python Code 1 hour, 28 minutes" [level=3]:
+    - link "Pytest Tutorial – How to Test Python Code 1 hour, 28 minutes":
+      - /url: /watch?v=cHYq1MRoyI0&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: Pytest Tutorial – How to Test Python Code
+  - button "Action menu"
+  - text: 286K views •1 year ago
+  - link "Go to channel":
+    - /url: /@freecodecamp
+  - link "freeCodeCamp.org":
+    - /url: /@freecodecamp
+  - img "Verified":
+    - paragraph
+  - text: Learn how to use pytest, the powerful testing framework for Python. Throughout this course you'll gain a deep understanding of ...
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - text: 7 chapters
+  - button "Introduction | Our First Tests | Class-based Tests | Fixtures | Mark & Parametrize | Mocking | Testing with ChatGPT"
+  - button "More"
+  - heading "Scrapy Course – Python Web Scraping for Beginners 4 hours, 37 minutes" [level=3]:
+    - link "Scrapy Course – Python Web Scraping for Beginners 4 hours, 37 minutes":
+      - /url: /watch?v=mBoX_JCKZTE&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: Scrapy Course – Python Web Scraping for Beginners
+  - button "Action menu"
+  - text: 547K views •2 years ago
+  - link "Go to channel":
+    - /url: /@freecodecamp
+  - link "freeCodeCamp.org":
+    - /url: /@freecodecamp
+  - img "Verified":
+    - paragraph
+  - text: The Scrapy Beginners Course will teach you everything you need to learn to start scraping websites at scale using Python Scrapy.
+  - tooltip "tooltip"
+  - text: 13 chapters
+  - button "Part 1 - Scrapy & Course Introduction | Part 2 - Setup Virtual Env & Scrapy | Part 3 - Creating a Scrapy Project | Part 4 - Build your First Scrapy Spider | Part 5 - Build Discovery & Extraction Spider | Part 6 - Cleaning Data with Item Pipelines | Part 7 - Saving Data to Files & Databases | Part 8 - Fake User-Agents & Browser Headers | Part 9 - Rotating Proxies & Proxy APIs | Part 10 - Run Spiders in Cloud with Scrapyd | Part 11 - Run Spiders in Cloud with ScrapeOps | Part 12 - Run Spiders in Cloud with Scrapy Cloud | Part 13 - Conclusion & Next Steps"
+  - button "More"
+  - heading "How to Generate Tests in Playwright with the VS Code Extension 5 minutes, 5 seconds" [level=3]:
+    - link "How to Generate Tests in Playwright with the VS Code Extension 5 minutes, 5 seconds":
+      - /url: /watch?v=5XIZPqKkdBA&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: How to Generate Tests in Playwright with the VS Code Extension
+  - button "Action menu"
+  - text: 22K views •1 year ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: Playwright will record your actions and generate the test code directly in VS Code. You can also generate assertions by choosing ...
+  - tooltip "tooltip"
+  - text: 8 chapters
+  - button "Intro | Testing | Generating Tests | Add to Cart | assert | assert by | test | complete test"
+  - button "More"
+  - heading "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial 6 hours, 55 minutes" [level=3]:
+    - link "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial 6 hours, 55 minutes":
+      - /url: /watch?v=2poXBtifpzA&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial
+  - button "Action menu"
+  - text: 87K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source automation library for browser ...
+  - tooltip "tooltip"
+  - text: 55 chapters
+  - button
+  - button "More"
+  - heading "Test automation with Playwright 15 minutes" [level=3]:
+    - link "Test automation with Playwright 15 minutes":
+      - /url: /watch?v=1yaqKDHhktI&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: Test automation with Playwright
+  - button "Action menu"
+  - text: 63K views •1 year ago
+  - link "Go to channel":
+    - /url: /@MicrosoftDeveloper
+  - link "Microsoft Developer":
+    - /url: /@MicrosoftDeveloper
+  - img "Verified":
+    - paragraph
+  - text: You know you need more end-to-end testing, but at what cost? In this demo session we show how you can save developers time, ...
+  - tooltip "tooltip"
+  - heading "Reuse Playwright Code across Files and Tests with Fixtures 5 minutes, 54 seconds" [level=3]:
+    - link "Reuse Playwright Code across Files and Tests with Fixtures 5 minutes, 54 seconds":
+      - /url: /watch?v=2O7dyz6XO2s&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: Reuse Playwright Code across Files and Tests with Fixtures
+  - button "Action menu"
+  - text: 51K views •2 years ago
+  - link "Go to channel":
+    - /url: /@ChecklyHQ
+  - link "Checkly":
+    - /url: /@ChecklyHQ
+  - text: Learn how to leverage Playwright test fixtures to DRY your code and reuse it across tests and spec files. Playwright docs for ...
+  - tooltip "tooltip"
+  - img "Closed captions":
+    - paragraph: CC
+  - text: 4 chapters
+  - button "Introduction | Testing | Fixtures | Custom Fixtures"
+  - button "More"
+  - heading "How to create your own Browser AI Agent using any LLM Model + Playwright + Browser-Use + Web-UI 23 minutes" [level=3]:
+    - link "How to create your own Browser AI Agent using any LLM Model + Playwright + Browser-Use + Web-UI 23 minutes":
+      - /url: /watch?v=AK9mRsXdr4w&pp=ygUKcGxheXdyaWdodA%3D%3D
+      - text: How to create your own Browser AI Agent using any LLM Model + Playwright + Browser-Use + Web-UI
+  - button "Action menu"
+  - text: 74K views •4 months ago
+  - link "Go to channel":
+    - /url: /@naveenautomationlabs
+  - link "Naveen AutomationLabs":
+    - /url: /@naveenautomationlabs
+  - img "Verified":
+    - paragraph
+  - text: How to create your own Browser AI Agent using any LLM Model + Playwright + Browser-Use + Web-UI Schedule a meeting in ...
+  - tooltip "tooltip"
+```

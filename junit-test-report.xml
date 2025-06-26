@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="24.791686">
+<testsuite name="chapter5\05_PageObectModelTest.spec.ts" timestamp="2025-06-26T09:05:02.554Z" hostname="chromium" tests="1" failures="0" skipped="0" time="21.763" errors="0">
+<testcase name="Page Object Model Test" classname="chapter5\05_PageObectModelTest.spec.ts" time="21.763">
+</testcase>
+</testsuite>
+</testsuites>

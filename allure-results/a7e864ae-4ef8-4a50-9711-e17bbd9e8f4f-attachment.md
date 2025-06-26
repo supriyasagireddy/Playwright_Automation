@@ -1,0 +1,84 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "About":
+    - /url: https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header
+  - link "Store":
+    - /url: https://store.google.com/IN?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-IN
+  - link "Gmail":
+    - /url: https://mail.google.com/mail/&ogbl
+  - link "Search for Images":
+    - /url: https://www.google.com/imghp?hl=en&ogbl
+    - text: Images
+  - button "Google apps":
+    - img
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+- img
+- search:
+  - img
+  - combobox "Search" [expanded]:
+    - text: Playwright
+    - listbox:
+      - option "playwright"
+      - option "playwright automation"
+      - option "playwright mcp"
+      - option "playwright documentation"
+      - option "playwright interview questions"
+      - option "playwright dev"
+      - option "playwright vs selenium"
+      - option "playwright meaning"
+      - option "playwright tutorial"
+      - option "playwright mcp server"
+  - button "Clear":
+    - img
+  - button "Search by voice":
+    - img
+  - button "Search by image":
+    - img
+  - button "Google Search"
+  - button "I'm Feeling Lucky"
+  - button "Report inappropriate predictions"
+  - button "Google Search"
+  - button "I'm Feeling Lucky"
+- img
+- text: Google Gemini,
+- link "make a playlist of 70s Hindi songs, classic rock, and pop"
+- text: "Google offered in:"
+- link "हिन्दी":
+  - /url: https://www.google.com/setprefs?sig=0_0eu7O_09V62xn3sUmn9_6tEhqXg%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjk3qWIqYyOAxWslq8BHdC8K0EQ2ZgBCBc
+- link "বাংলা":
+  - /url: https://www.google.com/setprefs?sig=0_0eu7O_09V62xn3sUmn9_6tEhqXg%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwjk3qWIqYyOAxWslq8BHdC8K0EQ2ZgBCBg
+- link "తెలుగు":
+  - /url: https://www.google.com/setprefs?sig=0_0eu7O_09V62xn3sUmn9_6tEhqXg%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjk3qWIqYyOAxWslq8BHdC8K0EQ2ZgBCBk
+- link "मराठी":
+  - /url: https://www.google.com/setprefs?sig=0_0eu7O_09V62xn3sUmn9_6tEhqXg%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjk3qWIqYyOAxWslq8BHdC8K0EQ2ZgBCBo
+- link "தமிழ்":
+  - /url: https://www.google.com/setprefs?sig=0_0eu7O_09V62xn3sUmn9_6tEhqXg%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjk3qWIqYyOAxWslq8BHdC8K0EQ2ZgBCBs
+- link "ગુજરાતી":
+  - /url: https://www.google.com/setprefs?sig=0_0eu7O_09V62xn3sUmn9_6tEhqXg%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjk3qWIqYyOAxWslq8BHdC8K0EQ2ZgBCBw
+- link "ಕನ್ನಡ":
+  - /url: https://www.google.com/setprefs?sig=0_0eu7O_09V62xn3sUmn9_6tEhqXg%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjk3qWIqYyOAxWslq8BHdC8K0EQ2ZgBCB0
+- link "മലയാളം":
+  - /url: https://www.google.com/setprefs?sig=0_0eu7O_09V62xn3sUmn9_6tEhqXg%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjk3qWIqYyOAxWslq8BHdC8K0EQ2ZgBCB4
+- link "ਪੰਜਾਬੀ":
+  - /url: https://www.google.com/setprefs?sig=0_0eu7O_09V62xn3sUmn9_6tEhqXg%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjk3qWIqYyOAxWslq8BHdC8K0EQ2ZgBCB8
+- contentinfo:
+  - text: India
+  - link "Advertising":
+    - /url: https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+  - link "Business":
+    - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+  - link "How Search works":
+    - /url: https://google.com/search/howsearchworks/?fg=1
+  - link "Privacy":
+    - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+  - link "Terms":
+    - /url: https://policies.google.com/terms?hl=en-IN&fg=1
+  - button "Settings"
+- dialog "Sign in to Google":
+  - text: Sign in to Google Get the most from your Google account
+  - button "Stay signed out"
+  - button "Sign in"
+```

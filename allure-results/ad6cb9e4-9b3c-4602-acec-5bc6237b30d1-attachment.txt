@@ -1,0 +1,2 @@
+Text content of the element: Try searching to get started
+Attribute value of the element: null
