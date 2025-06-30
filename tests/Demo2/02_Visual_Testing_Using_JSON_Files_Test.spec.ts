@@ -1,4 +1,4 @@
-import testPages from '../../test-data/qa/visualtestdata.json';
+import testPages from '../../src/test-data/qa/visualtestdata.json';
 import { test, expect } from '@playwright/test';
 
 for (const pageData of testPages) {

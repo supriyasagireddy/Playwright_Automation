@@ -1,0 +1,77 @@
+# Page snapshot
+
+```yaml
+- table "Table":
+  - rowgroup:
+    - row "Table Table Table":
+      - cell "Table Table Table":
+        - table "Table":
+          - rowgroup:
+            - row:
+              - cell:
+                - img
+              - cell
+              - cell:
+                - img
+            - row "version 2.7.152.0":
+              - cell
+              - cell
+              - cell "version 2.7.152.0"
+        - table "Table":
+          - rowgroup:
+            - row "* Login failed. Invalid username/password.":
+              - cell "* Login failed. Invalid username/password."
+        - table "Table":
+          - rowgroup:
+            - row:
+              - cell:
+                - img
+            - row:
+              - cell
+            - row "Table":
+              - cell "Table":
+                - table "Table":
+                  - rowgroup:
+                    - row "Key Solutions, Inc. has designed and developed e-Protocol Management System to strengthen the Human Subjects clinical research environment and enhance the protection of Human Subjects involved in the research to meet the ethical standards and the regulatory research compliance requirements. e-Protocol Management System is a total web based solution that automates the research approval processes. It is used for electronic protocol submission, protocol routing / reviewing / tracking that would enable investigators , IRB members, and research administrators to process protocol applications online..... Table Table Table":
+                      - cell "Key Solutions, Inc. has designed and developed e-Protocol Management System to strengthen the Human Subjects clinical research environment and enhance the protection of Human Subjects involved in the research to meet the ethical standards and the regulatory research compliance requirements. e-Protocol Management System is a total web based solution that automates the research approval processes. It is used for electronic protocol submission, protocol routing / reviewing / tracking that would enable investigators , IRB members, and research administrators to process protocol applications online.....":
+                        - paragraph
+                        - paragraph:
+                          - text: Key Solutions, Inc. has designed and developed e-Protocol Management System to strengthen the Human Subjects clinical research environment and enhance the protection of Human Subjects involved in the research to meet the ethical standards and the regulatory research compliance requirements. e-Protocol Management System is a total web based solution that automates the research approval processes. It is used for electronic protocol submission, protocol routing / reviewing / tracking that would enable investigators , IRB members, and research administrators to process protocol applications
+                          - link "online.....":
+                            - /url: https://www.keyusa.com
+                      - cell "Table Table Table":
+                        - table "Table":
+                          - rowgroup:
+                            - row:
+                              - cell
+                            - row:
+                              - cell
+                        - table "Table":
+                          - rowgroup:
+                            - row "User ID":
+                              - cell "User ID"
+                              - cell:
+                                - textbox
+                            - row "Password":
+                              - cell "Password"
+                              - cell:
+                                - textbox
+                            - row:
+                              - cell
+                        - table "Table":
+                          - rowgroup:
+                            - row "Login Forgot Password":
+                              - cell "Login":
+                                - listitem:
+                                  - button "Login"
+                              - cell "Forgot Password":
+                                - listitem:
+                                  - button "Forgot Password"
+                              - cell
+            - row:
+              - cell
+            - row:
+              - cell
+            - row:
+              - cell
+```

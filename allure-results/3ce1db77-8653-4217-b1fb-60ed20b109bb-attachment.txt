@@ -1,0 +1,17 @@
+🔎 Checking: #R1C1_ob101_1 — expecting text: "Name of Principal Investigator *"
+✅ Verified: Name of Principal Investigator *
+🔎 Checking: #R1C3_ob101_1 — expecting text: "Degree (MD/PhD/BSN/etc.)"
+✅ Verified: Degree (MD/PhD/BSN/etc.)
+🔎 Checking: #R1C6_ob101_1 — expecting text: "Title"
+✅ Verified: Title
+🔎 Checking: #R3C1_ob101_1 — expecting text: "Email *"
+✅ Verified: Email *
+🔎 Checking: #R5C3_ob101_1 — expecting text: "Client Status Check ALL that apply *"
+✅ Verified: Client Status Check ALL that apply *
+🔎 Checking: #R5C6_ob101_1 — expecting text: "Mailing Address"
+✅ Verified: Mailing Address
+🔎 Checking: #R15C1_ob101_1 — expecting text: "CITI Training Date *"
+✅ Verified: CITI Training Date *
+🔎 Checking: #R15C5_ob101_1 — expecting text: "Type of CITI training completed. *"
+✅ Verified: Type of CITI training completed. *
+✅ All field validations passed.

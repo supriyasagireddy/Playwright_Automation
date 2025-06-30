@@ -1,0 +1,206 @@
+
+🔍 Checking [LABEL] → #R22C1_ob101_1
+⚠️ Visible | Class: TDBLRT (expected: PH1) | Valign: top (expected: top) | Text: "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+🔧 outerHTML: <label for="R22C1_ob101_1" style="width:" id="R22C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator.</label>
+
+🔍 Checking [LABEL] → #R0C0_ob101_1
+⚠️ Visible | Class: null (expected: PH2) | Valign: null (expected: top) | Text: "Principal Investigator*"
+🔧 outerHTML: <label for="R0C0_ob101_1" style="width:" id="R0C0_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Principal Investigator*</label>
+
+🔍 Checking [LABEL] → #R1C1_ob101_1
+⚠️ Visible | Class: TDBBLRT (expected: PH1) | Valign: top (expected: top) | Text: "Name of Principal Investigator *"
+🔧 outerHTML: <label for="R2C1_ob101_1" style="width:" id="R1C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Name of Principal Investigator<font class="MARK"> * </font></label>
+
+🔍 Checking [LABEL] → #R1C3_ob101_1
+⚠️ Visible | Class: TDBBT (expected: PH1) | Valign: top (expected: top) | Text: "Degree (MD/PhD/BSN/etc.)"
+🔧 outerHTML: <label for="R2C3_ob101_1" style="width:" id="R1C3_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Degree (MD/PhD/BSN/etc.)</label>
+
+🔍 Checking [LABEL] → #R1C6_ob101_1
+⚠️ Visible | Class: TDBBLRT (expected: PH1) | Valign: top (expected: top) | Text: "Title"
+🔧 outerHTML: <label for="R2C6_ob101_1" style="width:" id="R1C6_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Title</label>
+
+🔍 Checking [TEXTBOX] → #R2C1_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: false | Disabled: false
+🔧 outerHTML: <input type="textbox" name="R2C1_ob101_1" for="R1C1_ob101_1" id="R2C1_ob101_1" placeholder="" title="" value="Simon, Jones" size="30" ph2'="" maxlength="" style="BACKGROUND-COLOR:#D4D4D4" readonly="" class="TFBORDER" tabindex="-1">
+
+🔍 Checking [TEXTBOX] → #R2C3_ob101_1
+⚠️ Visible | Class: TDBBR (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: true | Disabled: false
+🔧 outerHTML: <input type="textbox" name="R2C3_ob101_1" for="R1C3_ob101_1" id="R2C3_ob101_1" placeholder="" title="" value="" size="30" ph2'="" maxlength="" style="width:99%" class="TFBORDER">
+
+🔍 Checking [TEXTBOX] → #R2C6_ob101_1
+⚠️ Visible | Class: TDBBR (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: true | Disabled: false
+🔧 outerHTML: <input type="textbox" name="R2C6_ob101_1" for="R1C6_ob101_1" id="R2C6_ob101_1" placeholder="" title="" value="" size="30" ph2'="" maxlength="" style="width:99%" class="TFBORDER">
+
+🔍 Checking [LABEL] → #R3C1_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH1) | Valign: top (expected: top) | Text: "Email *"
+🔧 outerHTML: <label for="R4C1_ob101_1" style="width:" id="R3C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Email<font class="MARK"> * </font></label>
+
+🔍 Checking [LABEL] → #R3C3_ob101_1
+⚠️ Visible | Class: TDBBLR (expected: PH1) | Valign: top (expected: top) | Text: "Phone"
+🔧 outerHTML: <label for="R4C3_ob101_1" style="width:" id="R3C3_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Phone</label>
+
+🔍 Checking [LABEL] → #R3C6_ob101_1
+⚠️ Visible | Class: TDBBR (expected: PH1) | Valign: top (expected: top) | Text: "Fax"
+🔧 outerHTML: <label for="R4C6_ob101_1" style="width:" id="R3C6_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Fax</label>
+
+🔍 Checking [TEXTBOX] → #R4C1_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: true | Disabled: false
+🔧 outerHTML: <input type="textbox" name="R4C1_ob101_1" for="R3C1_ob101_1" id="R4C1_ob101_1" placeholder="" title="" value="eprotocol1@keyusa.com" size="30" ph2'="" maxlength="" style="width:99%" class="TFBORDER">
+
+🔍 Checking [TEXTBOX] → #R4C3_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: true | Disabled: false
+🔧 outerHTML: <input type="textbox" name="R4C3_ob101_1" for="R3C3_ob101_1" id="R4C3_ob101_1" placeholder="" title="" value="5104564500" size="20" ph2'="" maxlength="" style="width:99%" class="TFBORDER">
+
+🔍 Checking [TEXTBOX] → #R4C5_ob101_1
+⚠️ Visible | Class: TDBBR (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: true | Disabled: false
+🔧 outerHTML: <input type="textbox" name="R4C5_ob101_1" aria-label="Phone Extension" id="R4C5_ob101_1" placeholder="" title="" value="" size="5" ph2'="" maxlength="" style="width:99%" class="TFBORDER">
+
+🔍 Checking [TEXTBOX] → #R4C6_ob101_1
+⚠️ Visible | Class: TDBBR (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: true | Disabled: false
+🔧 outerHTML: <input type="textbox" name="R4C6_ob101_1" for="R3C6_ob101_1" id="R4C6_ob101_1" placeholder="" title="" value="" size="30" ph2'="" maxlength="" style="width:99%" class="TFBORDER">
+
+🔍 Checking [LABEL] → #R5C1_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH1) | Valign: top (expected: top) | Text: "Research Department"
+🔧 outerHTML: <label for="R6C1_ob101_1" style="width:" id="R5C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Research Department</label>
+
+🔍 Checking [LABEL] → #R5C3_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH1) | Valign: top (expected: top) | Text: "Client Status
+Check ALL that apply *"
+🔧 outerHTML: <label for="R5C3_ob101_1" style="width:" id="R5C3_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Client Status <br>Check ALL that apply<font class="MARK"> * </font></label>
+
+🔍 Checking [LABEL] → #R5C6_ob101_1
+⚠️ Visible | Class: TDBBLR (expected: PH1) | Valign: top (expected: top) | Text: "Mailing Address"
+🔧 outerHTML: <label for="R7C6_ob101_1" style="width:" id="R5C6_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Mailing Address</label>
+
+🔍 Checking [SELECT] → #R6C1_ob101_1
+⚠️ Visible | Class: TDBL (expected: PH2) | Valign: top (expected: top) | Text: "Select One
+Art
+Biochemistry
+Communication
+ER Nurse"
+📂 Options: Select One, Art, Biochemistry, Communication, ER Nurse
+🔧 outerHTML: <select for="R5C1_ob101_1" style="width:99%" name="R6C1_ob101_1" id="R6C1_ob101_1" class="TFBORDER" null=""><option value="" selected="" title="Select One">Select One</option><option value="1" title="Art">Art</option><option value="3" title="Biochemistry">Biochemistry</option><option value="2" title="Communication">Communication</option><option value="4" title="ER Nurse">ER Nurse</option></select>
+
+🔍 Checking [CHECKBOX] → #R6C3_ob101_1
+⚠️ Visible | Class: TDBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+☑️ Checked: true
+🔧 outerHTML: <input for="R6C4_ob101_1" type="checkbox" name="R6C3_ob101_1" id="R6C3_ob101_1" aria-label="Faculty " checked="" null="" value="Y">
+
+🔍 Checking [LABEL] → #R6C4_ob101_1
+⚠️ Visible | Class: TDB (expected: PH1) | Valign: top (expected: top) | Text: "Faculty"
+🔧 outerHTML: <label for="R6C3_ob101_1" style="width:" id="R6C4_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Faculty</label>
+
+🔍 Checking [LABEL] → #R6C6_ob101_1
+⚠️ Visible | Class: TDBLR (expected: PH2) | Valign: top (expected: top) | Text: ""
+🔧 outerHTML: <label for="R6C6_ob101_1" style="width:" id="R6C6_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()"></label>
+
+🔍 Checking [TEXTBOX] → #R7C1_ob101_1
+⚠️ Visible | Class: TDBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: false | Disabled: true
+🔧 outerHTML: <input type="textbox" name="R7C1_ob101_1" aria-label="Other Research Department" id="R7C1_ob101_1" placeholder="" title="" value="" size="30" ph2'="" maxlength="" class="GRAY" disabled="">
+
+🔍 Checking [CHECKBOX] → #R7C3_ob101_1
+⚠️ Visible | Class: TDBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+☑️ Checked: false
+🔧 outerHTML: <input for="R7C4_ob101_1" type="checkbox" name="R7C3_ob101_1" id="R7C3_ob101_1" aria-label="Staff " null="" value="Y">
+
+🔍 Checking [LABEL] → #R7C4_ob101_1
+⚠️ Visible | Class: TDB (expected: PH1) | Valign: top (expected: top) | Text: "Staff"
+🔧 outerHTML: <label for="R7C3_ob101_1" style="width:" id="R7C4_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Staff</label>
+
+🔍 Checking [TEXTAREA] → #R7C6_ob101_1
+⚠️ Visible | Class: TDBLR (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: true | Disabled: false
+🔧 outerHTML: <textarea for="R5C6_ob101_1" name="R7C6_ob101_1" id="R7C6_ob101_1" enableeditor="null" rows="2" ;cols="5" style="width: 99%; overflow: hidden; resize: none;" class="TFBORDER" onfocus="restrictTextAreaLength('R7C6_ob101_1',event)"></textarea>
+
+🔍 Checking [LABEL] → #R8C1_ob101_1
+⚠️ Visible | Class: TDBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+🔧 outerHTML: <label for="R8C1_ob101_1" style="width:" id="R8C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()"></label>
+
+🔍 Checking [CHECKBOX] → #R8C3_ob101_1
+⚠️ Visible | Class: TDBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+☑️ Checked: false
+🔧 outerHTML: <input for="R8C4_ob101_1" type="checkbox" name="R8C3_ob101_1" id="R8C3_ob101_1" aria-label="Student " null="" value="Y">
+
+🔍 Checking [LABEL] → #R8C4_ob101_1
+⚠️ Visible | Class: TDB (expected: PH1) | Valign: top (expected: top) | Text: "Student"
+🔧 outerHTML: <label for="R8C3_ob101_1" style="width:" id="R8C4_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Student</label>
+
+🔍 Checking [LABEL] → #R8C6_ob101_1
+⚠️ Visible | Class: TDBLR (expected: PH2) | Valign: top (expected: top) | Text: ""
+🔧 outerHTML: <label for="R8C6_ob101_1" style="width:" id="R8C6_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()"></label>
+
+🔍 Checking [LABEL] → #R9C1_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+🔧 outerHTML: <label for="R9C1_ob101_1" style="width:" id="R9C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()"></label>
+
+🔍 Checking [CHECKBOX] → #R9C3_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+☑️ Checked: false
+🔧 outerHTML: <input for="R9C4_ob101_1" type="checkbox" name="R9C3_ob101_1" id="R9C3_ob101_1" aria-label="Other " null="" value="Y">
+
+🔍 Checking [LABEL] → #R9C4_ob101_1
+⚠️ Visible | Class: TDBB (expected: PH1) | Valign: top (expected: top) | Text: "Other"
+🔧 outerHTML: <label for="R9C3_ob101_1" style="width:" id="R9C4_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Other</label>
+
+🔍 Checking [TEXTBOX] → #R9C5_ob101_1
+⚠️ Visible | Class: TDBB (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: false | Disabled: true
+🔧 outerHTML: <input type="textbox" name="R9C5_ob101_1" aria-label="Other" id="R9C5_ob101_1" placeholder="" title="" value="" size="10" ph2'="" maxlength="" class="GRAY" disabled="">
+
+🔍 Checking [LABEL] → #R9C6_ob101_1
+⚠️ Visible | Class: TDBBLR (expected: PH2) | Valign: top (expected: top) | Text: ""
+🔧 outerHTML: <label for="R9C6_ob101_1" style="width:" id="R9C6_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()"></label>
+
+🔍 Checking [LABEL] → #R12C1_ob101_1
+⚠️ Visible | Class: TDBBLR (expected: PH1) | Valign: top (expected: top) | Text: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+🔧 outerHTML: <label for="R12C1_ob101_1" style="width:" id="R12C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">ALL <a href="http://www.keyusa.com" target="_blank">research personnel</a> are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to <a href="http://www.citiprogram.org" target="_blank">CITI Program</a> to complete.</label>
+
+🔍 Checking [LABEL] → #R13C1_ob101_1
+⚠️ Visible | Class: TDBBLR (expected: PH1) | Valign: top (expected: top) | Text: "The Research Compliance Office will verify the last date of completion below."
+🔧 outerHTML: <label for="R13C1_ob101_1" style="width:" id="R13C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">The Research Compliance Office will verify the last date of completion below.</label>
+
+🔍 Checking [LABEL] → #R15C1_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH1) | Valign: top (expected: top) | Text: "CITI Training Date *"
+🔧 outerHTML: <label for="R14C1_ob101_1" style="width:" id="R15C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">CITI Training Date<font class="MARK"> * </font></label>
+
+🔍 Checking [LABEL] → #R15C5_ob101_1
+⚠️ Visible | Class: TDBBLR (expected: PH1) | Valign: top (expected: top) | Text: "Type of CITI training completed. *"
+🔧 outerHTML: <label for="R14C5_ob101_1" style="width:" id="R15C5_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Type of CITI training completed.<font class="MARK"> * </font></label>
+
+🔍 Checking [DATETEXT] → #R14C1_ob101_1
+⚠️ Visible | Class: TDBBLR (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: false | Disabled: false
+🔧 outerHTML: <input type="text" for="R15C1_ob101_1" aria-label="" name="R14C1_ob101_1" id="R14C1_ob101_1" size="" maxlength="" value="06/24/2025" style="width:75%" readonly="" class="TFBORDER" null="" tabindex="-1">
+
+🔍 Checking [SELECT] → #R14C5_ob101_1
+⚠️ Visible | Class: TDBBR (expected: PH2) | Valign: top (expected: top) | Text: "Select One
+Group 1 Biomedical
+Group 2 Social/Behavioral"
+📂 Options: Select One, Group 1 Biomedical, Group 2 Social/Behavioral
+🔧 outerHTML: <select for="R15C5_ob101_1" style="width:99%" name="R14C5_ob101_1" id="R14C5_ob101_1" class="TFBORDER" null=""><option value="" title="Select One">Select One</option><option value="Group 1 Biomedical" selected="" title="Group 1 Biomedical">Group 1 Biomedical</option><option value="Group 2 Social/Behavioral" title="Group 2 Social/Behavioral">Group 2 Social/Behavioral</option></select>
+
+🔍 Checking [HIDDEN] → #H0C0V2_ob101_1
+⚠️ Visible | Class: null (expected: PH2) | Valign: null (expected: top) | Text: ""
+🔧 outerHTML: <input type="hidden" name="H0C0V2_ob101_1" id="H0C0V2_ob101_1" value="jones">
+
+🔍 Checking [HIDDEN] → #H0C1V2_ob101_1
+⚠️ Visible | Class: null (expected: PH2) | Valign: null (expected: top) | Text: ""
+🔧 outerHTML: <input type="hidden" name="H0C1V2_ob101_1" id="H0C1V2_ob101_1" value="PI">
+
+🔍 Checking [HIDDEN] → #H1C2_ob101_1
+
+🔍 Checking [HIDDEN] → #A0D0_ob101_1
+
+🔍 Checking [HIDDEN] → #S0D0_ob101_1
+
+🔍 Checking [LABEL] → #R0C1_ob101_1
+
+✅ All JSON fields validated dynamically.

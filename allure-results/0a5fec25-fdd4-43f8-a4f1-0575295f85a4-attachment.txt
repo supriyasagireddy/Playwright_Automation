@@ -1,0 +1,36 @@
+🧪 [LABEL] #R22C1_ob101_1 — expecting text:
+   → "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+   ← Found: "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+🧪 [TEXTBOX] #R2C1_ob101_1 — expecting value:
+   → "Simon, Jones"
+   ← Found: "Simon, Jones"
+🧪 [TEXTBOX] #R2C1_ob101_1 — expecting readonly:
+   → Found: ""
+🧪 [TEXTBOX] #R2C1_ob101_1 — expecting class to match /TFBORDER/
+   ← Found: "TFBORDER"
+🧪 [TEXTBOX] #R4C1_ob101_1 — expecting value:
+   → "eprotocol1@keyusa.com"
+   ← Found: "eprotocol1@keyusa.com"
+🧪 [TEXTBOX] #R4C3_ob101_1 — expecting value:
+   → "5104564500"
+   ← Found: "5104564500"
+🧪 [SELECT] #R6C1_ob101_1 — option "Select One" present: true
+🧪 [SELECT] #R6C1_ob101_1 — option "Art" present: true
+🧪 [SELECT] #R6C1_ob101_1 — option "Biochemistry" present: true
+🧪 [SELECT] #R6C1_ob101_1 — option "Communication" present: true
+🧪 [SELECT] #R6C1_ob101_1 — option "ER Nurse" present: true
+🧪 [CHECKBOX] #R6C3_ob101_1 — expecting checked: true ← Found: true
+🧪 [CHECKBOX] #R7C3_ob101_1 — expecting checked: false ← Found: false
+🧪 [TEXTAREA] #R7C6_ob101_1 — expecting editable: true
+🧪 [TEXTBOX] #R14C1_ob101_1 — expecting value:
+   → "06/24/2025"
+   ← Found: "06/24/2025"
+🧪 [TEXTBOX] #R14C1_ob101_1 — expecting readonly:
+   → Found: ""
+🧪 [SELECT] #R14C5_ob101_1 — option "Select One" present: true
+🧪 [SELECT] #R14C5_ob101_1 — option "Group 1 Biomedical" present: true
+🧪 [SELECT] #R14C5_ob101_1 — option "Group 2 Social/Behavioral" present: true
+🧪 [SELECT] #R14C5_ob101_1 — expecting selected value:
+   → "Group 1 Biomedical"
+   ← Found: "Group 1 Biomedical"
+✅ All fields validated successfully

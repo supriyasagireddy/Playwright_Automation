@@ -1,6 +1,45 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="24.791686">
-<testsuite name="chapter5\05_PageObectModelTest.spec.ts" timestamp="2025-06-26T09:05:02.554Z" hostname="chromium" tests="1" failures="0" skipped="0" time="21.763" errors="0">
-<testcase name="Page Object Model Test" classname="chapter5\05_PageObectModelTest.spec.ts" time="21.763">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="16.873008999999612">
+<testsuite name="Demo3\02_pmsteststackdynamic_test.spec.ts" timestamp="2025-06-30T14:03:09.038Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.682" errors="0">
+<testcase name="Full flow: login, protocol selection, edit popup, form validation" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="13.682">
+<system-out>
+<![CDATA[🧪 [LABEL] #R22C1_ob101_1 — expecting text:
+   → "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+   ← Found: "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+🧪 [TEXTBOX] #R2C1_ob101_1 — expecting value:
+   → "Simon, Jones"
+   ← Found: "Simon, Jones"
+🧪 [TEXTBOX] #R2C1_ob101_1 — expecting readonly:
+   → Found: ""
+🧪 [TEXTBOX] #R2C1_ob101_1 — expecting class to match /TFBORDER/
+   ← Found: "TFBORDER"
+🧪 [TEXTBOX] #R4C1_ob101_1 — expecting value:
+   → "eprotocol1@keyusa.com"
+   ← Found: "eprotocol1@keyusa.com"
+🧪 [TEXTBOX] #R4C3_ob101_1 — expecting value:
+   → "5104564500"
+   ← Found: "5104564500"
+🧪 [SELECT] #R6C1_ob101_1 — option "Select One" present: true
+🧪 [SELECT] #R6C1_ob101_1 — option "Art" present: true
+🧪 [SELECT] #R6C1_ob101_1 — option "Biochemistry" present: true
+🧪 [SELECT] #R6C1_ob101_1 — option "Communication" present: true
+🧪 [SELECT] #R6C1_ob101_1 — option "ER Nurse" present: true
+🧪 [CHECKBOX] #R6C3_ob101_1 — expecting checked: true ← Found: true
+🧪 [CHECKBOX] #R7C3_ob101_1 — expecting checked: false ← Found: false
+🧪 [TEXTAREA] #R7C6_ob101_1 — expecting editable: true
+🧪 [TEXTBOX] #R14C1_ob101_1 — expecting value:
+   → "06/24/2025"
+   ← Found: "06/24/2025"
+🧪 [TEXTBOX] #R14C1_ob101_1 — expecting readonly:
+   → Found: ""
+🧪 [SELECT] #R14C5_ob101_1 — option "Select One" present: true
+🧪 [SELECT] #R14C5_ob101_1 — option "Group 1 Biomedical" present: true
+🧪 [SELECT] #R14C5_ob101_1 — option "Group 2 Social/Behavioral" present: true
+🧪 [SELECT] #R14C5_ob101_1 — expecting selected value:
+   → "Group 1 Biomedical"
+   ← Found: "Group 1 Biomedical"
+✅ All fields validated successfully
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>

@@ -1,0 +1,27 @@
+
+🔍 Checking [LABEL] → #R22C1_ob101_1
+⚠️ Visible | Class: TDBLRT (expected: PH1) | Valign: top (expected: top) | Text: "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+🔧 outerHTML: <label for="R22C1_ob101_1" style="width:" id="R22C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator.</label>
+
+🔍 Checking [LABEL] → #R0C0_ob101_1
+⚠️ Visible | Class: null (expected: PH2) | Valign: null (expected: top) | Text: "Principal Investigator*"
+🔧 outerHTML: <label for="R0C0_ob101_1" style="width:" id="R0C0_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Principal Investigator*</label>
+
+🔍 Checking [LABEL] → #R1C1_ob101_1
+⚠️ Visible | Class: TDBBLRT (expected: PH1) | Valign: top (expected: top) | Text: "Name of Principal Investigator *"
+🔧 outerHTML: <label for="R2C1_ob101_1" style="width:" id="R1C1_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Name of Principal Investigator<font class="MARK"> * </font></label>
+
+🔍 Checking [LABEL] → #R1C3_ob101_1
+⚠️ Visible | Class: TDBBT (expected: PH1) | Valign: top (expected: top) | Text: "Degree (MD/PhD/BSN/etc.)"
+🔧 outerHTML: <label for="R2C3_ob101_1" style="width:" id="R1C3_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Degree (MD/PhD/BSN/etc.)</label>
+
+🔍 Checking [LABEL] → #R1C6_ob101_1
+⚠️ Visible | Class: TDBBLRT (expected: PH1) | Valign: top (expected: top) | Text: "Title"
+🔧 outerHTML: <label for="R2C6_ob101_1" style="width:" id="R1C6_ob101_1" tooltext="" onmouseover="showToolTip(event,this)" onmouseout="hideToolTip()">Title</label>
+
+🔍 Checking [TEXTBOX] → #R2C1_ob101_1
+⚠️ Visible | Class: TDBBL (expected: PH2) | Valign: top (expected: top) | Text: ""
+📝 Editable: false | Disabled: false
+🔧 outerHTML: <input type="textbox" name="R2C1_ob101_1" for="R1C1_ob101_1" id="R2C1_ob101_1" placeholder="" title="" value="Simon, Jones" size="30" ph2'="" maxlength="" style="BACKGROUND-COLOR:#D4D4D4" readonly="" class="TFBORDER" tabindex="-1">
+
+🔍 Checking [IMAGE] → #R2C2_ob101_1

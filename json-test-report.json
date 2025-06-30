@@ -104,13 +104,13 @@
   },
   "suites": [
     {
-      "title": "chapter5\\05_PageObectModelTest.spec.ts",
-      "file": "chapter5/05_PageObectModelTest.spec.ts",
+      "title": "Demo3\\02_pmsteststackdynamic_test.spec.ts",
+      "file": "Demo3/02_pmsteststackdynamic_test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Page Object Model Test",
+          "title": "Full flow: login, protocol selection, edit popup, form validation",
           "ok": true,
           "tags": [],
           "tests": [
@@ -122,15 +122,79 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 48,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 21763,
+                  "duration": 13682,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "🧪 [LABEL] #R22C1_ob101_1 — expecting text:\n   → \"Client defines \"Investigator\" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator.\"\n   ← Found: \"Client defines \"Investigator\" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator.\"\n"
+                    },
+                    {
+                      "text": "🧪 [TEXTBOX] #R2C1_ob101_1 — expecting value:\n   → \"Simon, Jones\"\n   ← Found: \"Simon, Jones\"\n"
+                    },
+                    {
+                      "text": "🧪 [TEXTBOX] #R2C1_ob101_1 — expecting readonly:\n   → Found: \"\"\n"
+                    },
+                    {
+                      "text": "🧪 [TEXTBOX] #R2C1_ob101_1 — expecting class to match /TFBORDER/\n   ← Found: \"TFBORDER\"\n"
+                    },
+                    {
+                      "text": "🧪 [TEXTBOX] #R4C1_ob101_1 — expecting value:\n   → \"eprotocol1@keyusa.com\"\n   ← Found: \"eprotocol1@keyusa.com\"\n"
+                    },
+                    {
+                      "text": "🧪 [TEXTBOX] #R4C3_ob101_1 — expecting value:\n   → \"5104564500\"\n   ← Found: \"5104564500\"\n"
+                    },
+                    {
+                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"Select One\" present: true\n"
+                    },
+                    {
+                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"Art\" present: true\n"
+                    },
+                    {
+                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"Biochemistry\" present: true\n"
+                    },
+                    {
+                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"Communication\" present: true\n"
+                    },
+                    {
+                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"ER Nurse\" present: true\n"
+                    },
+                    {
+                      "text": "🧪 [CHECKBOX] #R6C3_ob101_1 — expecting checked: true ← Found: true\n"
+                    },
+                    {
+                      "text": "🧪 [CHECKBOX] #R7C3_ob101_1 — expecting checked: false ← Found: false\n"
+                    },
+                    {
+                      "text": "🧪 [TEXTAREA] #R7C6_ob101_1 — expecting editable: true\n"
+                    },
+                    {
+                      "text": "🧪 [TEXTBOX] #R14C1_ob101_1 — expecting value:\n   → \"06/24/2025\"\n   ← Found: \"06/24/2025\"\n"
+                    },
+                    {
+                      "text": "🧪 [TEXTBOX] #R14C1_ob101_1 — expecting readonly:\n   → Found: \"\"\n"
+                    },
+                    {
+                      "text": "🧪 [SELECT] #R14C5_ob101_1 — option \"Select One\" present: true\n"
+                    },
+                    {
+                      "text": "🧪 [SELECT] #R14C5_ob101_1 — option \"Group 1 Biomedical\" present: true\n"
+                    },
+                    {
+                      "text": "🧪 [SELECT] #R14C5_ob101_1 — option \"Group 2 Social/Behavioral\" present: true\n"
+                    },
+                    {
+                      "text": "🧪 [SELECT] #R14C5_ob101_1 — expecting selected value:\n   → \"Group 1 Biomedical\"\n   ← Found: \"Group 1 Biomedical\"\n"
+                    },
+                    {
+                      "text": "✅ All fields validated successfully\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-26T09:05:03.800Z",
+                  "startTime": "2025-06-30T14:03:10.369Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -138,9 +202,9 @@
               "status": "expected"
             }
           ],
-          "id": "f03ac9dbfbb9ddfe4588-7c07ab7423818240c29f",
-          "file": "chapter5/05_PageObectModelTest.spec.ts",
-          "line": 6,
+          "id": "e0d2485b8a7d4af2775d-4787a51da0089c84ed32",
+          "file": "Demo3/02_pmsteststackdynamic_test.spec.ts",
+          "line": 4,
           "column": 5
         }
       ]
@@ -148,8 +212,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-26T09:05:01.214Z",
-    "duration": 24791.685999999998,
+    "startTime": "2025-06-30T14:03:07.708Z",
+    "duration": 16873.008999999613,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

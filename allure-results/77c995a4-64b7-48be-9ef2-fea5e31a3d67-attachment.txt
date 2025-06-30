@@ -1,0 +1,165 @@
+
+🔍 Checking [LABEL] → #R22C1_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+
+🔍 Checking [LABEL] → #R0C0_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Principal Investigator*"
+
+🔍 Checking [LABEL] → #R1C1_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Name of Principal Investigator *"
+
+🔍 Checking [LABEL] → #R1C3_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Degree (MD/PhD/BSN/etc.)"
+
+🔍 Checking [LABEL] → #R1C6_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Title"
+
+🔍 Checking [TEXTBOX] → #R2C1_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: ""
+📝 Editable: false | Disabled: false
+
+🔍 Checking [IMAGE] → #R2C2_ob101_1
+
+🔍 Checking [TEXTBOX] → #R2C3_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: ""
+📝 Editable: true | Disabled: false
+
+🔍 Checking [TEXTBOX] → #R2C6_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: ""
+📝 Editable: true | Disabled: false
+
+🔍 Checking [LABEL] → #R3C1_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Email *"
+
+🔍 Checking [LABEL] → #R3C3_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Phone"
+
+🔍 Checking [LABEL] → #R3C6_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Fax"
+
+🔍 Checking [TEXTBOX] → #R4C1_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: ""
+📝 Editable: true | Disabled: false
+
+🔍 Checking [TEXTBOX] → #R4C3_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: ""
+📝 Editable: true | Disabled: false
+
+🔍 Checking [TEXTBOX] → #R4C5_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: ""
+📝 Editable: true | Disabled: false
+
+🔍 Checking [TEXTBOX] → #R4C6_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: ""
+📝 Editable: true | Disabled: false
+
+🔍 Checking [LABEL] → #R5C1_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Research Department"
+
+🔍 Checking [LABEL] → #R5C3_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Client Status
+Check ALL that apply *"
+
+🔍 Checking [LABEL] → #R5C6_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Mailing Address"
+
+🔍 Checking [SELECT] → #R6C1_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: "Select One
+Art
+Biochemistry
+Communication
+ER Nurse"
+📂 Options: Select One, Art, Biochemistry, Communication, ER Nurse
+
+🔍 Checking [CHECKBOX] → #R6C3_ob101_1
+✅ Visible | Class: null | Valign: null | Text: ""
+☑️ Checked: true
+
+🔍 Checking [LABEL] → #R6C4_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Faculty"
+
+🔍 Checking [LABEL] → #R6C6_ob101_1
+⚠️ Hidden | Class: null | Valign: null | Text: ""
+
+🔍 Checking [TEXTBOX] → #R7C1_ob101_1
+✅ Visible | Class: GRAY | Valign: null | Text: ""
+📝 Editable: false | Disabled: true
+
+🔍 Checking [CHECKBOX] → #R7C3_ob101_1
+✅ Visible | Class: null | Valign: null | Text: ""
+☑️ Checked: false
+
+🔍 Checking [LABEL] → #R7C4_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Staff"
+
+🔍 Checking [TEXTAREA] → #R7C6_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: ""
+📝 Editable: true | Disabled: false
+
+🔍 Checking [LABEL] → #R8C1_ob101_1
+⚠️ Hidden | Class: null | Valign: null | Text: ""
+
+🔍 Checking [CHECKBOX] → #R8C3_ob101_1
+✅ Visible | Class: null | Valign: null | Text: ""
+☑️ Checked: false
+
+🔍 Checking [LABEL] → #R8C4_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Student"
+
+🔍 Checking [LABEL] → #R8C6_ob101_1
+⚠️ Hidden | Class: null | Valign: null | Text: ""
+
+🔍 Checking [LABEL] → #R9C1_ob101_1
+⚠️ Hidden | Class: null | Valign: null | Text: ""
+
+🔍 Checking [CHECKBOX] → #R9C3_ob101_1
+✅ Visible | Class: null | Valign: null | Text: ""
+☑️ Checked: false
+
+🔍 Checking [LABEL] → #R9C4_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Other"
+
+🔍 Checking [TEXTBOX] → #R9C5_ob101_1
+✅ Visible | Class: GRAY | Valign: null | Text: ""
+📝 Editable: false | Disabled: true
+
+🔍 Checking [LABEL] → #R9C6_ob101_1
+⚠️ Hidden | Class: null | Valign: null | Text: ""
+
+🔍 Checking [LABEL] → #R12C1_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+
+🔍 Checking [LABEL] → #R13C1_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "The Research Compliance Office will verify the last date of completion below."
+
+🔍 Checking [LABEL] → #R15C1_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "CITI Training Date *"
+
+🔍 Checking [LABEL] → #R15C5_ob101_1
+✅ Visible | Class: null | Valign: null | Text: "Type of CITI training completed. *"
+
+🔍 Checking [DATETEXT] → #R14C1_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: ""
+📝 Editable: false | Disabled: false
+
+🔍 Checking [SELECT] → #R14C5_ob101_1
+✅ Visible | Class: TFBORDER | Valign: null | Text: "Select One
+Group 1 Biomedical
+Group 2 Social/Behavioral"
+📂 Options: Select One, Group 1 Biomedical, Group 2 Social/Behavioral
+
+🔍 Checking [HIDDEN] → #H0C0V2_ob101_1
+⚠️ Hidden | Class: null | Valign: null | Text: ""
+
+🔍 Checking [HIDDEN] → #H0C1V2_ob101_1
+⚠️ Hidden | Class: null | Valign: null | Text: ""
+
+🔍 Checking [HIDDEN] → #H1C2_ob101_1
+
+🔍 Checking [HIDDEN] → #A0D0_ob101_1
+
+🔍 Checking [HIDDEN] → #S0D0_ob101_1
+
+🔍 Checking [LABEL] → #R0C1_ob101_1
+
+✅ All JSON fields validated dynamically.

@@ -8,7 +8,8 @@ type TestRecords = {
   Skill2: string;
 };
 
-const csvPath = path.join(__dirname, '../../test-data/qa/testdata.csv');
+// Use an absolute path directly or construct it properly
+const csvPath = path.resolve('I:/Playwright_Automation/src/test-data/qa/testdata.csv');
 const csvContent = fs.readFileSync(csvPath, 'utf-8');
 
 const records = parse(csvContent, {

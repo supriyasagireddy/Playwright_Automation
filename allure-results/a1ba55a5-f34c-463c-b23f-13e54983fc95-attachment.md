@@ -1,0 +1,206 @@
+# Page snapshot
+
+```yaml
+- heading "Accessibility links" [level=1]
+- link "Skip to main content"
+- link "Accessibility help":
+  - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+- link "Accessibility feedback"
+- search:
+  - link "Go to Google Home":
+    - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwiD896hhI-OAxVISmwGHWj6LSEQpYkNCAo
+    - img "Go to Google Home"
+  - combobox "Search": Playwright by Testers Talk☑️ Playwright by Testers Talk☑️
+  - button "Clear":
+    - img
+  - button "Search by voice":
+    - img
+  - button "Search by image":
+    - img
+  - button "Search":
+    - img
+- button "Settings"
+- button "Google apps":
+  - img
+- link "Sign in":
+  - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DPlaywright%2Bby%2BTesters%2BTalk%25E2%2598%2591%25EF%25B8%258F%26sca_esv%3D031453346484e3fe%26source%3Dhp%26ei%3DjDVdaPrHK73r1e8PsLyU0Q4%26iflsig%3DAOw8s4IAAAAAaF1DnMURmrV6kvZAablbwwvmSMYtVUsc%26ved%3D0ahUKEwj6vemShI-OAxW9dfUHHTAeJeoQ4dUDCA8%26uact%3D5%26oq%3DPlaywright%2Bby%2BTesters%2BTalk%25E2%2598%2591%25EF%25B8%258F%26gs_lp%3DEgdnd3Mtd2l6IiBQbGF5d3JpZ2h0IGJ5IFRlc3RlcnMgVGFsa-KYke-4jzIKEC4YAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPAUiMAVBvWG9wAXgAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIBoAIIqAIKmAMI8QV792ucX5kQ-pIHATGgBwCyBwC4BwDCBwMyLTHIBwY%26sclient%3Dgws-wiz%26sei%3DjTVdaND1ONWrseMP6PquqAo&ec=GAZAAQ
+- navigation:
+  - navigation "Filters and topics":
+    - heading "Filters and topics" [level=1]
+    - list:
+      - listitem:
+        - link "All" [disabled]
+      - listitem:
+        - link "Videos":
+          - /url: /search?sca_esv=031453346484e3fe&q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&udm=7&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3W-pLdZZVzNY_L9_ftx08kxElMEpo90JBBY0TEXYKcN_lPATbVTMCnYfcHh7XdvGafSOvPSd3fidQPWr76qIT3UaGfj_2sRKINePkrsUa2Zmr3be064LWdVjznIbFo3ci9y1twO3ldT3BLxvCdpeg95EDVPBCcy9m_e1Y3-kNb3KqMhuew&sa=X&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQtKgLKAF6BAgaEAE
+      - listitem:
+        - link "Images":
+          - /url: /search?sca_esv=031453346484e3fe&q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3W-pLdZZVzNY_L9_ftx08kxElMEpo90JBBY0TEXYKcN_lPATbVTMCnYfcHh7XdvGafSOvPSd3fidQPWr76qIT3UaGfj_2sRKINePkrsUa2Zmr3be064LWdVjznIbFo3ci9y1twO3ldT3BLxvCdpeg95EDVPBCcy9m_e1Y3-kNb3KqMhuew&sa=X&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQtKgLKAJ6BAgZEAE
+      - listitem:
+        - link "Short videos":
+          - /url: /search?sca_esv=031453346484e3fe&q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&udm=39&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3W-pLdZZVzNY_L9_ftx08kxElMEpo90JBBY0TEXYKcN_lPATbVTMCnYfcHh7XdvGafSOvPSd3fidQPWr76qIT3UaGfj_2sRKINePkrsUa2Zmr3be064LWdVjznIbFo3ci9y1twO3ldT3BLxvCdpeg95EDVPBCcy9m_e1Y3-kNb3KqMhuew&sa=X&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQs6gLKAN6BAgYEAE
+      - listitem:
+        - link "Shopping":
+          - /url: /search?sca_esv=031453346484e3fe&q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&udm=28&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3W-pLdZZVzNY_L9_ftx08kxElMEpo90JBBY0TEXYKcN_lPATbVTMCnYfcHh7XdvGafSOvPSd3fidQPWr76qIT3UaGfj_2sRKINePkrsUa2Zmr3be064LWdVjznIbFo3ci9y1twO3ldT3BLxvCdpeg95EDVPBCcy9m_e1Y3-kNb3KqMhuew&ved=1t:220175&ictx=111
+      - listitem:
+        - link "Forums":
+          - /url: /search?sca_esv=031453346484e3fe&q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&udm=18&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3W-pLdZZVzNY_L9_ftx08kxElMEpo90JBBY0TEXYKcN_lPATbVTMCnYfcHh7XdvGafSOvPSd3fidQPWr76qIT3UaGfj_2sRKINePkrsUa2Zmr3be064LWdVjznIbFo3ci9y1twO3ldT3BLxvCdpeg95EDVPBCcy9m_e1Y3-kNb3KqMhuew&sa=X&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQs6gLKAV6BAgWEAE
+      - listitem:
+        - link "Web":
+          - /url: /search?sca_esv=031453346484e3fe&q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&udm=14&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3W-pLdZZVzNY_L9_ftx08kxElMEpo90JBBY0TEXYKcN_lPATbVTMCnYfcHh7XdvGafSOvPSd3fidQPWr76qIT3UaGfj_2sRKINePkrsUa2Zmr3be064LWdVjznIbFo3ci9y1twO3ldT3BLxvCdpeg95EDVPBCcy9m_e1Y3-kNb3KqMhuew&sa=X&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQs6gLKAZ6BAgUEAE
+      - listitem:
+        - button "More":
+          - text: More
+          - img
+- main:
+  - region
+  - heading "Search Results" [level=1]
+  - link "Playwright by Testers Talk☑️ YouTube · Testers Talk 24.6K+ followers":
+    - /url: https://www.youtube.com/playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+    - heading "Playwright by Testers Talk☑️" [level=3]
+    - text: YouTube · Testers Talk 24.6K+ followers
+  - link "Playwright by Testers Talk☑️ from www.youtube.com":
+    - /url: https://www.youtube.com/playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+    - img "Playwright by Testers Talk☑️ from www.youtube.com"
+  - emphasis: Playwright Tutorial Full Course 2024
+  - text: "| Playwright Testing Tutorial · Playwright API Testing Tutorial Crash Course 2024 · Testing Microsoft D365 CRM App."
+  - heading "Videos" [level=2]
+  - button "About this result related to Videos":
+    - img
+  - 'button "Playwright TypeScript #3 Chapter01 Introduction | Playwright ... by Testers Talk on YouTube. Play on Google. 0:53"'
+  - 'link "Playwright TypeScript #3 Chapter01 Introduction | Playwright ... YouTube Testers Talk 7 Mar 2025"':
+    - /url: https://www.youtube.com/watch?v=2BTgHb1Pybg
+    - 'heading "Playwright TypeScript #3 Chapter01 Introduction | Playwright ... YouTube Testers Talk 7 Mar 2025" [level=3]'
+  - 'button "Playwright TypeScript #1 Full Course Overview | Playwright ... by Testers Talk on YouTube. Play on Google. 1:15"'
+  - 'link "Playwright TypeScript #1 Full Course Overview | Playwright ... YouTube Testers Talk 3 Mar 2025"':
+    - /url: https://www.youtube.com/watch?v=k4EsUFlrZqo
+    - 'heading "Playwright TypeScript #1 Full Course Overview | Playwright ... YouTube Testers Talk 3 Mar 2025" [level=3]'
+  - 'button "Playwright TypeScript #2 Playwright GitHub Repository ... by Testers Talk on YouTube. Play on Google. 0:13"'
+  - 'link "Playwright TypeScript #2 Playwright GitHub Repository ... YouTube Testers Talk 5 Mar 2025"':
+    - /url: https://www.youtube.com/watch?v=LgBCPp-wRdM
+    - 'heading "Playwright TypeScript #2 Playwright GitHub Repository ... YouTube Testers Talk 5 Mar 2025" [level=3]'
+  - 'button "Playwright Typescript #15 Generate Readable Playwright Test ... by Testers Talk on YouTube. Play on Google. 7:25"'
+  - 'link "Playwright Typescript #15 Generate Readable Playwright Test ... YouTube Testers Talk 4 Apr 2025"':
+    - /url: https://www.youtube.com/watch?v=v0Yvwx7phuo
+    - 'heading "Playwright Typescript #15 Generate Readable Playwright Test ... YouTube Testers Talk 4 Apr 2025" [level=3]'
+  - link "View all":
+    - /url: /search?sca_esv=031453346484e3fe&udm=7&q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sa=X&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8ccDKAJ6BAgSEAQ
+    - text: View all
+    - img
+  - link "Testers Talk YouTube · Testers Talk 24.6K+ followers":
+    - /url: https://www.youtube.com/@testerstalk
+    - heading "Testers Talk" [level=3]
+    - text: YouTube · Testers Talk 24.6K+ followers
+  - text: Full Course Tutorials ·
+  - emphasis: Playwright TypeScript by Testers Talk
+  - text: ☑️ · Playwright JavaScript by Testers Talk☑️ · Playwright API Testing by Testers Talk☑️.
+  - heading "People also ask" [level=2]
+  - button "About this result":
+    - img
+  - button "What is Playwright in QA testing?":
+    - text: What is Playwright in QA testing?
+    - img
+  - button "What is playwriting in testing?":
+    - text: What is playwriting in testing?
+    - img
+  - button "What is a Playwright example?":
+    - text: What is a Playwright example?
+    - img
+  - button "Does Playwright need coding?":
+    - text: Does Playwright need coding?
+    - img
+  - group:
+    - button "Feedback"
+  - 'link "Mobile App Testing with Playwright: A Step-by-Step Guide ... Medium · Testers Talk 10+ likes · 7 months ago"':
+    - /url: https://medium.com/@testerstalk/mobile-app-testing-with-playwright-a-step-by-step-guide-in-detail-cabf5def30a9
+    - 'heading "Mobile App Testing with Playwright: A Step-by-Step Guide ..." [level=3]'
+    - text: Medium · Testers Talk 10+ likes · 7 months ago
+  - text: Open chrome browser · Search for
+  - emphasis: playwright by testers talk
+  - text: · Validate “Playwright by Testers Talk” playlist link is displayed.
+  - link "Playwright by Testers Talk☑️ | Bakkappa N LinkedIn https://www.linkedin.com › posts › bakkappa-n_playwri...":
+    - /url: https://www.linkedin.com/posts/bakkappa-n_playwright-by-testers-talk-activity-7262675892198408192-wiGs
+    - heading "Playwright by Testers Talk☑️ | Bakkappa N" [level=3]
+    - text: LinkedIn https://www.linkedin.com › posts › bakkappa-n_playwri...
+  - text: I've been using
+  - emphasis: API mocking in Playwright
+  - text: successfully for the last few weeks, to help make my tests predictable without needing to take full control of the ...
+  - link "Testers Talk Medium · Testers Talk 230+ followers":
+    - /url: https://medium.com/@testerstalk
+    - heading "Testers Talk" [level=3]
+    - text: Medium · Testers Talk 230+ followers
+  - emphasis: Playwright's authentication capabilities streamline end-to-end testing
+  - text: "by enabling the reuse of authenticated browser states across tests… ... Reusable Login ... Missing: ☑️ ‎| Show results with:"
+  - link "☑️":
+    - /url: /search?sca_esv=031453346484e3fe&q=Playwright+by+Testers+Talk+%22%E2%98%91%EF%B8%8F%22&sa=X&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ5t4CegQILRAB
+  - 'link "Playwright #10 Run Playwright Test & Test Explorer YouTube · Testers Talk 2.1K+ views · 1 year ago"':
+    - /url: https://www.youtube.com/watch?v=w9T50WOaHe8
+    - 'heading "Playwright #10 Run Playwright Test & Test Explorer" [level=3]'
+    - text: YouTube · Testers Talk 2.1K+ views · 1 year ago
+  - 'button "Playwright #10 Run Playwright Test & Test Explorer by Testers Talk on YouTube. Play on Google. 7:37"'
+  - text: This is all about how you can run the playrate automation test and also how you can use the playright test Explorer to maintain and manage the automation tests.
+  - link "Playwright TypeScript by Testers Talk☑️ | Bakkappa N LinkedIn · Bakkappa N 20+ reactions · 4 months ago":
+    - /url: https://www.linkedin.com/posts/bakkappa-n_playwright-typescript-by-testers-talk-activity-7298204475117223938-Stlr
+    - heading "Playwright TypeScript by Testers Talk☑️ | Bakkappa N" [level=3]
+    - text: LinkedIn · Bakkappa N 20+ reactions · 4 months ago
+  - text: "Latest 2025:"
+  - emphasis: Learn Complete Playwright Automation Testing
+  - text: "(UI + API + Test Reports + CICD[Jenkins, Azure DevOps, GitHub Actions]) #Playwright ..."
+  - link "Playwright with JavaScript Automation Testing Part03 ... YouTube · Testers Talk 540+ views · 1 year ago":
+    - /url: https://www.youtube.com/watch?v=g-NwDhipEOY
+    - heading "Playwright with JavaScript Automation Testing Part03 ..." [level=3]
+    - text: YouTube · Testers Talk 540+ views · 1 year ago
+  - button "Playwright with JavaScript Automation Testing Part03 ... by Testers Talk on YouTube. Play on Google. 52:05"
+  - text: In this playright tutorial we are going to see how to tag a test and how to execute the tagged tests in playright.
+  - link "Learn API Automation & API Mocking in Playwright From ... Facebook · Manual Testing, Selenium, Training, Interview Support, Job Support 1 month ago":
+    - /url: https://www.facebook.com/groups/616161486460318/posts/1212858250123969/
+    - heading "Learn API Automation & API Mocking in Playwright From ..." [level=3]
+    - text: Facebook · Manual Testing, Selenium, Training, Interview Support, Job Support 1 month ago
+  - emphasis: Learn API Automation & API Mocking in Playwright
+  - text: "From Scratch #Playwright #Testing #TestAutomation #TestersTalk."
+  - heading "People also search for" [level=2]
+  - link "Playwright by testers talk ☑ youtube":
+    - /url: /search?sca_esv=031453346484e3fe&q=Playwright+by+testers+talk+%E2%98%91+youtube&sa=X&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ1QJ6BAg6EAE
+    - text: Playwright by testers talk ☑ youtube
+    - img
+  - link "Playwright by testers talk ☑ github":
+    - /url: /search?sca_esv=031453346484e3fe&q=Playwright+by+testers+talk+%E2%98%91+github&sa=X&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ1QJ6BAg5EAE
+    - text: Playwright by testers talk ☑ github
+    - img
+  - navigation:
+    - heading "Page navigation" [level=1]
+    - text: "1"
+    - link "Page 2":
+      - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=10&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8tMDegQICRAE
+      - text: "2"
+    - link "Page 3":
+      - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=20&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8tMDegQICRAG
+      - text: "3"
+    - link "Page 4":
+      - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=30&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8tMDegQICRAI
+      - text: "4"
+    - link "Page 5":
+      - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=40&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8tMDegQICRAK
+      - text: "5"
+    - link "Page 6":
+      - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=50&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8tMDegQICRAM
+      - text: "6"
+    - link "Page 7":
+      - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=60&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8tMDegQICRAO
+      - text: "7"
+    - link "Page 8":
+      - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=70&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8tMDegQICRAQ
+      - text: "8"
+    - link "Page 9":
+      - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=80&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8tMDegQICRAS
+      - text: "9"
+    - link "Page 10":
+      - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=90&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8tMDegQICRAU
+      - text: "10"
+    - heading "Next" [level=3]:
+      - link "Next":
+        - /url: /search?q=Playwright+by+Testers+Talk%E2%98%91%EF%B8%8F&sca_esv=031453346484e3fe&ei=qzVdaMPxPMiUseMP6PS3iQI&start=10&sa=N&sstk=Ac65TH7JzBJ-deKonjPvA-GxELiS_l3xL9OxsX-bkYrSBZzAuEjdmmZ55SzaeuTvm4fWQEj9rrLyLVe5qTLdmT8IwLxxxrvlPXlE4g&ved=2ahUKEwiD896hhI-OAxVISmwGHWj6LSEQ8NMDegQICRAW
+  - navigation
+- contentinfo:
+  - heading "Footer links" [level=1]
+```

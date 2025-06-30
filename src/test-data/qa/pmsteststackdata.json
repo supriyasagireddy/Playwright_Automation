@@ -1,0 +1,17 @@
+{
+  "login": {
+    "username": "marsha",
+    "password": "marsha#0pen"
+  },
+  "protocolId": "25-06-045",
+  "formChecks": [
+    { "captionId": "R1C1", "objectId": "101_1", "type": "label", "title": "Name of Principal Investigator *" },
+    { "captionId": "R1C3", "objectId": "101_1", "type": "label", "title": "Degree (MD/PhD/BSN/etc.)" },
+    { "captionId": "R1C6", "objectId": "101_1", "type": "label", "title": "Title" },
+    { "captionId": "R3C1", "objectId": "101_1", "type": "label", "title": "Email *" },
+    { "captionId": "R5C3", "objectId": "101_1", "type": "label", "title": "Client Status Check ALL that apply *" },
+    { "captionId": "R5C6", "objectId": "101_1", "type": "label", "title": "Mailing Address" },
+    { "captionId": "R15C1", "objectId": "101_1", "type": "label", "title": "CITI Training Date *" },
+    { "captionId": "R15C5", "objectId": "101_1", "type": "label", "title": "Type of CITI training completed. *" }
+  ]
+}

@@ -1,0 +1,48 @@
+❌ Mismatch detected in style or valign for #R22C1_ob101_1
+❌ Mismatch detected in style or valign for #R0C0_ob101_1
+❌ Mismatch detected in style or valign for #R1C1_ob101_1
+❌ Mismatch detected in style or valign for #R1C3_ob101_1
+❌ Mismatch detected in style or valign for #R1C6_ob101_1
+❌ Mismatch detected in style or valign for #R2C1_ob101_1
+❌ #R2C2_ob101_1 not found or failed
+❌ Mismatch detected in style or valign for #R2C3_ob101_1
+❌ Mismatch detected in style or valign for #R2C6_ob101_1
+❌ Mismatch detected in style or valign for #R3C1_ob101_1
+❌ Mismatch detected in style or valign for #R3C3_ob101_1
+❌ Mismatch detected in style or valign for #R3C6_ob101_1
+❌ Mismatch detected in style or valign for #R4C1_ob101_1
+❌ Mismatch detected in style or valign for #R4C3_ob101_1
+❌ Mismatch detected in style or valign for #R4C5_ob101_1
+❌ Mismatch detected in style or valign for #R4C6_ob101_1
+❌ Mismatch detected in style or valign for #R5C1_ob101_1
+❌ Mismatch detected in style or valign for #R5C3_ob101_1
+❌ Mismatch detected in style or valign for #R5C6_ob101_1
+❌ Mismatch detected in style or valign for #R6C1_ob101_1
+❌ Mismatch detected in style or valign for #R6C3_ob101_1
+❌ Mismatch detected in style or valign for #R6C4_ob101_1
+❌ Mismatch detected in style or valign for #R6C6_ob101_1
+❌ Mismatch detected in style or valign for #R7C1_ob101_1
+❌ Mismatch detected in style or valign for #R7C3_ob101_1
+❌ Mismatch detected in style or valign for #R7C4_ob101_1
+❌ Mismatch detected in style or valign for #R7C6_ob101_1
+❌ Mismatch detected in style or valign for #R8C1_ob101_1
+❌ Mismatch detected in style or valign for #R8C3_ob101_1
+❌ Mismatch detected in style or valign for #R8C4_ob101_1
+❌ Mismatch detected in style or valign for #R8C6_ob101_1
+❌ Mismatch detected in style or valign for #R9C1_ob101_1
+❌ Mismatch detected in style or valign for #R9C3_ob101_1
+❌ Mismatch detected in style or valign for #R9C4_ob101_1
+❌ Mismatch detected in style or valign for #R9C5_ob101_1
+❌ Mismatch detected in style or valign for #R9C6_ob101_1
+❌ Mismatch detected in style or valign for #R12C1_ob101_1
+❌ Mismatch detected in style or valign for #R13C1_ob101_1
+❌ Mismatch detected in style or valign for #R15C1_ob101_1
+❌ Mismatch detected in style or valign for #R15C5_ob101_1
+❌ Mismatch detected in style or valign for #R14C1_ob101_1
+❌ Mismatch detected in style or valign for #R14C5_ob101_1
+❌ Mismatch detected in style or valign for #H0C0V2_ob101_1
+❌ Mismatch detected in style or valign for #H0C1V2_ob101_1
+❌ #H1C2_ob101_1 not found or failed
+❌ #A0D0_ob101_1 not found or failed
+❌ #S0D0_ob101_1 not found or failed
+❌ #R0C1_ob101_1 not found or failed

@@ -1,5 +1,5 @@
 import {test, expect} from '@playwright/test';
-import testData from '../../test-data/qa/testdata.json';
+import testData from '../../src/test-data/qa/testdata.json';
 
 type TestData={
     TestDataSet1: {
