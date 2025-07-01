@@ -1,8 +1,4 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="11.533787000000476">
-<testsuite name="Demo3\02_pmsteststackdynamic_test.spec.ts" timestamp="2025-07-01T03:46:31.009Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.66" errors="0">
-<testcase name="Full flow: login, protocol selection, edit popup, form validation" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="7.66">
-<system-out>
-<![CDATA[🧪 [LABEL] #R22C1_ob101_1 — expecting text:
+🧪 [LABEL] #R22C1_ob101_1 — expecting text:
    → "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
    ← Found: "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
 🧪 [TEXTBOX] #R2C1_ob101_1 — expecting value:
@@ -38,8 +34,3 @@
    → "Group 1 Biomedical"
    ← Found: "Group 1 Biomedical"
 ✅ All fields validated successfully
-]]>
-</system-out>
-</testcase>
-</testsuite>
-</testsuites>

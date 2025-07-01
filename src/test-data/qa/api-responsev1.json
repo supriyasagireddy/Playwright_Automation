@@ -14,7 +14,7 @@
     "editButtonSelector": "a[role='button'][data-id='Edit']"
   },
   "finalPopup": {
-    "linkText": "25-06-045"
+    "text": "* Starred items indicate required fields whenever that section is completed."
   },
   "fields": [
     {

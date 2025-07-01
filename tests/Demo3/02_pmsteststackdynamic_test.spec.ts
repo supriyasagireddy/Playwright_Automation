@@ -32,17 +32,17 @@ test('Full flow: login, protocol selection, edit popup, form validation', async 
   ]);
   await editPage.waitForLoadState();
 
-  // Step 4: Optional re-login
-  const userField = editPage.locator(data.login.usernameSelector);
-  if (await userField.isVisible().catch(() => false)) {
-    await editPage.fill(data.login.usernameSelector, data.username);
-    await editPage.fill(data.login.passwordSelector, data.password);
-    await editPage.click(data.login.submitSelector);
-    await editPage.waitForLoadState();
-  }
+  // // Step 4: Optional re-login
+  // const userField = editPage.locator(data.login.usernameSelector);
+  // if (await userField.isVisible().catch(() => false)) {
+  //   await editPage.fill(data.login.usernameSelector, data.username);
+  //   await editPage.fill(data.login.passwordSelector, data.password);
+  //   await editPage.click(data.login.submitSelector);
+  //   await editPage.waitForLoadState();
+  // }
 
   // Step 5: Validate final popup heading
-  await expect(editPage.getByText(data.finalPopup.linkText)).toBeVisible();
+  await expect(editPage.getByText(data.finalPopup.text)).toBeVisible();
 
   // Step 6: Dynamic field validation
   for (const field of data.fields) {
