@@ -1,0 +1,44 @@
+# Page snapshot
+
+```yaml
+- table:
+  - rowgroup:
+    - 'row "logo image logo image Atherton (Jubliee hills) - eProtocol: Investigator Burger Menu navigation"':
+      - 'cell "logo image logo image Atherton (Jubliee hills) - eProtocol: Investigator Burger Menu navigation"':
+        - banner:
+          - navigation:
+            - list:
+              - listitem:
+                - link "eAnimal Ordering ":
+                  - /url: "#"
+              - listitem:
+                - link "eCOI ":
+                  - /url: "#"
+              - listitem:
+                - link "eGrants ":
+                  - /url: "#"
+              - listitem:
+                - link "ePAM ":
+                  - /url: "#"
+              - listitem:
+                - link "eProtocol ":
+                  - /url: "#"
+        - table:
+          - rowgroup:
+            - row "logo image logo image":
+              - cell "logo image logo image":
+                - img "logo image"
+                - img "logo image"
+            - 'row "Atherton (Jubliee hills) - eProtocol: Investigator Burger Menu"':
+              - 'cell "Atherton (Jubliee hills) - eProtocol: Investigator Burger Menu"':
+                - text: "Atherton (Jubliee hills) - eProtocol: Investigator"
+                - img "Burger Menu"
+        - table:
+          - rowgroup:
+            - row "navigation":
+              - cell "navigation":
+                - list "navigation":
+                  - listitem: eProtocol »
+                  - listitem: Investigator »
+                  - listitem: Home
+```

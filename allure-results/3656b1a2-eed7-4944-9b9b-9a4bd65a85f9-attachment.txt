@@ -1,0 +1,57 @@
+✅ Text match → R22C1_ob101_1
+   → Expected: "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+   ← Found   : "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+✅ Text match → R1C1_ob101_1
+   → Expected: "Name of Principal Investigator *"
+   ← Found   : "Name of Principal Investigator *"
+✅ Text match → R1C3_ob101_1
+   → Expected: "Degree (MD/PhD/BSN/etc.)"
+   ← Found   : "Degree (MD/PhD/BSN/etc.)"
+✅ Text match → R1C6_ob101_1
+   → Expected: "Title"
+   ← Found   : "Title"
+✅ Text match → R3C1_ob101_1
+   → Expected: "Email *"
+   ← Found   : "Email *"
+✅ Text match → R3C3_ob101_1
+   → Expected: "Phone"
+   ← Found   : "Phone"
+✅ Text match → R3C6_ob101_1
+   → Expected: "Fax"
+   ← Found   : "Fax"
+✅ Text match → R5C1_ob101_1
+   → Expected: "Research Department"
+   ← Found   : "Research Department"
+❌ Text mismatch → R5C3_ob101_1
+   → Expected: "Client Status Check ALL that apply *"
+   ← Found   : "Client Status
+Check ALL that apply *"
+✅ Text match → R5C6_ob101_1
+   → Expected: "Mailing Address"
+   ← Found   : "Mailing Address"
+✅ Text match → R6C4_ob101_1
+   → Expected: "Faculty"
+   ← Found   : "Faculty"
+✅ Text match → R7C4_ob101_1
+   → Expected: "Staff"
+   ← Found   : "Staff"
+✅ Text match → R9C4_ob101_1
+   → Expected: "Other"
+   ← Found   : "Other"
+✅ Text match → R12C1_ob101_1
+   → Expected: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+   ← Found   : "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+✅ Text match → R13C1_ob101_1
+   → Expected: "The Research Compliance Office will verify the last date of completion below."
+   ← Found   : "The Research Compliance Office will verify the last date of completion below."
+✅ Text match → R15C1_ob101_1
+   → Expected: "CITI Training Date *"
+   ← Found   : "CITI Training Date *"
+✅ Text match → R15C5_ob101_1
+   → Expected: "Type of CITI training completed. *"
+   ← Found   : "Type of CITI training completed. *"
+
+✅ Block Summary:
+  ➤ Total Label Texts : 17
+  ➤ Matching Texts    : 16
+  ➤ Mismatched Texts  : 1

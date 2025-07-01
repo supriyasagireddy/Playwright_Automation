@@ -1,0 +1,65 @@
+❌ Text mismatch → R17C1_ob101_3
+   → Expected: "Client defines "Other Personnel" as individuals who assist the Principal Investigator in non-contact areas of the research process."
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R1C1_ob101_3
+   → Expected: "Name of Other Personnel"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R1C3_ob101_3
+   → Expected: "Degree (MD/PhD/BSN/etc.)"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R1C6_ob101_3
+   → Expected: "Title"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R3C1_ob101_3
+   → Expected: "Email *"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R3C3_ob101_3
+   → Expected: "Phone"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R3C6_ob101_3
+   → Expected: "Fax"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R5C1_ob101_3
+   → Expected: "Research Department"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R5C3_ob101_3
+   → Expected: "Client Status Check ALL that apply *"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R5C6_ob101_3
+   → Expected: "Mailing Address"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R6C4_ob101_3
+   → Expected: "Faculty"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R7C4_ob101_3
+   → Expected: "Staff"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R8C4_ob101_3
+   → Expected: "Student"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R9C4_ob101_3
+   → Expected: "Other"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R11C1_ob101_3
+   → Expected: "Is CITI training required?"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R12C1_ob101_3
+   → Expected: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R13C1_ob101_3
+   → Expected: "The Research Compliance Office will verify and enter the last date of completion below."
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R18C1_ob101_3
+   → Expected: "CITI Training Date"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R18C3_ob101_3
+   → Expected: "Type of CITI training completed."
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R18C6_ob101_3
+   → Expected: "Study Role\:Select from drop down box *"
+   ← Found   : "(element hidden)"
+
+✅ Block Summary:
+  ➤ Total Label Texts : 20
+  ➤ Matching Texts    : 0
+  ➤ Mismatched Texts  : 20

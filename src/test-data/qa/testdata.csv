@@ -1,3 +1,60 @@
 skill1,skill2
 Playwright by Testers Talk, Cypress by Testers Talk
 JavaScript by Testers Talk, API Testing by Testers Talk
+// 
+  // "fields": [
+  //   {
+  //     "type": "label",
+  //     "selector": "#R22C1_ob101_1",
+  //     "text": "Client defines \"Investigator\" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+  //   },
+  //   {
+  //     "type": "textbox",
+  //     "selector": "#R2C1_ob101_1",
+  //     "value": "Simon, Jones",
+  //     "readonly": true,
+  //     "class": "TFBORDER"
+  //   },
+  //   {
+  //     "type": "textbox",
+  //     "selector": "#R4C1_ob101_1",
+  //     "value": "eprotocol1@keyusa.com"
+  //   },
+  //   {
+  //     "type": "textbox",
+  //     "selector": "#R4C3_ob101_1",
+  //     "value": "5104564500"
+  //   },
+  //   {
+  //     "type": "select",
+  //     "selector": "#R6C1_ob101_1",
+  //     "options": ["Select One", "Art", "Biochemistry", "Communication", "ER Nurse"]
+  //   },
+  //   {
+  //     "type": "checkbox",
+  //     "selector": "#R6C3_ob101_1",
+  //     "checked": true
+  //   },
+  //   {
+  //     "type": "checkbox",
+  //     "selector": "#R7C3_ob101_1",
+  //     "checked": false
+  //   },
+  //   {
+  //     "type": "textarea",
+  //     "selector": "#R7C6_ob101_1"
+  //   },
+  //   {
+  //     "type": "textbox",
+  //     "selector": "#R14C1_ob101_1",
+  //     "value": "06/24/2025",
+  //     "readonly": true
+  //   },
+  //   {
+  //     "type": "select",
+  //     "selector": "#R14C5_ob101_1",
+  //     "options": ["Select One", "Group 1 Biomedical", "Group 2 Social/Behavioral"],
+  //     "value": "Group 1 Biomedical"
+  //   }
+  // ]
+

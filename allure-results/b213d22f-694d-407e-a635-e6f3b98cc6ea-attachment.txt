@@ -1,0 +1,101 @@
+✅ Label Visible → R22C1_ob101_1
+✅ Label Visible → R0C0_ob101_1
+✅ Label Visible → R1C1_ob101_1
+✅ Label Visible → R1C3_ob101_1
+✅ Label Visible → R1C6_ob101_1
+✅ Label Visible → R3C1_ob101_1
+✅ Label Visible → R3C3_ob101_1
+✅ Label Visible → R3C6_ob101_1
+✅ Label Visible → R5C1_ob101_1
+✅ Label Visible → R5C3_ob101_1
+✅ Label Visible → R5C6_ob101_1
+✅ Label Visible → R6C4_ob101_1
+❌ Label not visible → R6C6_ob101_1
+✅ Label Visible → R7C4_ob101_1
+❌ Label not visible → R8C1_ob101_1
+✅ Label Visible → R8C4_ob101_1
+❌ Label not visible → R8C6_ob101_1
+❌ Label not visible → R9C1_ob101_1
+✅ Label Visible → R9C4_ob101_1
+❌ Label not visible → R9C6_ob101_1
+✅ Label Visible → R12C1_ob101_1
+✅ Label Visible → R13C1_ob101_1
+✅ Label Visible → R15C1_ob101_1
+✅ Label Visible → R15C5_ob101_1
+❌ Label not visible → R0C1_ob101_1
+❌ Label not visible → R1C1_ob101_15
+❌ Label not visible → R1C3_ob101_15
+❌ Label not visible → R1C6_ob101_15
+❌ Label not visible → R3C1_ob101_15
+❌ Label not visible → R3C3_ob101_15
+❌ Label not visible → R3C6_ob101_15
+❌ Label not visible → R5C1_ob101_15
+❌ Label not visible → R5C3_ob101_15
+❌ Label not visible → R5C6_ob101_15
+❌ Label not visible → R6C4_ob101_15
+❌ Label not visible → R6C6_ob101_15
+❌ Label not visible → R7C4_ob101_15
+❌ Label not visible → R8C1_ob101_15
+❌ Label not visible → R8C4_ob101_15
+❌ Label not visible → R8C6_ob101_15
+❌ Label not visible → R9C1_ob101_15
+❌ Label not visible → R9C4_ob101_15
+❌ Label not visible → R9C6_ob101_15
+❌ Label not visible → R10C1_ob101_15
+❌ Label not visible → R11C1_ob101_15
+❌ Label not visible → R12C1_ob101_15
+❌ Label not visible → R13C1_ob101_15
+❌ Label not visible → R15C1_ob101_15
+❌ Label not visible → R15C5_ob101_15
+❌ Label not visible → R1C1_ob101_2
+❌ Label not visible → R1C3_ob101_2
+❌ Label not visible → R1C6_ob101_2
+❌ Label not visible → R3C1_ob101_2
+❌ Label not visible → R3C3_ob101_2
+❌ Label not visible → R3C6_ob101_2
+❌ Label not visible → R5C1_ob101_2
+❌ Label not visible → R5C3_ob101_2
+❌ Label not visible → R5C6_ob101_2
+❌ Label not visible → R6C4_ob101_2
+❌ Label not visible → R6C6_ob101_2
+❌ Label not visible → R7C4_ob101_2
+❌ Label not visible → R8C1_ob101_2
+❌ Label not visible → R8C4_ob101_2
+❌ Label not visible → R8C6_ob101_2
+❌ Label not visible → R9C1_ob101_2
+❌ Label not visible → R9C4_ob101_2
+❌ Label not visible → R9C6_ob101_2
+❌ Label not visible → R11C1_ob101_2
+❌ Label not visible → R12C1_ob101_2
+❌ Label not visible → R13C1_ob101_2
+❌ Label not visible → R15C1_ob101_2
+❌ Label not visible → R15C5_ob101_2
+❌ Label not visible → R17C1_ob101_3
+❌ Label not visible → R1C1_ob101_3
+❌ Label not visible → R1C3_ob101_3
+❌ Label not visible → R1C6_ob101_3
+❌ Label not visible → R3C1_ob101_3
+❌ Label not visible → R3C3_ob101_3
+❌ Label not visible → R3C6_ob101_3
+❌ Label not visible → R5C1_ob101_3
+❌ Label not visible → R5C3_ob101_3
+❌ Label not visible → R5C6_ob101_3
+❌ Label not visible → R6C4_ob101_3
+❌ Label not visible → R6C6_ob101_3
+❌ Label not visible → R7C4_ob101_3
+❌ Label not visible → R8C1_ob101_3
+❌ Label not visible → R8C4_ob101_3
+❌ Label not visible → R8C6_ob101_3
+❌ Label not visible → R9C1_ob101_3
+❌ Label not visible → R9C4_ob101_3
+❌ Label not visible → R9C6_ob101_3
+❌ Label not visible → R11C1_ob101_3
+❌ Label not visible → R12C1_ob101_3
+❌ Label not visible → R13C1_ob101_3
+❌ Label not visible → R18C1_ob101_3
+❌ Label not visible → R18C3_ob101_3
+❌ Label not visible → R18C6_ob101_3
+❌ Label not visible → R20C1_ob101_3
+❌ Label not visible → R20C3_ob101_3
+
+✅ Test Case 2: 19 visible labels out of 99

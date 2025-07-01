@@ -110,101 +110,1197 @@
       "line": 0,
       "specs": [
         {
-          "title": "Full flow: login, protocol selection, edit popup, form validation",
+          "title": "Test Case 1 — Total Visible Fields (including hidden IDs)",
           "ok": true,
           "tags": [],
           "tests": [
             {
               "timeout": 120000,
-              "annotations": [],
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Test Case 1 → Total: 197, Visible: 36, Hidden: 161"
+                }
+              ],
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 49,
+                  "workerIndex": 131,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7660,
+                  "duration": 7255,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "🧪 [LABEL] #R22C1_ob101_1 — expecting text:\n   → \"Client defines \"Investigator\" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator.\"\n   ← Found: \"Client defines \"Investigator\" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator.\"\n"
+                      "text": "✅ Visible → R22C1_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [TEXTBOX] #R2C1_ob101_1 — expecting value:\n   → \"Simon, Jones\"\n   ← Found: \"Simon, Jones\"\n"
+                      "text": "✅ Visible → R0C0_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [TEXTBOX] #R2C1_ob101_1 — expecting readonly:\n   → Found: \"\"\n"
+                      "text": "✅ Visible → R1C1_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [TEXTBOX] #R2C1_ob101_1 — expecting class to match /TFBORDER/\n   ← Found: \"TFBORDER\"\n"
+                      "text": "✅ Visible → R1C3_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [TEXTBOX] #R4C1_ob101_1 — expecting value:\n   → \"eprotocol1@keyusa.com\"\n   ← Found: \"eprotocol1@keyusa.com\"\n"
+                      "text": "✅ Visible → R1C6_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [TEXTBOX] #R4C3_ob101_1 — expecting value:\n   → \"5104564500\"\n   ← Found: \"5104564500\"\n"
+                      "text": "✅ Visible → R2C1_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"Select One\" present: true\n"
+                      "text": "❌ Not visible → R2C2_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"Art\" present: true\n"
+                      "text": "✅ Visible → R2C3_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"Biochemistry\" present: true\n"
+                      "text": "✅ Visible → R2C6_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"Communication\" present: true\n"
+                      "text": "✅ Visible → R3C1_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [SELECT] #R6C1_ob101_1 — option \"ER Nurse\" present: true\n"
+                      "text": "✅ Visible → R3C3_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [CHECKBOX] #R6C3_ob101_1 — expecting checked: true ← Found: true\n"
+                      "text": "✅ Visible → R3C6_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [CHECKBOX] #R7C3_ob101_1 — expecting checked: false ← Found: false\n"
+                      "text": "✅ Visible → R4C1_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [TEXTAREA] #R7C6_ob101_1 — expecting editable: true\n"
+                      "text": "✅ Visible → R4C3_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [TEXTBOX] #R14C1_ob101_1 — expecting value:\n   → \"06/24/2025\"\n   ← Found: \"06/24/2025\"\n"
+                      "text": "✅ Visible → R4C5_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [TEXTBOX] #R14C1_ob101_1 — expecting readonly:\n   → Found: \"\"\n"
+                      "text": "✅ Visible → R4C6_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [SELECT] #R14C5_ob101_1 — option \"Select One\" present: true\n"
+                      "text": "✅ Visible → R5C1_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [SELECT] #R14C5_ob101_1 — option \"Group 1 Biomedical\" present: true\n"
+                      "text": "✅ Visible → R5C3_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [SELECT] #R14C5_ob101_1 — option \"Group 2 Social/Behavioral\" present: true\n"
+                      "text": "✅ Visible → R5C6_ob101_1\n"
                     },
                     {
-                      "text": "🧪 [SELECT] #R14C5_ob101_1 — expecting selected value:\n   → \"Group 1 Biomedical\"\n   ← Found: \"Group 1 Biomedical\"\n"
+                      "text": "✅ Visible → R6C1_ob101_1\n"
                     },
                     {
-                      "text": "✅ All fields validated successfully\n"
+                      "text": "✅ Visible → R6C3_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R6C4_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C6_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R7C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R7C3_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R7C4_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R7C6_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R8C3_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R8C4_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C6_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R9C3_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R9C4_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R9C5_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C6_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R12C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R13C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R15C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R15C5_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R14C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Visible → R14C5_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H0C0V2_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H0C1V2_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H1C2_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → A0D0_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → S0D0_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R0C1_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R1C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R1C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R1C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C2_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R3C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R3C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R3C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C5_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R5C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R5C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R5C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C4_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C4_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C4_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C4_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C5_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R10C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R10C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R11C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R11C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R12C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R13C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R15C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R15C5_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R16C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R16C5_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H0C0V2_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H0C1V2_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H1C2_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → A0D0_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → S0D0_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R1C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R1C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R1C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C2_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R3C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R3C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R3C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C5_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R5C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R5C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R5C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C4_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C4_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C4_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C4_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C5_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R11C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R11C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R12C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R13C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R15C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R15C5_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R16C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R16C5_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H0C0V2_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H0C1V2_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H1C2_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → A0D0_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → S0D0_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R17C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R1C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R1C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R1C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C2_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R2C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R3C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R3C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R3C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C5_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R4C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R5C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R5C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R5C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C4_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R6C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C4_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R7C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C4_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R8C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C4_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C5_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R9C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R11C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R11C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R12C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R13C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R18C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R18C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R18C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R19C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R19C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R19C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R20C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R20C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → R20C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H0C0V2_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H0C1V2_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → H1C2_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → A0D0_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Not visible → S0D0_ob101_3\n"
+                    },
+                    {
+                      "text": "\n✅ Test Case 1 Summary:\n  ➤ Total Fields   : 197\n  ➤ Visible Fields : 36\n  ➤ Hidden Fields  : 161\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-01T03:46:32.290Z",
-                  "annotations": [],
+                  "startTime": "2025-07-01T11:25:12.898Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Test Case 1 → Total: 197, Visible: 36, Hidden: 161"
+                    }
+                  ],
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "e0d2485b8a7d4af2775d-4787a51da0089c84ed32",
+          "id": "e0d2485b8a7d4af2775d-26c79fb06ab5130e5b0b",
           "file": "Demo3/02_pmsteststackdynamic_test.spec.ts",
-          "line": 4,
+          "line": 42,
+          "column": 5
+        },
+        {
+          "title": "Test Case 2 — Visible Labels Count",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Test Case 2 → Total: 99, Visible: 19, Hidden: 80"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 131,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6073,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "✅ Label Visible → R22C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R0C0_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R1C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R1C3_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R1C6_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R3C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R3C3_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R3C6_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R5C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R5C3_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R5C6_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R6C4_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R6C6_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R7C4_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R8C4_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C6_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R9C4_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C6_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R12C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R13C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R15C1_ob101_1\n"
+                    },
+                    {
+                      "text": "✅ Label Visible → R15C5_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R0C1_ob101_1\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R1C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R1C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R1C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R3C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R3C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R3C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R5C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R5C3_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R5C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R6C4_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R6C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R7C4_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C4_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C4_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C6_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R10C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R11C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R12C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R13C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R15C1_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R15C5_ob101_15\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R1C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R1C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R1C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R3C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R3C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R3C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R5C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R5C3_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R5C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R6C4_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R6C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R7C4_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C4_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C4_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C6_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R11C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R12C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R13C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R15C1_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R15C5_ob101_2\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R17C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R1C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R1C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R1C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R3C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R3C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R3C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R5C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R5C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R5C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R6C4_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R6C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R7C4_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C4_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R8C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C4_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R9C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R11C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R12C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R13C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R18C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R18C3_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R18C6_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R20C1_ob101_3\n"
+                    },
+                    {
+                      "text": "❌ Label not visible → R20C3_ob101_3\n"
+                    },
+                    {
+                      "text": "\n✅ Test Case 2 Summary:\n  ➤ Total Labels   : 99\n  ➤ Visible Labels : 19\n  ➤ Hidden Labels  : 80\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-01T11:25:20.872Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Test Case 2 → Total: 99, Visible: 19, Hidden: 80"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0d2485b8a7d4af2775d-db71cf845edd045c0be4",
+          "file": "Demo3/02_pmsteststackdynamic_test.spec.ts",
+          "line": 75,
+          "column": 5
+        },
+        {
+          "title": "Test Case 3 — Label Text Match",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Test Case 3 → Total: 54, Matching: 16, Mismatched: 38"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 131,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5699,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "✅ Text match → R22C1_ob101_1\n   → Expected: \"Client defines \"Investigator\" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator.\"\n   ← Found   : \"Client defines \"Investigator\" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator.\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R1C1_ob101_1\n   → Expected: \"Name of Principal Investigator *\"\n   ← Found   : \"Name of Principal Investigator *\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R1C3_ob101_1\n   → Expected: \"Degree (MD/PhD/BSN/etc.)\"\n   ← Found   : \"Degree (MD/PhD/BSN/etc.)\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R1C6_ob101_1\n   → Expected: \"Title\"\n   ← Found   : \"Title\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R3C1_ob101_1\n   → Expected: \"Email *\"\n   ← Found   : \"Email *\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R3C3_ob101_1\n   → Expected: \"Phone\"\n   ← Found   : \"Phone\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R3C6_ob101_1\n   → Expected: \"Fax\"\n   ← Found   : \"Fax\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R5C1_ob101_1\n   → Expected: \"Research Department\"\n   ← Found   : \"Research Department\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R5C3_ob101_1\n   → Expected: \"Client Status Check ALL that apply *\"\n   ← Found   : \"Client Status\nCheck ALL that apply *\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R5C6_ob101_1\n   → Expected: \"Mailing Address\"\n   ← Found   : \"Mailing Address\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R6C4_ob101_1\n   → Expected: \"Faculty\"\n   ← Found   : \"Faculty\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R7C4_ob101_1\n   → Expected: \"Staff\"\n   ← Found   : \"Staff\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R9C4_ob101_1\n   → Expected: \"Other\"\n   ← Found   : \"Other\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R12C1_ob101_1\n   → Expected: \"ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete.\"\n   ← Found   : \"ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete.\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R13C1_ob101_1\n   → Expected: \"The Research Compliance Office will verify the last date of completion below.\"\n   ← Found   : \"The Research Compliance Office will verify the last date of completion below.\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R15C1_ob101_1\n   → Expected: \"CITI Training Date *\"\n   ← Found   : \"CITI Training Date *\"\n"
+                    },
+                    {
+                      "text": "✅ Text match → R15C5_ob101_1\n   → Expected: \"Type of CITI training completed. *\"\n   ← Found   : \"Type of CITI training completed. *\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R1C1_ob101_15\n   → Expected: \"Name of Other Investigator\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R1C3_ob101_15\n   → Expected: \"Degree (MD/PhD/BSN/etc.)\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R1C6_ob101_15\n   → Expected: \"Title\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R3C1_ob101_15\n   → Expected: \"Email *\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R3C3_ob101_15\n   → Expected: \"Phone\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R3C6_ob101_15\n   → Expected: \"Fax\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R5C1_ob101_15\n   → Expected: \"Research Department\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R5C3_ob101_15\n   → Expected: \"Client Status Check ALL that apply *\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R5C6_ob101_15\n   → Expected: \"Mailing Address\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R6C4_ob101_15\n   → Expected: \"Faculty\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R7C4_ob101_15\n   → Expected: \"Staff\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R8C4_ob101_15\n   → Expected: \"Student\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R9C4_ob101_15\n   → Expected: \"Other\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R10C1_ob101_15\n   → Expected: \"Type of Investigator *\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R11C1_ob101_15\n   → Expected: \"Is CITI training required?\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R12C1_ob101_15\n   → Expected: \"ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete.\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R13C1_ob101_15\n   → Expected: \"The Research Compliance Office will verify and enter the last date of completion below.\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R15C1_ob101_15\n   → Expected: \"CITI Training Date\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R15C5_ob101_15\n   → Expected: \"Type of CITI training completed\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R1C1_ob101_2\n   → Expected: \"Name of Study Coordinator\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R1C3_ob101_2\n   → Expected: \"Degree (MD/PhD/BSN/etc.)\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R1C6_ob101_2\n   → Expected: \"Title\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R3C1_ob101_2\n   → Expected: \"Email *\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R3C3_ob101_2\n   → Expected: \"Phone\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R3C6_ob101_2\n   → Expected: \"Fax\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R5C1_ob101_2\n   → Expected: \"Research Department\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R5C3_ob101_2\n   → Expected: \"Client Status Check ALL that apply *\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R5C6_ob101_2\n   → Expected: \"Mailing Address\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R6C4_ob101_2\n   → Expected: \"Faculty\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R7C4_ob101_2\n   → Expected: \"Staff\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R8C4_ob101_2\n   → Expected: \"Student\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R9C4_ob101_2\n   → Expected: \"Other\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R11C1_ob101_2\n   → Expected: \"Is CITI training required?\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R12C1_ob101_2\n   → Expected: \"ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete.\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R13C1_ob101_2\n   → Expected: \"The Research Compliance Office will verify and enter the last date of completion below.\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R15C1_ob101_2\n   → Expected: \"CITI Training Date\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "❌ Text mismatch → R15C5_ob101_2\n   → Expected: \"Type of CITI training completed.\"\n   ← Found   : \"(element hidden)\"\n"
+                    },
+                    {
+                      "text": "\n✅ Test Case 3 Summary:\n  ➤ Total Label Texts : 54\n  ➤ Matching Texts    : 16\n  ➤ Mismatched Texts  : 38\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-01T11:25:26.955Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Test Case 3 → Total: 54, Matching: 16, Mismatched: 38"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0d2485b8a7d4af2775d-aa40dee5d8a9cead0b17",
+          "file": "Demo3/02_pmsteststackdynamic_test.spec.ts",
+          "line": 110,
           "column": 5
         }
       ]
@@ -212,9 +1308,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-01T03:46:29.708Z",
-    "duration": 11533.787000000477,
-    "expected": 1,
+    "startTime": "2025-07-01T11:25:10.655Z",
+    "duration": 22056.00300000608,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

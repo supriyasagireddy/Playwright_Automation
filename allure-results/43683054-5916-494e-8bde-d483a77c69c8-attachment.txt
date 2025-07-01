@@ -1,0 +1,17 @@
+✅ Text match → R22C1_ob101_1
+✅ Text match → R1C1_ob101_1
+✅ Text match → R1C3_ob101_1
+✅ Text match → R1C6_ob101_1
+✅ Text match → R3C1_ob101_1
+✅ Text match → R3C3_ob101_1
+✅ Text match → R3C6_ob101_1
+✅ Text match → R5C1_ob101_1
+✅ Text match → R5C3_ob101_1
+✅ Text match → R5C6_ob101_1
+✅ Text match → R6C4_ob101_1
+✅ Text match → R7C4_ob101_1
+✅ Text match → R9C4_ob101_1
+✅ Text match → R12C1_ob101_1
+✅ Text match → R13C1_ob101_1
+✅ Text match → R15C1_ob101_1
+✅ Text match → R15C5_ob101_1

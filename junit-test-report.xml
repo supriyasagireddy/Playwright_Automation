@@ -1,43 +1,503 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="11.533787000000476">
-<testsuite name="Demo3\02_pmsteststackdynamic_test.spec.ts" timestamp="2025-07-01T03:46:31.009Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.66" errors="0">
-<testcase name="Full flow: login, protocol selection, edit popup, form validation" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="7.66">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="22.05600300000608">
+<testsuite name="Demo3\02_pmsteststackdynamic_test.spec.ts" timestamp="2025-07-01T11:25:11.777Z" hostname="chromium" tests="3" failures="0" skipped="0" time="19.027" errors="0">
+<testcase name="Test Case 1 — Total Visible Fields (including hidden IDs)" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="7.255">
+<properties>
+<property name="info" value="Test Case 1 → Total: 197, Visible: 36, Hidden: 161">
+</property>
+</properties>
 <system-out>
-<![CDATA[🧪 [LABEL] #R22C1_ob101_1 — expecting text:
-   → "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
-   ← Found: "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
-🧪 [TEXTBOX] #R2C1_ob101_1 — expecting value:
-   → "Simon, Jones"
-   ← Found: "Simon, Jones"
-🧪 [TEXTBOX] #R2C1_ob101_1 — expecting readonly:
-   → Found: ""
-🧪 [TEXTBOX] #R2C1_ob101_1 — expecting class to match /TFBORDER/
-   ← Found: "TFBORDER"
-🧪 [TEXTBOX] #R4C1_ob101_1 — expecting value:
-   → "eprotocol1@keyusa.com"
-   ← Found: "eprotocol1@keyusa.com"
-🧪 [TEXTBOX] #R4C3_ob101_1 — expecting value:
-   → "5104564500"
-   ← Found: "5104564500"
-🧪 [SELECT] #R6C1_ob101_1 — option "Select One" present: true
-🧪 [SELECT] #R6C1_ob101_1 — option "Art" present: true
-🧪 [SELECT] #R6C1_ob101_1 — option "Biochemistry" present: true
-🧪 [SELECT] #R6C1_ob101_1 — option "Communication" present: true
-🧪 [SELECT] #R6C1_ob101_1 — option "ER Nurse" present: true
-🧪 [CHECKBOX] #R6C3_ob101_1 — expecting checked: true ← Found: true
-🧪 [CHECKBOX] #R7C3_ob101_1 — expecting checked: false ← Found: false
-🧪 [TEXTAREA] #R7C6_ob101_1 — expecting editable: true
-🧪 [TEXTBOX] #R14C1_ob101_1 — expecting value:
-   → "06/24/2025"
-   ← Found: "06/24/2025"
-🧪 [TEXTBOX] #R14C1_ob101_1 — expecting readonly:
-   → Found: ""
-🧪 [SELECT] #R14C5_ob101_1 — option "Select One" present: true
-🧪 [SELECT] #R14C5_ob101_1 — option "Group 1 Biomedical" present: true
-🧪 [SELECT] #R14C5_ob101_1 — option "Group 2 Social/Behavioral" present: true
-🧪 [SELECT] #R14C5_ob101_1 — expecting selected value:
-   → "Group 1 Biomedical"
-   ← Found: "Group 1 Biomedical"
-✅ All fields validated successfully
+<![CDATA[✅ Visible → R22C1_ob101_1
+✅ Visible → R0C0_ob101_1
+✅ Visible → R1C1_ob101_1
+✅ Visible → R1C3_ob101_1
+✅ Visible → R1C6_ob101_1
+✅ Visible → R2C1_ob101_1
+❌ Not visible → R2C2_ob101_1
+✅ Visible → R2C3_ob101_1
+✅ Visible → R2C6_ob101_1
+✅ Visible → R3C1_ob101_1
+✅ Visible → R3C3_ob101_1
+✅ Visible → R3C6_ob101_1
+✅ Visible → R4C1_ob101_1
+✅ Visible → R4C3_ob101_1
+✅ Visible → R4C5_ob101_1
+✅ Visible → R4C6_ob101_1
+✅ Visible → R5C1_ob101_1
+✅ Visible → R5C3_ob101_1
+✅ Visible → R5C6_ob101_1
+✅ Visible → R6C1_ob101_1
+✅ Visible → R6C3_ob101_1
+✅ Visible → R6C4_ob101_1
+❌ Not visible → R6C6_ob101_1
+✅ Visible → R7C1_ob101_1
+✅ Visible → R7C3_ob101_1
+✅ Visible → R7C4_ob101_1
+✅ Visible → R7C6_ob101_1
+❌ Not visible → R8C1_ob101_1
+✅ Visible → R8C3_ob101_1
+✅ Visible → R8C4_ob101_1
+❌ Not visible → R8C6_ob101_1
+❌ Not visible → R9C1_ob101_1
+✅ Visible → R9C3_ob101_1
+✅ Visible → R9C4_ob101_1
+✅ Visible → R9C5_ob101_1
+❌ Not visible → R9C6_ob101_1
+✅ Visible → R12C1_ob101_1
+✅ Visible → R13C1_ob101_1
+✅ Visible → R15C1_ob101_1
+✅ Visible → R15C5_ob101_1
+✅ Visible → R14C1_ob101_1
+✅ Visible → R14C5_ob101_1
+❌ Not visible → H0C0V2_ob101_1
+❌ Not visible → H0C1V2_ob101_1
+❌ Not visible → H1C2_ob101_1
+❌ Not visible → A0D0_ob101_1
+❌ Not visible → S0D0_ob101_1
+❌ Not visible → R0C1_ob101_1
+❌ Not visible → R1C1_ob101_15
+❌ Not visible → R1C3_ob101_15
+❌ Not visible → R1C6_ob101_15
+❌ Not visible → R2C1_ob101_15
+❌ Not visible → R2C2_ob101_15
+❌ Not visible → R2C3_ob101_15
+❌ Not visible → R2C6_ob101_15
+❌ Not visible → R3C1_ob101_15
+❌ Not visible → R3C3_ob101_15
+❌ Not visible → R3C6_ob101_15
+❌ Not visible → R4C1_ob101_15
+❌ Not visible → R4C3_ob101_15
+❌ Not visible → R4C5_ob101_15
+❌ Not visible → R4C6_ob101_15
+❌ Not visible → R5C1_ob101_15
+❌ Not visible → R5C3_ob101_15
+❌ Not visible → R5C6_ob101_15
+❌ Not visible → R6C1_ob101_15
+❌ Not visible → R6C3_ob101_15
+❌ Not visible → R6C4_ob101_15
+❌ Not visible → R6C6_ob101_15
+❌ Not visible → R7C1_ob101_15
+❌ Not visible → R7C3_ob101_15
+❌ Not visible → R7C4_ob101_15
+❌ Not visible → R7C6_ob101_15
+❌ Not visible → R8C1_ob101_15
+❌ Not visible → R8C3_ob101_15
+❌ Not visible → R8C4_ob101_15
+❌ Not visible → R8C6_ob101_15
+❌ Not visible → R9C1_ob101_15
+❌ Not visible → R9C3_ob101_15
+❌ Not visible → R9C4_ob101_15
+❌ Not visible → R9C5_ob101_15
+❌ Not visible → R9C6_ob101_15
+❌ Not visible → R10C1_ob101_15
+❌ Not visible → R10C6_ob101_15
+❌ Not visible → R11C1_ob101_15
+❌ Not visible → R11C6_ob101_15
+❌ Not visible → R12C1_ob101_15
+❌ Not visible → R13C1_ob101_15
+❌ Not visible → R15C1_ob101_15
+❌ Not visible → R15C5_ob101_15
+❌ Not visible → R16C1_ob101_15
+❌ Not visible → R16C5_ob101_15
+❌ Not visible → H0C0V2_ob101_15
+❌ Not visible → H0C1V2_ob101_15
+❌ Not visible → H1C2_ob101_15
+❌ Not visible → A0D0_ob101_15
+❌ Not visible → S0D0_ob101_15
+❌ Not visible → R1C1_ob101_2
+❌ Not visible → R1C3_ob101_2
+❌ Not visible → R1C6_ob101_2
+❌ Not visible → R2C1_ob101_2
+❌ Not visible → R2C2_ob101_2
+❌ Not visible → R2C3_ob101_2
+❌ Not visible → R2C6_ob101_2
+❌ Not visible → R3C1_ob101_2
+❌ Not visible → R3C3_ob101_2
+❌ Not visible → R3C6_ob101_2
+❌ Not visible → R4C1_ob101_2
+❌ Not visible → R4C3_ob101_2
+❌ Not visible → R4C5_ob101_2
+❌ Not visible → R4C6_ob101_2
+❌ Not visible → R5C1_ob101_2
+❌ Not visible → R5C3_ob101_2
+❌ Not visible → R5C6_ob101_2
+❌ Not visible → R6C1_ob101_2
+❌ Not visible → R6C3_ob101_2
+❌ Not visible → R6C4_ob101_2
+❌ Not visible → R6C6_ob101_2
+❌ Not visible → R7C1_ob101_2
+❌ Not visible → R7C3_ob101_2
+❌ Not visible → R7C4_ob101_2
+❌ Not visible → R7C6_ob101_2
+❌ Not visible → R8C1_ob101_2
+❌ Not visible → R8C3_ob101_2
+❌ Not visible → R8C4_ob101_2
+❌ Not visible → R8C6_ob101_2
+❌ Not visible → R9C1_ob101_2
+❌ Not visible → R9C3_ob101_2
+❌ Not visible → R9C4_ob101_2
+❌ Not visible → R9C5_ob101_2
+❌ Not visible → R9C6_ob101_2
+❌ Not visible → R11C1_ob101_2
+❌ Not visible → R11C6_ob101_2
+❌ Not visible → R12C1_ob101_2
+❌ Not visible → R13C1_ob101_2
+❌ Not visible → R15C1_ob101_2
+❌ Not visible → R15C5_ob101_2
+❌ Not visible → R16C1_ob101_2
+❌ Not visible → R16C5_ob101_2
+❌ Not visible → H0C0V2_ob101_2
+❌ Not visible → H0C1V2_ob101_2
+❌ Not visible → H1C2_ob101_2
+❌ Not visible → A0D0_ob101_2
+❌ Not visible → S0D0_ob101_2
+❌ Not visible → R17C1_ob101_3
+❌ Not visible → R1C1_ob101_3
+❌ Not visible → R1C3_ob101_3
+❌ Not visible → R1C6_ob101_3
+❌ Not visible → R2C1_ob101_3
+❌ Not visible → R2C2_ob101_3
+❌ Not visible → R2C3_ob101_3
+❌ Not visible → R2C6_ob101_3
+❌ Not visible → R3C1_ob101_3
+❌ Not visible → R3C3_ob101_3
+❌ Not visible → R3C6_ob101_3
+❌ Not visible → R4C1_ob101_3
+❌ Not visible → R4C3_ob101_3
+❌ Not visible → R4C5_ob101_3
+❌ Not visible → R4C6_ob101_3
+❌ Not visible → R5C1_ob101_3
+❌ Not visible → R5C3_ob101_3
+❌ Not visible → R5C6_ob101_3
+❌ Not visible → R6C1_ob101_3
+❌ Not visible → R6C3_ob101_3
+❌ Not visible → R6C4_ob101_3
+❌ Not visible → R6C6_ob101_3
+❌ Not visible → R7C1_ob101_3
+❌ Not visible → R7C3_ob101_3
+❌ Not visible → R7C4_ob101_3
+❌ Not visible → R7C6_ob101_3
+❌ Not visible → R8C1_ob101_3
+❌ Not visible → R8C3_ob101_3
+❌ Not visible → R8C4_ob101_3
+❌ Not visible → R8C6_ob101_3
+❌ Not visible → R9C1_ob101_3
+❌ Not visible → R9C3_ob101_3
+❌ Not visible → R9C4_ob101_3
+❌ Not visible → R9C5_ob101_3
+❌ Not visible → R9C6_ob101_3
+❌ Not visible → R11C1_ob101_3
+❌ Not visible → R11C6_ob101_3
+❌ Not visible → R12C1_ob101_3
+❌ Not visible → R13C1_ob101_3
+❌ Not visible → R18C1_ob101_3
+❌ Not visible → R18C3_ob101_3
+❌ Not visible → R18C6_ob101_3
+❌ Not visible → R19C1_ob101_3
+❌ Not visible → R19C3_ob101_3
+❌ Not visible → R19C6_ob101_3
+❌ Not visible → R20C1_ob101_3
+❌ Not visible → R20C3_ob101_3
+❌ Not visible → R20C6_ob101_3
+❌ Not visible → H0C0V2_ob101_3
+❌ Not visible → H0C1V2_ob101_3
+❌ Not visible → H1C2_ob101_3
+❌ Not visible → A0D0_ob101_3
+❌ Not visible → S0D0_ob101_3
+
+✅ Test Case 1 Summary:
+  ➤ Total Fields   : 197
+  ➤ Visible Fields : 36
+  ➤ Hidden Fields  : 161
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 2 — Visible Labels Count" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="6.073">
+<properties>
+<property name="info" value="Test Case 2 → Total: 99, Visible: 19, Hidden: 80">
+</property>
+</properties>
+<system-out>
+<![CDATA[✅ Label Visible → R22C1_ob101_1
+✅ Label Visible → R0C0_ob101_1
+✅ Label Visible → R1C1_ob101_1
+✅ Label Visible → R1C3_ob101_1
+✅ Label Visible → R1C6_ob101_1
+✅ Label Visible → R3C1_ob101_1
+✅ Label Visible → R3C3_ob101_1
+✅ Label Visible → R3C6_ob101_1
+✅ Label Visible → R5C1_ob101_1
+✅ Label Visible → R5C3_ob101_1
+✅ Label Visible → R5C6_ob101_1
+✅ Label Visible → R6C4_ob101_1
+❌ Label not visible → R6C6_ob101_1
+✅ Label Visible → R7C4_ob101_1
+❌ Label not visible → R8C1_ob101_1
+✅ Label Visible → R8C4_ob101_1
+❌ Label not visible → R8C6_ob101_1
+❌ Label not visible → R9C1_ob101_1
+✅ Label Visible → R9C4_ob101_1
+❌ Label not visible → R9C6_ob101_1
+✅ Label Visible → R12C1_ob101_1
+✅ Label Visible → R13C1_ob101_1
+✅ Label Visible → R15C1_ob101_1
+✅ Label Visible → R15C5_ob101_1
+❌ Label not visible → R0C1_ob101_1
+❌ Label not visible → R1C1_ob101_15
+❌ Label not visible → R1C3_ob101_15
+❌ Label not visible → R1C6_ob101_15
+❌ Label not visible → R3C1_ob101_15
+❌ Label not visible → R3C3_ob101_15
+❌ Label not visible → R3C6_ob101_15
+❌ Label not visible → R5C1_ob101_15
+❌ Label not visible → R5C3_ob101_15
+❌ Label not visible → R5C6_ob101_15
+❌ Label not visible → R6C4_ob101_15
+❌ Label not visible → R6C6_ob101_15
+❌ Label not visible → R7C4_ob101_15
+❌ Label not visible → R8C1_ob101_15
+❌ Label not visible → R8C4_ob101_15
+❌ Label not visible → R8C6_ob101_15
+❌ Label not visible → R9C1_ob101_15
+❌ Label not visible → R9C4_ob101_15
+❌ Label not visible → R9C6_ob101_15
+❌ Label not visible → R10C1_ob101_15
+❌ Label not visible → R11C1_ob101_15
+❌ Label not visible → R12C1_ob101_15
+❌ Label not visible → R13C1_ob101_15
+❌ Label not visible → R15C1_ob101_15
+❌ Label not visible → R15C5_ob101_15
+❌ Label not visible → R1C1_ob101_2
+❌ Label not visible → R1C3_ob101_2
+❌ Label not visible → R1C6_ob101_2
+❌ Label not visible → R3C1_ob101_2
+❌ Label not visible → R3C3_ob101_2
+❌ Label not visible → R3C6_ob101_2
+❌ Label not visible → R5C1_ob101_2
+❌ Label not visible → R5C3_ob101_2
+❌ Label not visible → R5C6_ob101_2
+❌ Label not visible → R6C4_ob101_2
+❌ Label not visible → R6C6_ob101_2
+❌ Label not visible → R7C4_ob101_2
+❌ Label not visible → R8C1_ob101_2
+❌ Label not visible → R8C4_ob101_2
+❌ Label not visible → R8C6_ob101_2
+❌ Label not visible → R9C1_ob101_2
+❌ Label not visible → R9C4_ob101_2
+❌ Label not visible → R9C6_ob101_2
+❌ Label not visible → R11C1_ob101_2
+❌ Label not visible → R12C1_ob101_2
+❌ Label not visible → R13C1_ob101_2
+❌ Label not visible → R15C1_ob101_2
+❌ Label not visible → R15C5_ob101_2
+❌ Label not visible → R17C1_ob101_3
+❌ Label not visible → R1C1_ob101_3
+❌ Label not visible → R1C3_ob101_3
+❌ Label not visible → R1C6_ob101_3
+❌ Label not visible → R3C1_ob101_3
+❌ Label not visible → R3C3_ob101_3
+❌ Label not visible → R3C6_ob101_3
+❌ Label not visible → R5C1_ob101_3
+❌ Label not visible → R5C3_ob101_3
+❌ Label not visible → R5C6_ob101_3
+❌ Label not visible → R6C4_ob101_3
+❌ Label not visible → R6C6_ob101_3
+❌ Label not visible → R7C4_ob101_3
+❌ Label not visible → R8C1_ob101_3
+❌ Label not visible → R8C4_ob101_3
+❌ Label not visible → R8C6_ob101_3
+❌ Label not visible → R9C1_ob101_3
+❌ Label not visible → R9C4_ob101_3
+❌ Label not visible → R9C6_ob101_3
+❌ Label not visible → R11C1_ob101_3
+❌ Label not visible → R12C1_ob101_3
+❌ Label not visible → R13C1_ob101_3
+❌ Label not visible → R18C1_ob101_3
+❌ Label not visible → R18C3_ob101_3
+❌ Label not visible → R18C6_ob101_3
+❌ Label not visible → R20C1_ob101_3
+❌ Label not visible → R20C3_ob101_3
+
+✅ Test Case 2 Summary:
+  ➤ Total Labels   : 99
+  ➤ Visible Labels : 19
+  ➤ Hidden Labels  : 80
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3 — Label Text Match" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="5.699">
+<properties>
+<property name="info" value="Test Case 3 → Total: 54, Matching: 16, Mismatched: 38">
+</property>
+</properties>
+<system-out>
+<![CDATA[✅ Text match → R22C1_ob101_1
+   → Expected: "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+   ← Found   : "Client defines "Investigator" as an individual who conducts a research study. If the study is conducted by a team of individuals, the Investigator is the responsible leader of the team. Students, fellows and residents may not act as a Principal Investigator."
+✅ Text match → R1C1_ob101_1
+   → Expected: "Name of Principal Investigator *"
+   ← Found   : "Name of Principal Investigator *"
+✅ Text match → R1C3_ob101_1
+   → Expected: "Degree (MD/PhD/BSN/etc.)"
+   ← Found   : "Degree (MD/PhD/BSN/etc.)"
+✅ Text match → R1C6_ob101_1
+   → Expected: "Title"
+   ← Found   : "Title"
+✅ Text match → R3C1_ob101_1
+   → Expected: "Email *"
+   ← Found   : "Email *"
+✅ Text match → R3C3_ob101_1
+   → Expected: "Phone"
+   ← Found   : "Phone"
+✅ Text match → R3C6_ob101_1
+   → Expected: "Fax"
+   ← Found   : "Fax"
+✅ Text match → R5C1_ob101_1
+   → Expected: "Research Department"
+   ← Found   : "Research Department"
+❌ Text mismatch → R5C3_ob101_1
+   → Expected: "Client Status Check ALL that apply *"
+   ← Found   : "Client Status
+Check ALL that apply *"
+✅ Text match → R5C6_ob101_1
+   → Expected: "Mailing Address"
+   ← Found   : "Mailing Address"
+✅ Text match → R6C4_ob101_1
+   → Expected: "Faculty"
+   ← Found   : "Faculty"
+✅ Text match → R7C4_ob101_1
+   → Expected: "Staff"
+   ← Found   : "Staff"
+✅ Text match → R9C4_ob101_1
+   → Expected: "Other"
+   ← Found   : "Other"
+✅ Text match → R12C1_ob101_1
+   → Expected: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+   ← Found   : "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+✅ Text match → R13C1_ob101_1
+   → Expected: "The Research Compliance Office will verify the last date of completion below."
+   ← Found   : "The Research Compliance Office will verify the last date of completion below."
+✅ Text match → R15C1_ob101_1
+   → Expected: "CITI Training Date *"
+   ← Found   : "CITI Training Date *"
+✅ Text match → R15C5_ob101_1
+   → Expected: "Type of CITI training completed. *"
+   ← Found   : "Type of CITI training completed. *"
+❌ Text mismatch → R1C1_ob101_15
+   → Expected: "Name of Other Investigator"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R1C3_ob101_15
+   → Expected: "Degree (MD/PhD/BSN/etc.)"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R1C6_ob101_15
+   → Expected: "Title"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R3C1_ob101_15
+   → Expected: "Email *"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R3C3_ob101_15
+   → Expected: "Phone"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R3C6_ob101_15
+   → Expected: "Fax"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R5C1_ob101_15
+   → Expected: "Research Department"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R5C3_ob101_15
+   → Expected: "Client Status Check ALL that apply *"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R5C6_ob101_15
+   → Expected: "Mailing Address"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R6C4_ob101_15
+   → Expected: "Faculty"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R7C4_ob101_15
+   → Expected: "Staff"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R8C4_ob101_15
+   → Expected: "Student"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R9C4_ob101_15
+   → Expected: "Other"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R10C1_ob101_15
+   → Expected: "Type of Investigator *"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R11C1_ob101_15
+   → Expected: "Is CITI training required?"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R12C1_ob101_15
+   → Expected: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R13C1_ob101_15
+   → Expected: "The Research Compliance Office will verify and enter the last date of completion below."
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R15C1_ob101_15
+   → Expected: "CITI Training Date"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R15C5_ob101_15
+   → Expected: "Type of CITI training completed"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R1C1_ob101_2
+   → Expected: "Name of Study Coordinator"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R1C3_ob101_2
+   → Expected: "Degree (MD/PhD/BSN/etc.)"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R1C6_ob101_2
+   → Expected: "Title"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R3C1_ob101_2
+   → Expected: "Email *"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R3C3_ob101_2
+   → Expected: "Phone"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R3C6_ob101_2
+   → Expected: "Fax"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R5C1_ob101_2
+   → Expected: "Research Department"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R5C3_ob101_2
+   → Expected: "Client Status Check ALL that apply *"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R5C6_ob101_2
+   → Expected: "Mailing Address"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R6C4_ob101_2
+   → Expected: "Faculty"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R7C4_ob101_2
+   → Expected: "Staff"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R8C4_ob101_2
+   → Expected: "Student"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R9C4_ob101_2
+   → Expected: "Other"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R11C1_ob101_2
+   → Expected: "Is CITI training required?"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R12C1_ob101_2
+   → Expected: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R13C1_ob101_2
+   → Expected: "The Research Compliance Office will verify and enter the last date of completion below."
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R15C1_ob101_2
+   → Expected: "CITI Training Date"
+   ← Found   : "(element hidden)"
+❌ Text mismatch → R15C5_ob101_2
+   → Expected: "Type of CITI training completed."
+   ← Found   : "(element hidden)"
+
+✅ Test Case 3 Summary:
+  ➤ Total Label Texts : 54
+  ➤ Matching Texts    : 16
+  ➤ Mismatched Texts  : 38
 ]]>
 </system-out>
 </testcase>

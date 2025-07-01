@@ -1,0 +1,193 @@
+✅ Text match → R22C1_ob101_1
+✅ Text match → R1C1_ob101_1
+✅ Text match → R1C3_ob101_1
+✅ Text match → R1C6_ob101_1
+✅ Text match → R3C1_ob101_1
+✅ Text match → R3C3_ob101_1
+✅ Text match → R3C6_ob101_1
+✅ Text match → R5C1_ob101_1
+❌ Text mismatch → R5C3_ob101_1
+   → Expected: "Client Status Check ALL that apply *"
+   ← Found   : "Client Status
+Check ALL that apply *"
+✅ Text match → R5C6_ob101_1
+✅ Text match → R6C4_ob101_1
+✅ Text match → R7C4_ob101_1
+✅ Text match → R9C4_ob101_1
+✅ Text match → R12C1_ob101_1
+✅ Text match → R13C1_ob101_1
+✅ Text match → R15C1_ob101_1
+✅ Text match → R15C5_ob101_1
+❌ Text mismatch → R1C1_ob101_15
+   → Expected: "Name of Other Investigator"
+   ← Found   : ""
+❌ Text mismatch → R1C3_ob101_15
+   → Expected: "Degree (MD/PhD/BSN/etc.)"
+   ← Found   : ""
+❌ Text mismatch → R1C6_ob101_15
+   → Expected: "Title"
+   ← Found   : ""
+❌ Text mismatch → R3C1_ob101_15
+   → Expected: "Email *"
+   ← Found   : ""
+❌ Text mismatch → R3C3_ob101_15
+   → Expected: "Phone"
+   ← Found   : ""
+❌ Text mismatch → R3C6_ob101_15
+   → Expected: "Fax"
+   ← Found   : ""
+❌ Text mismatch → R5C1_ob101_15
+   → Expected: "Research Department"
+   ← Found   : ""
+❌ Text mismatch → R5C3_ob101_15
+   → Expected: "Client Status Check ALL that apply *"
+   ← Found   : ""
+❌ Text mismatch → R5C6_ob101_15
+   → Expected: "Mailing Address"
+   ← Found   : ""
+❌ Text mismatch → R6C4_ob101_15
+   → Expected: "Faculty"
+   ← Found   : ""
+❌ Text mismatch → R7C4_ob101_15
+   → Expected: "Staff"
+   ← Found   : ""
+❌ Text mismatch → R8C4_ob101_15
+   → Expected: "Student"
+   ← Found   : ""
+❌ Text mismatch → R9C4_ob101_15
+   → Expected: "Other"
+   ← Found   : ""
+❌ Text mismatch → R10C1_ob101_15
+   → Expected: "Type of Investigator *"
+   ← Found   : ""
+❌ Text mismatch → R11C1_ob101_15
+   → Expected: "Is CITI training required?"
+   ← Found   : ""
+❌ Text mismatch → R12C1_ob101_15
+   → Expected: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+   ← Found   : ""
+❌ Text mismatch → R13C1_ob101_15
+   → Expected: "The Research Compliance Office will verify and enter the last date of completion below."
+   ← Found   : ""
+❌ Text mismatch → R15C1_ob101_15
+   → Expected: "CITI Training Date"
+   ← Found   : ""
+❌ Text mismatch → R15C5_ob101_15
+   → Expected: "Type of CITI training completed"
+   ← Found   : ""
+❌ Text mismatch → R1C1_ob101_2
+   → Expected: "Name of Study Coordinator"
+   ← Found   : ""
+❌ Text mismatch → R1C3_ob101_2
+   → Expected: "Degree (MD/PhD/BSN/etc.)"
+   ← Found   : ""
+❌ Text mismatch → R1C6_ob101_2
+   → Expected: "Title"
+   ← Found   : ""
+❌ Text mismatch → R3C1_ob101_2
+   → Expected: "Email *"
+   ← Found   : ""
+❌ Text mismatch → R3C3_ob101_2
+   → Expected: "Phone"
+   ← Found   : ""
+❌ Text mismatch → R3C6_ob101_2
+   → Expected: "Fax"
+   ← Found   : ""
+❌ Text mismatch → R5C1_ob101_2
+   → Expected: "Research Department"
+   ← Found   : ""
+❌ Text mismatch → R5C3_ob101_2
+   → Expected: "Client Status Check ALL that apply *"
+   ← Found   : ""
+❌ Text mismatch → R5C6_ob101_2
+   → Expected: "Mailing Address"
+   ← Found   : ""
+❌ Text mismatch → R6C4_ob101_2
+   → Expected: "Faculty"
+   ← Found   : ""
+❌ Text mismatch → R7C4_ob101_2
+   → Expected: "Staff"
+   ← Found   : ""
+❌ Text mismatch → R8C4_ob101_2
+   → Expected: "Student"
+   ← Found   : ""
+❌ Text mismatch → R9C4_ob101_2
+   → Expected: "Other"
+   ← Found   : ""
+❌ Text mismatch → R11C1_ob101_2
+   → Expected: "Is CITI training required?"
+   ← Found   : ""
+❌ Text mismatch → R12C1_ob101_2
+   → Expected: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+   ← Found   : ""
+❌ Text mismatch → R13C1_ob101_2
+   → Expected: "The Research Compliance Office will verify and enter the last date of completion below."
+   ← Found   : ""
+❌ Text mismatch → R15C1_ob101_2
+   → Expected: "CITI Training Date"
+   ← Found   : ""
+❌ Text mismatch → R15C5_ob101_2
+   → Expected: "Type of CITI training completed."
+   ← Found   : ""
+❌ Text mismatch → R17C1_ob101_3
+   → Expected: "Client defines "Other Personnel" as individuals who assist the Principal Investigator in non-contact areas of the research process."
+   ← Found   : ""
+❌ Text mismatch → R1C1_ob101_3
+   → Expected: "Name of Other Personnel"
+   ← Found   : ""
+❌ Text mismatch → R1C3_ob101_3
+   → Expected: "Degree (MD/PhD/BSN/etc.)"
+   ← Found   : ""
+❌ Text mismatch → R1C6_ob101_3
+   → Expected: "Title"
+   ← Found   : ""
+❌ Text mismatch → R3C1_ob101_3
+   → Expected: "Email *"
+   ← Found   : ""
+❌ Text mismatch → R3C3_ob101_3
+   → Expected: "Phone"
+   ← Found   : ""
+❌ Text mismatch → R3C6_ob101_3
+   → Expected: "Fax"
+   ← Found   : ""
+❌ Text mismatch → R5C1_ob101_3
+   → Expected: "Research Department"
+   ← Found   : ""
+❌ Text mismatch → R5C3_ob101_3
+   → Expected: "Client Status Check ALL that apply *"
+   ← Found   : ""
+❌ Text mismatch → R5C6_ob101_3
+   → Expected: "Mailing Address"
+   ← Found   : ""
+❌ Text mismatch → R6C4_ob101_3
+   → Expected: "Faculty"
+   ← Found   : ""
+❌ Text mismatch → R7C4_ob101_3
+   → Expected: "Staff"
+   ← Found   : ""
+❌ Text mismatch → R8C4_ob101_3
+   → Expected: "Student"
+   ← Found   : ""
+❌ Text mismatch → R9C4_ob101_3
+   → Expected: "Other"
+   ← Found   : ""
+❌ Text mismatch → R11C1_ob101_3
+   → Expected: "Is CITI training required?"
+   ← Found   : ""
+❌ Text mismatch → R12C1_ob101_3
+   → Expected: "ALL research personnel are required to complete Human Subject Research training from CITI within the last 2 years prior to engaging in any research-related activities. Go to CITI Program to complete."
+   ← Found   : ""
+❌ Text mismatch → R13C1_ob101_3
+   → Expected: "The Research Compliance Office will verify and enter the last date of completion below."
+   ← Found   : ""
+❌ Text mismatch → R18C1_ob101_3
+   → Expected: "CITI Training Date"
+   ← Found   : ""
+❌ Text mismatch → R18C3_ob101_3
+   → Expected: "Type of CITI training completed."
+   ← Found   : ""
+❌ Text mismatch → R18C6_ob101_3
+   → Expected: "Study Role\:Select from drop down box *"
+   ← Found   : ""
+
+✅ Test Case 3: 16 matching label texts out of 74

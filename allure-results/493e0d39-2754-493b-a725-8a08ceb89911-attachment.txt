@@ -1,0 +1,199 @@
+✅ Visible → R22C1_ob101_1
+✅ Visible → R0C0_ob101_1
+✅ Visible → R1C1_ob101_1
+✅ Visible → R1C3_ob101_1
+✅ Visible → R1C6_ob101_1
+✅ Visible → R2C1_ob101_1
+❌ Not visible → R2C2_ob101_1
+✅ Visible → R2C3_ob101_1
+✅ Visible → R2C6_ob101_1
+✅ Visible → R3C1_ob101_1
+✅ Visible → R3C3_ob101_1
+✅ Visible → R3C6_ob101_1
+✅ Visible → R4C1_ob101_1
+✅ Visible → R4C3_ob101_1
+✅ Visible → R4C5_ob101_1
+✅ Visible → R4C6_ob101_1
+✅ Visible → R5C1_ob101_1
+✅ Visible → R5C3_ob101_1
+✅ Visible → R5C6_ob101_1
+✅ Visible → R6C1_ob101_1
+✅ Visible → R6C3_ob101_1
+✅ Visible → R6C4_ob101_1
+❌ Not visible → R6C6_ob101_1
+✅ Visible → R7C1_ob101_1
+✅ Visible → R7C3_ob101_1
+✅ Visible → R7C4_ob101_1
+✅ Visible → R7C6_ob101_1
+❌ Not visible → R8C1_ob101_1
+✅ Visible → R8C3_ob101_1
+✅ Visible → R8C4_ob101_1
+❌ Not visible → R8C6_ob101_1
+❌ Not visible → R9C1_ob101_1
+✅ Visible → R9C3_ob101_1
+✅ Visible → R9C4_ob101_1
+✅ Visible → R9C5_ob101_1
+❌ Not visible → R9C6_ob101_1
+✅ Visible → R12C1_ob101_1
+✅ Visible → R13C1_ob101_1
+✅ Visible → R15C1_ob101_1
+✅ Visible → R15C5_ob101_1
+✅ Visible → R14C1_ob101_1
+✅ Visible → R14C5_ob101_1
+❌ Not visible → H0C0V2_ob101_1
+❌ Not visible → H0C1V2_ob101_1
+❌ Not visible → H1C2_ob101_1
+❌ Not visible → A0D0_ob101_1
+❌ Not visible → S0D0_ob101_1
+❌ Not visible → R0C1_ob101_1
+❌ Not visible → R1C1_ob101_15
+❌ Not visible → R1C3_ob101_15
+❌ Not visible → R1C6_ob101_15
+❌ Not visible → R2C1_ob101_15
+❌ Not visible → R2C2_ob101_15
+❌ Not visible → R2C3_ob101_15
+❌ Not visible → R2C6_ob101_15
+❌ Not visible → R3C1_ob101_15
+❌ Not visible → R3C3_ob101_15
+❌ Not visible → R3C6_ob101_15
+❌ Not visible → R4C1_ob101_15
+❌ Not visible → R4C3_ob101_15
+❌ Not visible → R4C5_ob101_15
+❌ Not visible → R4C6_ob101_15
+❌ Not visible → R5C1_ob101_15
+❌ Not visible → R5C3_ob101_15
+❌ Not visible → R5C6_ob101_15
+❌ Not visible → R6C1_ob101_15
+❌ Not visible → R6C3_ob101_15
+❌ Not visible → R6C4_ob101_15
+❌ Not visible → R6C6_ob101_15
+❌ Not visible → R7C1_ob101_15
+❌ Not visible → R7C3_ob101_15
+❌ Not visible → R7C4_ob101_15
+❌ Not visible → R7C6_ob101_15
+❌ Not visible → R8C1_ob101_15
+❌ Not visible → R8C3_ob101_15
+❌ Not visible → R8C4_ob101_15
+❌ Not visible → R8C6_ob101_15
+❌ Not visible → R9C1_ob101_15
+❌ Not visible → R9C3_ob101_15
+❌ Not visible → R9C4_ob101_15
+❌ Not visible → R9C5_ob101_15
+❌ Not visible → R9C6_ob101_15
+❌ Not visible → R10C1_ob101_15
+❌ Not visible → R10C6_ob101_15
+❌ Not visible → R11C1_ob101_15
+❌ Not visible → R11C6_ob101_15
+❌ Not visible → R12C1_ob101_15
+❌ Not visible → R13C1_ob101_15
+❌ Not visible → R15C1_ob101_15
+❌ Not visible → R15C5_ob101_15
+❌ Not visible → R16C1_ob101_15
+❌ Not visible → R16C5_ob101_15
+❌ Not visible → H0C0V2_ob101_15
+❌ Not visible → H0C1V2_ob101_15
+❌ Not visible → H1C2_ob101_15
+❌ Not visible → A0D0_ob101_15
+❌ Not visible → S0D0_ob101_15
+❌ Not visible → R1C1_ob101_2
+❌ Not visible → R1C3_ob101_2
+❌ Not visible → R1C6_ob101_2
+❌ Not visible → R2C1_ob101_2
+❌ Not visible → R2C2_ob101_2
+❌ Not visible → R2C3_ob101_2
+❌ Not visible → R2C6_ob101_2
+❌ Not visible → R3C1_ob101_2
+❌ Not visible → R3C3_ob101_2
+❌ Not visible → R3C6_ob101_2
+❌ Not visible → R4C1_ob101_2
+❌ Not visible → R4C3_ob101_2
+❌ Not visible → R4C5_ob101_2
+❌ Not visible → R4C6_ob101_2
+❌ Not visible → R5C1_ob101_2
+❌ Not visible → R5C3_ob101_2
+❌ Not visible → R5C6_ob101_2
+❌ Not visible → R6C1_ob101_2
+❌ Not visible → R6C3_ob101_2
+❌ Not visible → R6C4_ob101_2
+❌ Not visible → R6C6_ob101_2
+❌ Not visible → R7C1_ob101_2
+❌ Not visible → R7C3_ob101_2
+❌ Not visible → R7C4_ob101_2
+❌ Not visible → R7C6_ob101_2
+❌ Not visible → R8C1_ob101_2
+❌ Not visible → R8C3_ob101_2
+❌ Not visible → R8C4_ob101_2
+❌ Not visible → R8C6_ob101_2
+❌ Not visible → R9C1_ob101_2
+❌ Not visible → R9C3_ob101_2
+❌ Not visible → R9C4_ob101_2
+❌ Not visible → R9C5_ob101_2
+❌ Not visible → R9C6_ob101_2
+❌ Not visible → R11C1_ob101_2
+❌ Not visible → R11C6_ob101_2
+❌ Not visible → R12C1_ob101_2
+❌ Not visible → R13C1_ob101_2
+❌ Not visible → R15C1_ob101_2
+❌ Not visible → R15C5_ob101_2
+❌ Not visible → R16C1_ob101_2
+❌ Not visible → R16C5_ob101_2
+❌ Not visible → H0C0V2_ob101_2
+❌ Not visible → H0C1V2_ob101_2
+❌ Not visible → H1C2_ob101_2
+❌ Not visible → A0D0_ob101_2
+❌ Not visible → S0D0_ob101_2
+❌ Not visible → R17C1_ob101_3
+❌ Not visible → R1C1_ob101_3
+❌ Not visible → R1C3_ob101_3
+❌ Not visible → R1C6_ob101_3
+❌ Not visible → R2C1_ob101_3
+❌ Not visible → R2C2_ob101_3
+❌ Not visible → R2C3_ob101_3
+❌ Not visible → R2C6_ob101_3
+❌ Not visible → R3C1_ob101_3
+❌ Not visible → R3C3_ob101_3
+❌ Not visible → R3C6_ob101_3
+❌ Not visible → R4C1_ob101_3
+❌ Not visible → R4C3_ob101_3
+❌ Not visible → R4C5_ob101_3
+❌ Not visible → R4C6_ob101_3
+❌ Not visible → R5C1_ob101_3
+❌ Not visible → R5C3_ob101_3
+❌ Not visible → R5C6_ob101_3
+❌ Not visible → R6C1_ob101_3
+❌ Not visible → R6C3_ob101_3
+❌ Not visible → R6C4_ob101_3
+❌ Not visible → R6C6_ob101_3
+❌ Not visible → R7C1_ob101_3
+❌ Not visible → R7C3_ob101_3
+❌ Not visible → R7C4_ob101_3
+❌ Not visible → R7C6_ob101_3
+❌ Not visible → R8C1_ob101_3
+❌ Not visible → R8C3_ob101_3
+❌ Not visible → R8C4_ob101_3
+❌ Not visible → R8C6_ob101_3
+❌ Not visible → R9C1_ob101_3
+❌ Not visible → R9C3_ob101_3
+❌ Not visible → R9C4_ob101_3
+❌ Not visible → R9C5_ob101_3
+❌ Not visible → R9C6_ob101_3
+❌ Not visible → R11C1_ob101_3
+❌ Not visible → R11C6_ob101_3
+❌ Not visible → R12C1_ob101_3
+❌ Not visible → R13C1_ob101_3
+❌ Not visible → R18C1_ob101_3
+❌ Not visible → R18C3_ob101_3
+❌ Not visible → R18C6_ob101_3
+❌ Not visible → R19C1_ob101_3
+❌ Not visible → R19C3_ob101_3
+❌ Not visible → R19C6_ob101_3
+❌ Not visible → R20C1_ob101_3
+❌ Not visible → R20C3_ob101_3
+❌ Not visible → R20C6_ob101_3
+❌ Not visible → H0C0V2_ob101_3
+❌ Not visible → H0C1V2_ob101_3
+❌ Not visible → H1C2_ob101_3
+❌ Not visible → A0D0_ob101_3
+❌ Not visible → S0D0_ob101_3
+
+✅ Test Case 1: 36 visible, 161 hidden out of 197 fields.
