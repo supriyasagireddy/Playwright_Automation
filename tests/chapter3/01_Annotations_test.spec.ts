@@ -46,7 +46,7 @@ test.skip('Test2', async ({ page }) => {
     await expect(page.locator('span[id="title"]')).toHaveCount(4)
 });
 
-test.only('Test3', async ({ page }) => {
+test('Test3', async ({ page }) => {
     //Navigate to the page
     await page.goto("https://www.youtube.com");
 
