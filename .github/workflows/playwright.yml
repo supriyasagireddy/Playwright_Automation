@@ -32,3 +32,5 @@ jobs:
 
       - name: Run Playwright tests (headless)
         run: npx playwright test
+        env:
+          DISPLAY: ':99.0'
