@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="22.05600300000608">
-<testsuite name="Demo3\02_pmsteststackdynamic_test.spec.ts" timestamp="2025-07-01T11:25:11.777Z" hostname="chromium" tests="3" failures="0" skipped="0" time="19.027" errors="0">
-<testcase name="Test Case 1 — Total Visible Fields (including hidden IDs)" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="7.255">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="22.148394999995826">
+<testsuite name="Demo3\02_pmsteststackdynamic_test.spec.ts" timestamp="2025-07-01T11:42:07.274Z" hostname="chromium" tests="3" failures="0" skipped="0" time="18.767" errors="0">
+<testcase name="Test Case 1 — Total Visible Fields (including hidden IDs)" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="6.923">
 <properties>
 <property name="info" value="Test Case 1 → Total: 197, Visible: 36, Hidden: 161">
 </property>
@@ -211,7 +211,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Test Case 2 — Visible Labels Count" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="6.073">
+<testcase name="Test Case 2 — Visible Labels Count" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="6.398">
 <properties>
 <property name="info" value="Test Case 2 → Total: 99, Visible: 19, Hidden: 80">
 </property>
@@ -324,7 +324,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Test Case 3 — Label Text Match" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="5.699">
+<testcase name="Test Case 3 — Label Text Match" classname="Demo3\02_pmsteststackdynamic_test.spec.ts" time="5.446">
 <properties>
 <property name="info" value="Test Case 3 → Total: 54, Matching: 16, Mismatched: 38">
 </property>

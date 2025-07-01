@@ -127,10 +127,10 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 131,
+                  "workerIndex": 132,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7255,
+                  "duration": 6923,
                   "errors": [],
                   "stdout": [
                     {
@@ -730,7 +730,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-01T11:25:12.898Z",
+                  "startTime": "2025-07-01T11:42:08.593Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -766,10 +766,10 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 131,
+                  "workerIndex": 132,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6073,
+                  "duration": 6398,
                   "errors": [],
                   "stdout": [
                     {
@@ -1075,7 +1075,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-01T11:25:20.872Z",
+                  "startTime": "2025-07-01T11:42:16.367Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1111,10 +1111,10 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 131,
+                  "workerIndex": 132,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5699,
+                  "duration": 5446,
                   "errors": [],
                   "stdout": [
                     {
@@ -1285,7 +1285,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-01T11:25:26.955Z",
+                  "startTime": "2025-07-01T11:42:22.789Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1308,8 +1308,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-01T11:25:10.655Z",
-    "duration": 22056.00300000608,
+    "startTime": "2025-07-01T11:42:06.169Z",
+    "duration": 22148.394999995828,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,

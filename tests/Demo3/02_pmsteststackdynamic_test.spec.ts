@@ -122,7 +122,7 @@ test('Test Case 3 — Label Text Match', async ({ browser }, testInfo) => {
   let mismatchCount = 0;
 
   for (const block of validationData.results.slice(0, 3)) {
-    for (const field of block.captions.filter(f => f.type === 'label' && f.attribute_name)) {
+    for (const field of block.captions.filter((f: any) => f.type === 'label' && f.attribute_name)) {
       const locator = editPage.locator(`#${field.caption_id}`);
       const expected = stripHTMLTags(field.attribute_name);
       const visible = await locator.isVisible().catch(() => false);
