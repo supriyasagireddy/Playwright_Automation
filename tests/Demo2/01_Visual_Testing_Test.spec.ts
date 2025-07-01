@@ -12,7 +12,7 @@ test('Visual Testing with Playwright', async ({ page }) => {
    
 });
 
-test.only('Element Visual Testing with Playwright', async ({ page }) => {
+test('Element Visual Testing with Playwright', async ({ page }) => {
     // Navigate to the website
     await page.goto('https://portal.afterbuy.in/');
 
