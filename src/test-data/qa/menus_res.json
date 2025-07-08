@@ -1,0 +1,240 @@
+ [
+  {
+    "menu_id": 101,
+    "menu_name": "Personnel Information",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('101')"
+  },
+  {
+    "menu_id": 131,
+    "menu_name": "Subject Checklist",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('131')"
+  },
+  {
+    "menu_id": 132,
+    "menu_name": "Study Location",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('132')"
+  },
+  {
+    "menu_id": 133,
+    "menu_name": "General Checklist",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('133')"
+  },
+  {
+    "menu_id": 135,
+    "menu_name": "Funding",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('135')"
+  },
+  {
+    "menu_id": 136,
+    "menu_name": "Obligations",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('136')"
+  },
+  {
+    "menu_id": 141,
+    "menu_name": "Subject Population (a-f)",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('141')"
+  },
+  {
+    "menu_id": 142,
+    "menu_name": "Subject Population (g-j)",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('142')"
+  },
+  {
+    "menu_id": 143,
+    "menu_name": "Benefits",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('143')"
+  },
+  {
+    "menu_id": 145,
+    "menu_name": "Potential Conflict of Interest",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('145')"
+  },
+  {
+    "menu_id": 146,
+    "menu_name": "Consent Information",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('146')"
+  },
+  {
+    "menu_id": 147,
+    "menu_name": "HIPAA",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('147')"
+  },
+  {
+    "menu_id": 148,
+    "menu_name": "Amendment",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('148')"
+  },
+  {
+    "menu_id": 149,
+    "menu_name": "Drugs and Devices",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('149')"
+  },
+  {
+    "menu_id": 151,
+    "menu_name": "Expedited Paragraphs",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('151')"
+  },
+  {
+    "menu_id": 152,
+    "menu_name": "Recruitment Process, Subject Compensation and Costs",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('152')"
+  },
+  {
+    "menu_id": 157,
+    "menu_name": "Assent Background",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('157')"
+  },
+  {
+    "menu_id": 168,
+    "menu_name": "Continuing Review",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('168')"
+  },
+  {
+    "menu_id": 170,
+    "menu_name": "Summary, Purpose, Procedures",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('170')"
+  },
+  {
+    "menu_id": 172,
+    "menu_name": "Protocol Information",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "menu_id": 172,
+    "menu_name": "Application Type Checklist",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "menu_id": 173,
+    "menu_name": "Background and additional procedures",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('173')"
+  },
+  {
+    "menu_id": 178,
+    "menu_name": "Final Report Form",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('178')"
+  },
+  {
+    "menu_id": 188,
+    "menu_name": "Report Form",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('188')"
+  },
+  {
+    "menu_id": 200,
+    "menu_name": "Attachments",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('200')"
+  },
+  {
+    "menu_id": 230,
+    "menu_name": "Procedures to Maintain Confidentiality",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('230')"
+  },
+  {
+    "menu_id": 250,
+    "menu_name": "Risks",
+    "parent_menu_id": 172,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('250')"
+  },
+  {
+    "menu_id": 268,
+    "menu_name": "Status Report Form",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('268')"
+  },
+  {
+    "menu_id": 340,
+    "menu_name": "Final Steps/Pre Review Comments",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('340')"
+  },
+  {
+    "menu_id": 400,
+    "menu_name": "Return Notes",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('400')"
+  },
+  {
+    "menu_id": 401,
+    "menu_name": "Protocol Notes",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('401')"
+  },
+  {
+    "menu_id": 410,
+    "menu_name": "IRB Use Only",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('410')"
+  },
+  {
+    "menu_id": 588,
+    "menu_name": "Adverse Event Report Form",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('588')"
+  },
+  {
+    "menu_id": 688,
+    "menu_name": "Violation Form",
+    "parent_menu_id": 0,
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('688')"
+  }
+]

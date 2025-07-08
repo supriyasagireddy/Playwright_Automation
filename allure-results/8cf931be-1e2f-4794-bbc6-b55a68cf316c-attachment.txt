@@ -1,0 +1,92 @@
+✅ Menu Visible → Subject Checklist (effective id: 131)
+   → Expected: "Subject Checklist"
+   ← Found   : "subj..."
+✅ Menu Visible → Subject Population (a-f) (effective id: 172)
+   → Expected: "Subject Population (a-f)"
+   ← Found   : "subj..."
+✅ Menu Visible → Subject Population (g-j) (effective id: 172)
+   → Expected: "Subject Population (g-j)"
+   ← Found   : "subj..."
+✅ Menu Visible → Benefits (effective id: 172)
+   → Expected: "Benefits"
+   ← Found   : "benefits"
+✅ Menu Visible → Potential Conflict of Interest (effective id: 172)
+   → Expected: "Potential Conflict of Interest"
+   ← Found   : "pote..."
+✅ Menu Visible → Consent Information (effective id: 172)
+   → Expected: "Consent Information"
+   ← Found   : "cons..."
+✅ Menu Visible → HIPAA (effective id: 172)
+   → Expected: "HIPAA"
+   ← Found   : "hipaa"
+✅ Menu Visible → Drugs and Devices (effective id: 172)
+   → Expected: "Drugs and Devices"
+   ← Found   : "drug..."
+✅ Menu Visible → Expedited Paragraphs (effective id: 172)
+   → Expected: "Expedited Paragraphs"
+   ← Found   : "expe..."
+✅ Menu Visible → Recruitment Process, Subject Compensation and Costs (effective id: 172)
+   → Expected: "Recruitment Process, Subject Compensation and Costs"
+   ← Found   : "recr..."
+✅ Menu Visible → Assent Background (effective id: 172)
+   → Expected: "Assent Background"
+   ← Found   : "asse..."
+✅ Menu Visible → Summary, Purpose, Procedures (effective id: 172)
+   → Expected: "Summary, Purpose, Procedures"
+   ← Found   : "summ..."
+✅ Menu Visible → Application Type Checklist (effective id: 172)
+   → Expected: "Application Type Checklist"
+   ← Found   : "appl..."
+✅ Menu Visible → Background and additional procedures (effective id: 172)
+   → Expected: "Background and additional procedures"
+   ← Found   : "back..."
+✅ Menu Visible → Attachments (effective id: 172)
+   → Expected: "Attachments"
+   ← Found   : "atta..."
+✅ Menu Visible → Procedures to Maintain Confidentiality (effective id: 172)
+   → Expected: "Procedures to Maintain Confidentiality"
+   ← Found   : "proc..."
+✅ Menu Visible → Risks (effective id: 172)
+   → Expected: "Risks"
+   ← Found   : "risks"
+
+Expected Menus:
+  → Personnel Information (effective id: 101)
+  → Subject Checklist (effective id: 131)
+  → Study Location (effective id: 132)
+  → General Checklist (effective id: 133)
+  → Funding (effective id: 135)
+  → Obligations (effective id: 136)
+  → Subject Population (a-f) (effective id: 172)
+  → Subject Population (g-j) (effective id: 172)
+  → Benefits (effective id: 172)
+  → Potential Conflict of Interest (effective id: 172)
+  → Consent Information (effective id: 172)
+  → HIPAA (effective id: 172)
+  → Amendment (effective id: 148)
+  → Drugs and Devices (effective id: 172)
+  → Expedited Paragraphs (effective id: 172)
+  → Recruitment Process, Subject Compensation and Costs (effective id: 172)
+  → Assent Background (effective id: 172)
+  → Continuing Review (effective id: 168)
+  → Summary, Purpose, Procedures (effective id: 172)
+  → Protocol Information (effective id: 172)
+  → Application Type Checklist (effective id: 172)
+  → Background and additional procedures (effective id: 172)
+  → Final Report Form (effective id: 178)
+  → Report Form (effective id: 188)
+  → Attachments (effective id: 172)
+  → Procedures to Maintain Confidentiality (effective id: 172)
+  → Risks (effective id: 172)
+  → Status Report Form (effective id: 268)
+  → Final Steps/Pre Review Comments (effective id: 340)
+  → Return Notes (effective id: 400)
+  → Protocol Notes (effective id: 401)
+  → IRB Use Only (effective id: 410)
+  → Adverse Event Report Form (effective id: 588)
+  → Violation Form (effective id: 688)
+
+Test Case 4 Summary:
+  Total Menus   : 34
+  Visible Menus : 17
+  Hidden Menus  : 17

@@ -1,0 +1,32 @@
+❌ [24ms] Title mismatch: Application Type Checklist → Got: protocol information
+❌ [2616ms] Title mismatch: Exempt Paragraph(s) → Got: expedited paragraphs
+❌ [25ms] Title mismatch: Summary, Purpose, Procedures → Got: summary, purpose, pr...
+❌ [23ms] Title mismatch: Background and additional procedures → Got: background and addit...
+❌ [23ms] Title mismatch: Subject Population (a-f) → Got: subject population (...
+❌ [30ms] Title mismatch: Subject Population (g-j) → Got: subject population (...
+❌ [19ms] Title mismatch: Recruitment Process, Subject Compensation and Costs → Got: recruitment process,...
+❌ [24ms] Title mismatch: Procedures to Maintain Confidentiality → Got: procedures to mainta...
+❌ [20ms] Title mismatch: Potential Conflict of Interest → Got: potential conflict o...
+🔁 Retry 1 for Adverse Event Report Form
+❌ [11036ms] Not Found: Adverse Event Report Form
+🔁 Retry 1 for Report Form
+❌ [11040ms] Not Found: Report Form
+🔁 Retry 1 for Violation Form
+❌ [11036ms] Not Found: Violation Form
+🔁 Retry 1 for Final Report Form
+❌ [11040ms] Not Found: Final Report Form
+🔁 Retry 1 for Status Report Form
+❌ [11044ms] Not Found: Status Report Form
+🔁 Retry 1 for Continuing Review
+❌ [11046ms] Not Found: Continuing Review
+🔁 Retry 1 for Amendment
+❌ [11034ms] Not Found: Amendment
+🔁 Retry 1 for IRB Comments
+❌ [11047ms] Not Found: IRB Comments
+🔁 Retry 1 for IRB Notes
+❌ [11043ms] Not Found: IRB Notes
+❌ [20ms] Title mismatch: Application Type Checklist → Got: protocol information
+🔁 Retry 1 for Pre-Approval Page Language
+❌ [11043ms] Not Found: Pre-Approval Page Language
+🔁 Retry 1 for IRB Use Only
+❌ [11025ms] Not Found: IRB Use Only

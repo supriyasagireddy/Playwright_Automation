@@ -1,0 +1,42 @@
+❌ [36ms] Title mismatch for: Application Type Checklist
+   → Title: null
+❌ [2325ms] Title mismatch for: Exempt Paragraph(s)
+   → Title: null
+❌ [34ms] Title mismatch for: Summary, Purpose, Procedures
+   → Title: null
+❌ [23ms] Title mismatch for: Background and additional procedures
+   → Title: null
+❌ [22ms] Title mismatch for: Subject Population (a-f)
+   → Title: null
+❌ [23ms] Title mismatch for: Subject Population (g-j)
+   → Title: null
+❌ [24ms] Title mismatch for: Recruitment Process, Subject Compensation and Costs
+   → Title: null
+❌ [22ms] Title mismatch for: Procedures to Maintain Confidentiality
+   → Title: null
+❌ [25ms] Title mismatch for: Potential Conflict of Interest
+   → Title: null
+🔁 Retry 1 for Adverse Event Report Form
+❌ [11023ms] Not Found: Adverse Event Report Form
+🔁 Retry 1 for Report Form
+❌ [11049ms] Not Found: Report Form
+🔁 Retry 1 for Violation Form
+❌ [11031ms] Not Found: Violation Form
+🔁 Retry 1 for Final Report Form
+❌ [11033ms] Not Found: Final Report Form
+🔁 Retry 1 for Status Report Form
+❌ [11041ms] Not Found: Status Report Form
+🔁 Retry 1 for Continuing Review
+❌ [11043ms] Not Found: Continuing Review
+🔁 Retry 1 for Amendment
+❌ [11029ms] Not Found: Amendment
+🔁 Retry 1 for IRB Comments
+❌ [11033ms] Not Found: IRB Comments
+🔁 Retry 1 for IRB Notes
+❌ [11034ms] Not Found: IRB Notes
+❌ [20ms] Title mismatch for: Application Type Checklist
+   → Title: null
+🔁 Retry 1 for Pre-Approval Page Language
+❌ [11028ms] Not Found: Pre-Approval Page Language
+🔁 Retry 1 for IRB Use Only
+❌ [11034ms] Not Found: IRB Use Only

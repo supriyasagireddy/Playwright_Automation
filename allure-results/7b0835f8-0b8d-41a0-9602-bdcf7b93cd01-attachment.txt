@@ -1,0 +1,54 @@
+❌ Menu Not Visible → Personnel Information (effective id: 101)
+   → Expected: "Personnel Information"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Subject Checklist (effective id: 131)
+   → Expected: "Subject Checklist"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Study Location (effective id: 132)
+   → Expected: "Study Location"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → General Checklist (effective id: 133)
+   → Expected: "General Checklist"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Funding (effective id: 135)
+   → Expected: "Funding"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Obligations (effective id: 136)
+   → Expected: "Obligations"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Amendment (effective id: 148)
+   → Expected: "Amendment"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Continuing Review (effective id: 168)
+   → Expected: "Continuing Review"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Protocol Information (effective id: 172)
+   → Expected: "Protocol Information"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Final Report Form (effective id: 178)
+   → Expected: "Final Report Form"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Report Form (effective id: 188)
+   → Expected: "Report Form"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Status Report Form (effective id: 268)
+   → Expected: "Status Report Form"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Final Steps/Pre Review Comments (effective id: 340)
+   → Expected: "Final Steps/Pre Review Comments"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Return Notes (effective id: 400)
+   → Expected: "Return Notes"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Protocol Notes (effective id: 401)
+   → Expected: "Protocol Notes"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → IRB Use Only (effective id: 410)
+   → Expected: "IRB Use Only"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Adverse Event Report Form (effective id: 588)
+   → Expected: "Adverse Event Report Form"
+   ← Found   : "Not visible"
+❌ Menu Not Visible → Violation Form (effective id: 688)
+   → Expected: "Violation Form"
+   ← Found   : "Not visible"

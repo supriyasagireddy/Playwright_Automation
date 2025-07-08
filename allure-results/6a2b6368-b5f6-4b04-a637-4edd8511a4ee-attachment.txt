@@ -1,0 +1,15 @@
+[1976ms] Text mismatch for: Application Type Checklist → Title:  | Text: Protocol Information
+[545ms] Text mismatch for: Exempt Paragraph(s) → Title:  | Text: Expedited Paragraphs
+[20025ms] Not Found: Adverse Event Report Form
+[20007ms] Not Found: Report Form
+[20006ms] Not Found: Violation Form
+[20006ms] Not Found: Final Report Form
+[20010ms] Not Found: Status Report Form
+[20012ms] Not Found: Continuing Review
+[20014ms] Not Found: Amendment
+[20017ms] Not Found: IRB Comments
+[20018ms] Not Found: IRB Notes
+[524ms] Text mismatch for: Application Type Checklist → Title:  | Text: Protocol Information
+[20012ms] Not Found: Pre-Approval Page Language
+[20020ms] Not Found: IRB Use Only
+Page was closed unexpectedly

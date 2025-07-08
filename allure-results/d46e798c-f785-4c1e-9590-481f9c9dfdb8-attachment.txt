@@ -1,0 +1,16 @@
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed
+⚠️ Error accessing parent menu "Protocol Information" → Error: locator.isVisible: Target page, context or browser has been closed

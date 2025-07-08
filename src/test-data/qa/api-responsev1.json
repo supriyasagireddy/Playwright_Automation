@@ -1,7 +1,7 @@
 {
   "url": "https://pmsteststack-sql-90104.cglia.internal/NewCustomer/userLogin.do",
-  "username": "michael",
-  "password": "michael#0pen",
+  "username": "marsha",
+  "password": "marsha#0pen",
   "login": {
     "usernameSelector": "input[name='userId']",
     "passwordSelector": "input[name='password']",
@@ -15,5 +15,10 @@
   },
   "finalPopup": {
     "text": "* Starred items indicate required fields whenever that section is completed."
+  },
+  "locators": {
+    "parentMenuSelector": "a:has-text(\"{name}\")",
+    "childMenuSelector": "a[href*=\"getSectionCaptions('{id}')\"]",
+    "footerCheckSelector": "body"
   }
 }

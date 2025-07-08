@@ -1,0 +1,152 @@
+
+🔹 Parent Menu Validation (parent_id is null)
+❌ Error accessing: Adverse Event Report Form → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'588\')"]').first() to be visible
+
+❌ Error accessing: Report Form → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'188\')"]').first() to be visible
+
+❌ Error accessing: Violation Form → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'688\')"]').first() to be visible
+
+❌ Error accessing: Final Report Form → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'178\')"]').first() to be visible
+
+❌ Error accessing: Status Report Form → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'268\')"]').first() to be visible
+
+❌ Error accessing: Continuing Review → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'168\')"]').first() to be visible
+
+❌ Error accessing: Amendment → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'148\')"]').first() to be visible
+
+❌ Error accessing: IRB Comments → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'400\')"]').first() to be visible
+
+❌ Error accessing: IRB Notes → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'401\')"]').first() to be visible
+
+✅ Visible: Personnel Information
+   → Expected: "Personnel Information"
+   ← Found   : "personnel information"
+✅ Visible: Subject Checklist
+   → Expected: "Subject Checklist"
+   ← Found   : "subject checklist"
+✅ Visible: Study Location
+   → Expected: "Study Location"
+   ← Found   : "study location"
+✅ Visible: General Checklist
+   → Expected: "General Checklist"
+   ← Found   : "general checklist"
+❌ Not Found: Application Type Checklist
+   → Expected: "Application Type Checklist"
+   ← Found   : "protocol information"
+✅ Visible: Funding
+   → Expected: "Funding"
+   ← Found   : "funding"
+❌ Error accessing: Pre-Approval Page Language → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'340\')"]').first() to be visible
+
+✅ Visible: Obligations
+   → Expected: "Obligations"
+   ← Found   : "obligations"
+❌ Error accessing: IRB Use Only → TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('a[href*="getSectionCaptions(\'410\')"]').first() to be visible
+
+
+🔹 Child Menu Validation (parent_id is NOT null)
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Application Type Checklist
+   → Expected: "Application Type Checklist"
+   ← Found   : "protocol information"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Exempt Paragraph(s)
+   → Expected: "Exempt Paragraph(s)"
+   ← Found   : "expedited paragraphs"
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Summary, Purpose, Procedures
+   → Expected: "Summary, Purpose, Procedures"
+   ← Found   : "summary, purpose, pr..."
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Background and additional procedures
+   → Expected: "Background and additional procedures"
+   ← Found   : "background and addit..."
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Drugs and Devices
+   → Expected: "Drugs and Devices"
+   ← Found   : "drugs and devices"
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Subject Population (a-f)
+   → Expected: "Subject Population (a-f)"
+   ← Found   : "subject population (..."
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Subject Population (g-j)
+   → Expected: "Subject Population (g-j)"
+   ← Found   : "subject population (..."
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Recruitment Process, Subject Compensation and Costs
+   → Expected: "Recruitment Process, Subject Compensation and Costs"
+   ← Found   : "recruitment process,..."
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Risks
+   → Expected: "Risks"
+   ← Found   : "risks"
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Benefits
+   → Expected: "Benefits"
+   ← Found   : "benefits"
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Procedures to Maintain Confidentiality
+   → Expected: "Procedures to Maintain Confidentiality"
+   ← Found   : "procedures to mainta..."
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Potential Conflict of Interest
+   → Expected: "Potential Conflict of Interest"
+   ← Found   : "potential conflict o..."
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Consent Information
+   → Expected: "Consent Information"
+   ← Found   : "consent information"
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Assent Background
+   → Expected: "Assent Background"
+   ← Found   : "assent background"
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: HIPAA
+   → Expected: "HIPAA"
+   ← Found   : "hipaa"
+
+🔸 Checking under Parent Menu: Protocol Information
+✅ Child Visible: Attachments
+   → Expected: "Attachments"
+   ← Found   : "attachments"
+
+✅ Total Visible: 20
+❌ Total Not Found/Text Mismatch: 14

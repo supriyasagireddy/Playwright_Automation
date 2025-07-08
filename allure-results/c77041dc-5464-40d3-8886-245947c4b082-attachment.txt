@@ -1,0 +1,32 @@
+✅ Retrieved menus: 34
+✅ Navigated to Edit Page
+✅ Final page footer content verified
+➡️ Clicking parent group: Protocol Information
+✅ [1727ms] Matched: Application Type Checklist
+✅ [518ms] Matched: Exempt Paragraph(s)
+✅ [519ms] Matched: Summary, Purpose, Procedures
+✅ [518ms] Matched: Background and additional procedures
+✅ [518ms] Matched: Drugs and Devices
+✅ [518ms] Matched: Subject Population (a-f)
+✅ [517ms] Matched: Subject Population (g-j)
+✅ [518ms] Matched: Recruitment Process, Subject Compensation and Costs
+✅ [518ms] Matched: Risks
+✅ [517ms] Matched: Benefits
+✅ [518ms] Matched: Procedures to Maintain Confidentiality
+✅ [518ms] Matched: Potential Conflict of Interest
+✅ [518ms] Matched: Consent Information
+✅ [517ms] Matched: Assent Background
+✅ [518ms] Matched: HIPAA
+✅ [518ms] Matched: Attachments
+✅ [522ms] Matched: Personnel Information
+✅ [518ms] Matched: Subject Checklist
+✅ [521ms] Matched: Study Location
+✅ [518ms] Matched: General Checklist
+✅ [518ms] Matched: Application Type Checklist
+✅ [518ms] Matched: Funding
+✅ [518ms] Matched: Obligations
+
+🔍 Test Summary:
+Total Menus: 34
+✅ Matched: 23
+❌ Not Found/Text Mismatch: 11

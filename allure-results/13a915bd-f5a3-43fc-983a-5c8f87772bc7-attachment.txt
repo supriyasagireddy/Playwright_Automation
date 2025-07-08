@@ -1,0 +1,21 @@
+✅ Retrieved menus: 34
+✅ Navigated to Edit Page
+➡️ Clicking parent group: Protocol Information
+✅ [21ms] Matched: Drugs and Devices
+✅ [19ms] Matched: Risks
+✅ [16ms] Matched: Benefits
+✅ [17ms] Matched: Consent Information
+✅ [15ms] Matched: Assent Background
+✅ [16ms] Matched: HIPAA
+✅ [15ms] Matched: Attachments
+✅ [15ms] Matched: Personnel Information
+✅ [15ms] Matched: Subject Checklist
+✅ [15ms] Matched: Study Location
+✅ [18ms] Matched: General Checklist
+✅ [15ms] Matched: Funding
+✅ [17ms] Matched: Obligations
+
+🔍 Test Summary:
+Total Menus: 34
+✅ Matched: 13
+❌ Not Found/Text Mismatch: 21

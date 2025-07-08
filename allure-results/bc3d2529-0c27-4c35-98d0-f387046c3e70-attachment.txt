@@ -1,0 +1,11 @@
+✅ Retrieved menus: 34
+✅ Navigated to Edit Page
+➡️ Clicking parent group: Protocol Information
+✅ [26ms] Matched: Drugs and Devices
+✅ [13ms] Matched: Risks
+✅ [14ms] Matched: Benefits
+✅ [17ms] Matched: Consent Information
+✅ [15ms] Matched: Assent Background
+✅ [16ms] Matched: HIPAA
+✅ [19ms] Matched: Attachments
+✅ Navigated to Edit Page

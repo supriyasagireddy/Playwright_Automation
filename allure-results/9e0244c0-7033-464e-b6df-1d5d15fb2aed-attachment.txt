@@ -1,0 +1,43 @@
+
+🔹 Parent Menus (Matched 6/18)
+❌ adverse event report form
+❌ report form
+❌ violation form
+❌ final report form
+❌ status report form
+❌ continuing review
+❌ amendment
+❌ irb comments
+❌ irb notes
+✅ personnel information ← Found: "personnel information"
+✅ subject checklist ← Found: "subject checklist"
+✅ study location ← Found: "study location"
+✅ general checklist ← Found: "general checklist"
+❌ application type checklist
+✅ funding ← Found: "funding"
+❌ pre-approval page language
+✅ obligations ← Found: "obligations"
+❌ irb use only
+
+🔹 Child Menus (Matched 0/16)
+❌ application type checklist
+❌ exempt paragraph(s)
+❌ summary, purpose, procedures
+❌ background and additional procedures
+❌ drugs and devices
+❌ subject population (a-f)
+❌ subject population (g-j)
+❌ recruitment process, subject compensation and costs
+❌ risks
+❌ benefits
+❌ procedures to maintain confidentiality
+❌ potential conflict of interest
+❌ consent information
+❌ assent background
+❌ hipaa
+❌ attachments
+
+📊 Summary
+✅ Parent Menus: 6/18
+✅ Child Menus : 0/16
+✅ Total Matched: 6/34

@@ -1,0 +1,73 @@
+
+🔹 Parent Menu Validation (parent_id is null)
+❌ Error accessing: Adverse Event Report Form → Error: Timed out 1000000ms waiting for expect(locator).toBeVisible()
+
+Locator: locator('a[href*="getSectionCaptions(\'588\')"]').first()
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - Expect "toBeVisible" with timeout 1000000ms
+  - waiting for locator('a[href*="getSectionCaptions(\'588\')"]').first()
+
+❌ Error accessing: Report Form → Error: Timed out 1000000ms waiting for expect(locator).toBeVisible()
+
+Locator: locator('a[href*="getSectionCaptions(\'188\')"]').first()
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - Expect "toBeVisible" with timeout 1000000ms
+  - waiting for locator('a[href*="getSectionCaptions(\'188\')"]').first()
+
+❌ Error accessing: Violation Form → Error: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Final Report Form → Error: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Status Report Form → Error: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Continuing Review → Error: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Amendment → Error: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: IRB Comments → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: IRB Notes → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Personnel Information → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Subject Checklist → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Study Location → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: General Checklist → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Application Type Checklist → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Funding → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Pre-Approval Page Language → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: Obligations → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+❌ Error accessing: IRB Use Only → Error: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: locator._expect: expect.toBeVisible: Target page, context or browser has been closed
+
+🔹 Child Menu Validation (parent_id is NOT null)
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+✅ Total Visible: 0
+❌ Total Not Found/Text Mismatch: 34

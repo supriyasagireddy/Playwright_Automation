@@ -1,24 +1,99 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="7.89868600000441">
-<testsuite name="chapter3\01_Annotations_test.spec.ts" timestamp="2025-07-01T11:47:55.021Z" hostname="chromium" tests="1" failures="1" skipped="0" time="3.7" errors="0">
-<testcase name="Test3" classname="chapter3\01_Annotations_test.spec.ts" time="3.7">
-<failure message="01_Annotations_test.spec.ts:49:6 Test3" type="FAILURE">
-<![CDATA[  [chromium] › chapter3\01_Annotations_test.spec.ts:49:6 › Test3 ───────────────────────────────────
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="134.59214300000016">
+<testsuite name="Demo3\sql-chatgpt-4.spec.ts" timestamp="2025-07-08T06:59:25.503Z" hostname="chromium" tests="1" failures="1" skipped="0" time="131.177" errors="0">
+<testcase name="Menu Validation › validate menus" classname="Demo3\sql-chatgpt-4.spec.ts" time="131.177">
+<failure message="sql-chatgpt-4.spec.ts:109:7 validate menus" type="FAILURE">
+<![CDATA[  [chromium] › Demo3\sql-chatgpt-4.spec.ts:109:7 › Menu Validation › validate menus ────────────────
 
-    Error: page.goto: Target page, context or browser has been closed
-    Call log:
-      - navigating to "https://www.youtube.com/", waiting until "load"
+    Error: expect(received).toBe(expected) // Object.is equality
 
+    Expected: 34
+    Received: 13
 
-      49 | test.only('Test3', async ({ page }) => {
-      50 |     //Navigate to the page
-    > 51 |     await page.goto("https://www.youtube.com");
-         |                ^
-      52 |
-      53 |     //visibe, editable, enabled, empty
-      54 |     await expect(page.getByPlaceholder('Search',{exact:true}).first()).toBeVisible();
-        at I:\Playwright_Automation\tests\chapter3\01_Annotations_test.spec.ts:51:16
+      192 |     console.log(`✅ Matched: ${visibleCount}`);
+      193 |     console.log(`❌ Not Found/Text Mismatch: ${notFoundCount}`);
+    > 194 |     expect(visibleCount).toBe(menus.length);
+          |                          ^
+      195 |   });
+      196 | });
+      197 |
+        at I:\Playwright_Automation\tests\Demo3\sql-chatgpt-4.spec.ts:194:26
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Demo3-sql-chatgpt-4-Menu-Validation-validate-menus-chromium\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Demo3-sql-chatgpt-4-Menu-Validation-validate-menus-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Demo3-sql-chatgpt-4-Menu-Validation-validate-menus-chromium\error-context.md
 ]]>
 </failure>
+<system-out>
+<![CDATA[✅ Retrieved menus: [33m34[39m
+✅ Final page footer content verified
+➡️ Clicking parent group: Protocol Information
+✅ [23ms] Matched: Drugs and Devices
+✅ [21ms] Matched: Risks
+✅ [22ms] Matched: Benefits
+✅ [20ms] Matched: Consent Information
+✅ [20ms] Matched: Assent Background
+✅ [21ms] Matched: HIPAA
+✅ [23ms] Matched: Attachments
+✅ [20ms] Matched: Personnel Information
+✅ [22ms] Matched: Subject Checklist
+✅ [20ms] Matched: Study Location
+✅ [21ms] Matched: General Checklist
+✅ [18ms] Matched: Funding
+✅ [21ms] Matched: Obligations
+
+🔍 Test Summary:
+Total Menus: 34
+✅ Matched: 13
+❌ Not Found/Text Mismatch: 21
+
+[[ATTACHMENT|test-results\Demo3-sql-chatgpt-4-Menu-Validation-validate-menus-chromium\test-failed-2.png]]
+
+[[ATTACHMENT|test-results\Demo3-sql-chatgpt-4-Menu-Validation-validate-menus-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Demo3-sql-chatgpt-4-Menu-Validation-validate-menus-chromium\error-context.md]]
+]]>
+</system-out>
+<system-err>
+<![CDATA[❌ [24ms] Title mismatch: Application Type Checklist → Got: protocol information
+❌ [2616ms] Title mismatch: Exempt Paragraph(s) → Got: expedited paragraphs
+❌ [25ms] Title mismatch: Summary, Purpose, Procedures → Got: summary, purpose, pr...
+❌ [23ms] Title mismatch: Background and additional procedures → Got: background and addit...
+❌ [23ms] Title mismatch: Subject Population (a-f) → Got: subject population (...
+❌ [30ms] Title mismatch: Subject Population (g-j) → Got: subject population (...
+❌ [19ms] Title mismatch: Recruitment Process, Subject Compensation and Costs → Got: recruitment process,...
+❌ [24ms] Title mismatch: Procedures to Maintain Confidentiality → Got: procedures to mainta...
+❌ [20ms] Title mismatch: Potential Conflict of Interest → Got: potential conflict o...
+🔁 Retry 1 for Adverse Event Report Form
+❌ [11036ms] Not Found: Adverse Event Report Form
+🔁 Retry 1 for Report Form
+❌ [11040ms] Not Found: Report Form
+🔁 Retry 1 for Violation Form
+❌ [11036ms] Not Found: Violation Form
+🔁 Retry 1 for Final Report Form
+❌ [11040ms] Not Found: Final Report Form
+🔁 Retry 1 for Status Report Form
+❌ [11044ms] Not Found: Status Report Form
+🔁 Retry 1 for Continuing Review
+❌ [11046ms] Not Found: Continuing Review
+🔁 Retry 1 for Amendment
+❌ [11034ms] Not Found: Amendment
+🔁 Retry 1 for IRB Comments
+❌ [11047ms] Not Found: IRB Comments
+🔁 Retry 1 for IRB Notes
+❌ [11043ms] Not Found: IRB Notes
+❌ [20ms] Title mismatch: Application Type Checklist → Got: protocol information
+🔁 Retry 1 for Pre-Approval Page Language
+❌ [11043ms] Not Found: Pre-Approval Page Language
+🔁 Retry 1 for IRB Use Only
+❌ [11025ms] Not Found: IRB Use Only
+]]>
+</system-err>
 </testcase>
 </testsuite>
 </testsuites>

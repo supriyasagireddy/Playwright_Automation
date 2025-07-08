@@ -6,7 +6,7 @@
     "fullyParallel": true,
     "globalSetup": null,
     "globalTeardown": null,
-    "globalTimeout": 3600000,
+    "globalTimeout": 360000000,
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
@@ -60,7 +60,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 120000
+        "timeout": 1200000
       },
       {
         "outputDir": "I:/Playwright_Automation/test-results",
@@ -76,7 +76,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 120000
+        "timeout": 1200000
       },
       {
         "outputDir": "I:/Playwright_Automation/test-results",
@@ -92,7 +92,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 120000
+        "timeout": 1200000
       }
     ],
     "shard": null,
@@ -104,76 +104,265 @@
   },
   "suites": [
     {
-      "title": "chapter3\\01_Annotations_test.spec.ts",
-      "file": "chapter3/01_Annotations_test.spec.ts",
+      "title": "Demo3\\sql-chatgpt-4.spec.ts",
+      "file": "Demo3/sql-chatgpt-4.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "Test3",
-          "ok": false,
-          "tags": [],
-          "tests": [
+          "title": "Menu Validation",
+          "file": "Demo3/sql-chatgpt-4.spec.ts",
+          "line": 108,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 120000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
+              "title": "validate menus",
+              "ok": false,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 133,
-                  "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 3700,
-                  "error": {
-                    "message": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.youtube.com/\", waiting until \"load\"\u001b[22m\n",
-                    "stack": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.youtube.com/\", waiting until \"load\"\u001b[22m\n\n    at I:\\Playwright_Automation\\tests\\chapter3\\01_Annotations_test.spec.ts:51:16",
-                    "location": {
-                      "file": "I:\\Playwright_Automation\\tests\\chapter3\\01_Annotations_test.spec.ts",
-                      "column": 16,
-                      "line": 51
-                    },
-                    "snippet": "\u001b[0m \u001b[90m 49 |\u001b[39m test\u001b[33m.\u001b[39monly(\u001b[32m'Test3'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 50 |\u001b[39m     \u001b[90m//Navigate to the page\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 51 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://www.youtube.com\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 52 |\u001b[39m\n \u001b[90m 53 |\u001b[39m     \u001b[90m//visibe, editable, enabled, empty\u001b[39m\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Search'\u001b[39m\u001b[33m,\u001b[39m{exact\u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m})\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
+                  "timeout": 600000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
                     {
-                      "location": {
-                        "file": "I:\\Playwright_Automation\\tests\\chapter3\\01_Annotations_test.spec.ts",
-                        "column": 16,
-                        "line": 51
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 131177,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m34\u001b[39m\nReceived: \u001b[31m13\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m34\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n    at I:\\Playwright_Automation\\tests\\Demo3\\sql-chatgpt-4.spec.ts:194:26",
+                        "location": {
+                          "file": "I:\\Playwright_Automation\\tests\\Demo3\\sql-chatgpt-4.spec.ts",
+                          "column": 26,
+                          "line": 194
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 192 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`✅ Matched: ${visibleCount}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 193 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`❌ Not Found/Text Mismatch: ${notFoundCount}`\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 194 |\u001b[39m     expect(visibleCount)\u001b[33m.\u001b[39mtoBe(menus\u001b[33m.\u001b[39mlength)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 195 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 196 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 197 |\u001b[39m\u001b[0m"
                       },
-                      "message": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.youtube.com/\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 49 |\u001b[39m test\u001b[33m.\u001b[39monly(\u001b[32m'Test3'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 50 |\u001b[39m     \u001b[90m//Navigate to the page\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 51 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://www.youtube.com\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 52 |\u001b[39m\n \u001b[90m 53 |\u001b[39m     \u001b[90m//visibe, editable, enabled, empty\u001b[39m\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Search'\u001b[39m\u001b[33m,\u001b[39m{exact\u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m})\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at I:\\Playwright_Automation\\tests\\chapter3\\01_Annotations_test.spec.ts:51:16\u001b[22m"
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "I:\\Playwright_Automation\\tests\\Demo3\\sql-chatgpt-4.spec.ts",
+                            "column": 26,
+                            "line": 194
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m34\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n\n\u001b[0m \u001b[90m 192 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`✅ Matched: ${visibleCount}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 193 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`❌ Not Found/Text Mismatch: ${notFoundCount}`\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 194 |\u001b[39m     expect(visibleCount)\u001b[33m.\u001b[39mtoBe(menus\u001b[33m.\u001b[39mlength)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 195 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 196 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 197 |\u001b[39m\u001b[0m\n\u001b[2m    at I:\\Playwright_Automation\\tests\\Demo3\\sql-chatgpt-4.spec.ts:194:26\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "✅ Retrieved menus: \u001b[33m34\u001b[39m\n"
+                        },
+                        {
+                          "text": "✅ Final page footer content verified\n"
+                        },
+                        {
+                          "text": "➡️ Clicking parent group: Protocol Information\n"
+                        },
+                        {
+                          "text": "✅ [23ms] Matched: Drugs and Devices\n"
+                        },
+                        {
+                          "text": "✅ [21ms] Matched: Risks\n"
+                        },
+                        {
+                          "text": "✅ [22ms] Matched: Benefits\n"
+                        },
+                        {
+                          "text": "✅ [20ms] Matched: Consent Information\n"
+                        },
+                        {
+                          "text": "✅ [20ms] Matched: Assent Background\n"
+                        },
+                        {
+                          "text": "✅ [21ms] Matched: HIPAA\n"
+                        },
+                        {
+                          "text": "✅ [23ms] Matched: Attachments\n"
+                        },
+                        {
+                          "text": "✅ [20ms] Matched: Personnel Information\n"
+                        },
+                        {
+                          "text": "✅ [22ms] Matched: Subject Checklist\n"
+                        },
+                        {
+                          "text": "✅ [20ms] Matched: Study Location\n"
+                        },
+                        {
+                          "text": "✅ [21ms] Matched: General Checklist\n"
+                        },
+                        {
+                          "text": "✅ [18ms] Matched: Funding\n"
+                        },
+                        {
+                          "text": "✅ [21ms] Matched: Obligations\n"
+                        },
+                        {
+                          "text": "\n🔍 Test Summary:\n"
+                        },
+                        {
+                          "text": "Total Menus: 34\n"
+                        },
+                        {
+                          "text": "✅ Matched: 13\n"
+                        },
+                        {
+                          "text": "❌ Not Found/Text Mismatch: 21\n"
+                        }
+                      ],
+                      "stderr": [
+                        {
+                          "text": "❌ [24ms] Title mismatch: Application Type Checklist → Got: protocol information\n"
+                        },
+                        {
+                          "text": "❌ [2616ms] Title mismatch: Exempt Paragraph(s) → Got: expedited paragraphs\n"
+                        },
+                        {
+                          "text": "❌ [25ms] Title mismatch: Summary, Purpose, Procedures → Got: summary, purpose, pr...\n"
+                        },
+                        {
+                          "text": "❌ [23ms] Title mismatch: Background and additional procedures → Got: background and addit...\n"
+                        },
+                        {
+                          "text": "❌ [23ms] Title mismatch: Subject Population (a-f) → Got: subject population (...\n"
+                        },
+                        {
+                          "text": "❌ [30ms] Title mismatch: Subject Population (g-j) → Got: subject population (...\n"
+                        },
+                        {
+                          "text": "❌ [19ms] Title mismatch: Recruitment Process, Subject Compensation and Costs → Got: recruitment process,...\n"
+                        },
+                        {
+                          "text": "❌ [24ms] Title mismatch: Procedures to Maintain Confidentiality → Got: procedures to mainta...\n"
+                        },
+                        {
+                          "text": "❌ [20ms] Title mismatch: Potential Conflict of Interest → Got: potential conflict o...\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for Adverse Event Report Form\n"
+                        },
+                        {
+                          "text": "❌ [11036ms] Not Found: Adverse Event Report Form\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for Report Form\n"
+                        },
+                        {
+                          "text": "❌ [11040ms] Not Found: Report Form\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for Violation Form\n"
+                        },
+                        {
+                          "text": "❌ [11036ms] Not Found: Violation Form\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for Final Report Form\n"
+                        },
+                        {
+                          "text": "❌ [11040ms] Not Found: Final Report Form\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for Status Report Form\n"
+                        },
+                        {
+                          "text": "❌ [11044ms] Not Found: Status Report Form\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for Continuing Review\n"
+                        },
+                        {
+                          "text": "❌ [11046ms] Not Found: Continuing Review\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for Amendment\n"
+                        },
+                        {
+                          "text": "❌ [11034ms] Not Found: Amendment\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for IRB Comments\n"
+                        },
+                        {
+                          "text": "❌ [11047ms] Not Found: IRB Comments\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for IRB Notes\n"
+                        },
+                        {
+                          "text": "❌ [11043ms] Not Found: IRB Notes\n"
+                        },
+                        {
+                          "text": "❌ [20ms] Title mismatch: Application Type Checklist → Got: protocol information\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for Pre-Approval Page Language\n"
+                        },
+                        {
+                          "text": "❌ [11043ms] Not Found: Pre-Approval Page Language\n"
+                        },
+                        {
+                          "text": "🔁 Retry 1 for IRB Use Only\n"
+                        },
+                        {
+                          "text": "❌ [11025ms] Not Found: IRB Use Only\n"
+                        }
+                      ],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Click parent: Protocol Information",
+                          "duration": 174
+                        }
+                      ],
+                      "startTime": "2025-07-08T06:59:26.912Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "I:\\Playwright_Automation\\test-results\\Demo3-sql-chatgpt-4-Menu-Validation-validate-menus-chromium\\test-failed-2.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "I:\\Playwright_Automation\\test-results\\Demo3-sql-chatgpt-4-Menu-Validation-validate-menus-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "I:\\Playwright_Automation\\test-results\\Demo3-sql-chatgpt-4-Menu-Validation-validate-menus-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "I:\\Playwright_Automation\\tests\\Demo3\\sql-chatgpt-4.spec.ts",
+                        "column": 26,
+                        "line": 194
+                      }
                     }
                   ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-07-01T11:47:56.475Z",
-                  "annotations": [],
-                  "attachments": [],
-                  "errorLocation": {
-                    "file": "I:\\Playwright_Automation\\tests\\chapter3\\01_Annotations_test.spec.ts",
-                    "column": 16,
-                    "line": 51
-                  }
+                  "status": "unexpected"
                 }
               ],
-              "status": "unexpected"
+              "id": "a35d99192217ed223c99-f52756c165c40b78d9dc",
+              "file": "Demo3/sql-chatgpt-4.spec.ts",
+              "line": 109,
+              "column": 7
             }
-          ],
-          "id": "325cd45aefc17701d27d-6450229391a9eaf9b9c8",
-          "file": "chapter3/01_Annotations_test.spec.ts",
-          "line": 49,
-          "column": 6
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-01T11:47:53.260Z",
-    "duration": 7898.686000004411,
+    "startTime": "2025-07-08T06:59:23.990Z",
+    "duration": 134592.14300000016,
     "expected": 0,
     "skipped": 0,
     "unexpected": 1,

@@ -1,0 +1,56 @@
+
+🔹 Validating All Menus by Title Text
+⚠️ Skipped (Not Rendered): Adverse Event Report Form
+⚠️ Skipped (Not Rendered): Report Form
+⚠️ Skipped (Not Rendered): Violation Form
+⚠️ Skipped (Not Rendered): Final Report Form
+⚠️ Skipped (Not Rendered): Status Report Form
+⚠️ Skipped (Not Rendered): Continuing Review
+⚠️ Skipped (Not Rendered): Amendment
+⚠️ Skipped (Not Rendered): IRB Comments
+⚠️ Skipped (Not Rendered): IRB Notes
+✅ Visible: Personnel Information
+   → Expected: "Personnel Information"
+   ← Found   : "personnel information"
+✅ Visible: Subject Checklist
+   → Expected: "Subject Checklist"
+   ← Found   : "subject checklist"
+✅ Visible: Study Location
+   → Expected: "Study Location"
+   ← Found   : "study location"
+✅ Visible: General Checklist
+   → Expected: "General Checklist"
+   ← Found   : "general checklist"
+⚠️ Skipped (Not Rendered): Application Type Checklist
+⚠️ Skipped (Not Rendered): Application Type Checklist
+✅ Visible: Funding
+   → Expected: "Funding"
+   ← Found   : "funding"
+⚠️ Skipped (Not Rendered): Exempt Paragraph(s)
+⚠️ Skipped (Not Rendered): Summary, Purpose, Procedures
+⚠️ Skipped (Not Rendered): Background and additional procedures
+⚠️ Skipped (Not Rendered): Drugs and Devices
+✅ Visible: Subject Population (a-f)
+   → Expected: "Subject Population (a-f)"
+   ← Found   : "subject checklist"
+✅ Visible: Subject Population (g-j)
+   → Expected: "Subject Population (g-j)"
+   ← Found   : "subject checklist"
+⚠️ Skipped (Not Rendered): Recruitment Process, Subject Compensation and Costs
+⚠️ Skipped (Not Rendered): Risks
+⚠️ Skipped (Not Rendered): Benefits
+⚠️ Skipped (Not Rendered): Procedures to Maintain Confidentiality
+⚠️ Skipped (Not Rendered): Potential Conflict of Interest
+⚠️ Skipped (Not Rendered): Consent Information
+⚠️ Skipped (Not Rendered): Pre-Approval Page Language
+⚠️ Skipped (Not Rendered): Assent Background
+⚠️ Skipped (Not Rendered): HIPAA
+⚠️ Skipped (Not Rendered): Attachments
+✅ Visible: Obligations
+   → Expected: "Obligations"
+   ← Found   : "obligations"
+⚠️ Skipped (Not Rendered): IRB Use Only
+
+✅ Total Visible      : 8
+⚠️ Total Skipped      : 26
+❌ Total Mismatches   : 0

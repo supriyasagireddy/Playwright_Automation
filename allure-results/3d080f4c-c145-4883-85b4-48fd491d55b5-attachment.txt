@@ -1,0 +1,75 @@
+
+🔹 Parent Menu Validation (parent_id is null)
+❌ Error accessing: Adverse Event Report Form → NOT VISIBLE after retry
+❌ Error accessing: Report Form → NOT VISIBLE after retry
+❌ Error accessing: Violation Form → NOT VISIBLE after retry
+❌ Error accessing: Final Report Form → NOT VISIBLE after retry
+❌ Error accessing: Status Report Form → NOT VISIBLE after retry
+❌ Error accessing: Continuing Review → NOT VISIBLE after retry
+❌ Error accessing: Amendment → NOT VISIBLE after retry
+❌ Error accessing: IRB Comments → NOT VISIBLE after retry
+❌ Error accessing: IRB Notes → NOT VISIBLE after retry
+✅ Visible: Personnel Information
+   → Expected: "Personnel Information"
+   ← Found   : "personnel information"
+✅ Visible: Subject Checklist
+   → Expected: "Subject Checklist"
+   ← Found   : "subject checklist"
+✅ Visible: Study Location
+   → Expected: "Study Location"
+   ← Found   : "study location"
+✅ Visible: General Checklist
+   → Expected: "General Checklist"
+   ← Found   : "general checklist"
+❌ Text mismatch: Application Type Checklist
+   → Expected: "Application Type Checklist"
+   ← Found   : "protocol information"
+✅ Visible: Funding
+   → Expected: "Funding"
+   ← Found   : "funding"
+❌ Error accessing: Pre-Approval Page Language → NOT VISIBLE after retry
+✅ Visible: Obligations
+   → Expected: "Obligations"
+   ← Found   : "obligations"
+❌ Error accessing: IRB Use Only → NOT VISIBLE after retry
+
+🔹 Child Menu Validation (parent_id is NOT null)
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Text mismatch: Application Type Checklist
+   → Expected: "Application Type Checklist"
+   ← Found   : "protocol information"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Exempt Paragraph(s) → NOT VISIBLE after retry
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+✅ Total Visible: 6
+❌ Total Not Found/Text Mismatch: 28

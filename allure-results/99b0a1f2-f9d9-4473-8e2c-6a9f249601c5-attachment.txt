@@ -1,0 +1,9 @@
+✅ Retrieved menus: 34
+✅ Navigated to Edit Page
+✅ Final page footer content verified
+➡️ Clicking parent group: Protocol Information
+
+🔍 Test Summary:
+Total Menus: 34
+✅ Matched: 0
+❌ Not Found/Text Mismatch: 34

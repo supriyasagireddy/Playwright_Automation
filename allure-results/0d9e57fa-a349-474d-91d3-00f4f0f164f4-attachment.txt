@@ -1,0 +1,105 @@
+
+🔹 Parent Menu Validation
+❌ Expected: Adverse Event Report Form
+   → Found   : ---
+   → Not found in DOM or text mismatch
+❌ Expected: Report Form
+   → Found   : ---
+   → Not found in DOM or text mismatch
+❌ Expected: Violation Form
+   → Found   : ---
+   → Not found in DOM or text mismatch
+❌ Expected: Final Report Form
+   → Found   : ---
+   → Not found in DOM or text mismatch
+❌ Expected: Status Report Form
+   → Found   : ---
+   → Not found in DOM or text mismatch
+❌ Expected: Continuing Review
+   → Found   : ---
+   → Not found in DOM or text mismatch
+❌ Expected: Amendment
+   → Found   : ---
+   → Not found in DOM or text mismatch
+❌ Expected: IRB Comments
+   → Found   : ---
+   → Not found in DOM or text mismatch
+❌ Expected: IRB Notes
+   → Found   : ---
+   → Not found in DOM or text mismatch
+✅ Expected: Personnel Information
+   ← Found   : personnel information
+✅ Expected: Subject Checklist
+   ← Found   : subject checklist
+✅ Expected: Study Location
+   ← Found   : study location
+✅ Expected: General Checklist
+   ← Found   : general checklist
+❌ Expected: Application Type Checklist
+   → Found   : protocol information
+   → Not found in DOM or text mismatch
+✅ Expected: Funding
+   ← Found   : funding
+❌ Expected: Pre-Approval Page Language
+   → Found   : ---
+   → Not found in DOM or text mismatch
+✅ Expected: Obligations
+   ← Found   : obligations
+❌ Expected: IRB Use Only
+   → Found   : ---
+   → Not found in DOM or text mismatch
+
+🔹 Child Menu Validation
+❌ Expected: Application Type Checklist
+   → Found   : protocol information
+   → Not found in DOM or title/text mismatch
+❌ Expected: Exempt Paragraph(s)
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Summary, Purpose, Procedures
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Background and additional procedures
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Drugs and Devices
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Subject Population (a-f)
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Subject Population (g-j)
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Recruitment Process, Subject Compensation and Costs
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Risks
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Benefits
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Procedures to Maintain Confidentiality
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Potential Conflict of Interest
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Consent Information
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Assent Background
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: HIPAA
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+❌ Expected: Attachments
+   → Found   : ---
+   → Not found in DOM or title/text mismatch
+
+📊 Summary:
+Parent Menus Matched: 6 / 18
+Child Menus Matched : 0 / 16
+Total Matched       : 6 / 34

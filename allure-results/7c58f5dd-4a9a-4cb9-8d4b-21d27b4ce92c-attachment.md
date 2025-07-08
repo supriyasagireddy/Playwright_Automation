@@ -1,0 +1,608 @@
+# Page snapshot
+
+```yaml
+- table:
+  - rowgroup:
+    - 'row "logo image logo image Herke (Jubliee hills) - eProtocol: Investigator Burger Menu navigation"':
+      - 'cell "logo image logo image Herke (Jubliee hills) - eProtocol: Investigator Burger Menu navigation"':
+        - banner:
+          - navigation:
+            - list:
+              - listitem:
+                - link "eAnimal Ordering ":
+                  - /url: "#"
+              - listitem:
+                - link "eCOI ":
+                  - /url: "#"
+              - listitem:
+                - link "eGrants ":
+                  - /url: "#"
+              - listitem:
+                - link "eProtocol ":
+                  - /url: "#"
+        - table:
+          - rowgroup:
+            - row "logo image logo image":
+              - cell "logo image logo image":
+                - img "logo image"
+                - img "logo image"
+            - 'row "Herke (Jubliee hills) - eProtocol: Investigator Burger Menu"':
+              - 'cell "Herke (Jubliee hills) - eProtocol: Investigator Burger Menu"':
+                - text: "Herke (Jubliee hills) - eProtocol: Investigator"
+                - img "Burger Menu"
+        - table:
+          - rowgroup:
+            - row "navigation":
+              - cell "navigation":
+                - list "navigation":
+                  - listitem: eProtocol »
+                  - listitem: Investigator »
+                  - listitem: Home
+- table "Table":
+  - rowgroup:
+    - row "Table":
+      - cell "Table":
+        - table "Table":
+          - rowgroup:
+            - row "color codes Create Protocol Clone Protocol Delete":
+              - cell "color codes":
+                - img "color codes"
+              - cell "Create Protocol Clone Protocol Delete":
+                - list:
+                  - listitem:
+                    - button "Create Protocol"
+                  - listitem:
+                    - button "Clone Protocol"
+                  - listitem:
+                    - button "Delete"
+- table "Table":
+  - rowgroup:
+    - row "IACUC IBC IRB RSC":
+      - cell "IACUC"
+      - cell "IBC"
+      - cell "IRB"
+      - cell "RSC"
+      - cell
+- table "Table":
+  - rowgroup:
+    - row "Table":
+      - cell "Table":
+        - table "Table":
+          - rowgroup:
+            - row:
+              - cell
+            - row "Table":
+              - cell "Table":
+                - table "Table":
+                  - rowgroup:
+                    - row "Protocols (In Preparation / Submitted) Hide":
+                      - cell "Protocols (In Preparation / Submitted)"
+                      - cell "Hide":
+                        - img "Hide"
+            - row "Table":
+              - cell "Table":
+                - table "Table":
+                  - rowgroup:
+                    - row:
+                      - cell
+                    - row "Table":
+                      - cell "Table":
+                        - table "Table":
+                          - rowgroup:
+                            - row "NEW Hide":
+                              - cell "NEW"
+                              - cell "Hide":
+                                - img "Hide"
+                    - row "Table":
+                      - cell "Table":
+                        - grid "Table":
+                          - rowgroup:
+                            - row "Protocol ID Principal Investigator Protocol Event Status/Comments Panel Meeting Date":
+                              - gridcell "Protocol ID":
+                                - link "Protocol ID":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Principal Investigator":
+                                - link "Principal Investigator":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Protocol Event":
+                                - link "Protocol Event":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Status/Comments":
+                                - link "Status/Comments":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Panel":
+                                - link "Panel":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Meeting Date":
+                                - link "Meeting Date":
+                                  - /url: JavaScript:displayData();
+                          - rowgroup:
+                            - row "25-06-041 Simon, Jones Yet to Submit to IRB NEW 0":
+                              - gridcell "25-06-041":
+                                - link "25-06-041":
+                                  - /url: javascript:openProtocol('OB3318530725515473619','OB6848295284217132545','2001','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "Yet to Submit to IRB":
+                                - link "Yet to Submit to IRB":
+                                  - /url: "javascript:performAction('OB6158450893013692876','OB4436677904059381130',\n\t\t\t\t\t\t\t\t\t\t\t\t'Yet to Submit to IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'2001','')"
+                              - gridcell "NEW"
+                              - gridcell
+                              - gridcell "0"
+                            - row "25-06-045 Simon, Jones Resubmit the Protocol RETURNED 0":
+                              - gridcell "25-06-045":
+                                - link "25-06-045":
+                                  - /url: javascript:openProtocol('OB8764610506715608063','OB577889588255475427','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "Resubmit the Protocol":
+                                - link "Resubmit the Protocol":
+                                  - /url: "javascript:performAction('OB1399665088621427595','OB7186301989869435408',\n\t\t\t\t\t\t\t\t\t\t\t\t'Resubmit the Protocol',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "RETURNED"
+                              - gridcell
+                              - gridcell "0"
+                            - row "25-06-042 Simon, Jones Yet to Submit to IRB NEW 0":
+                              - gridcell "25-06-042":
+                                - link "25-06-042":
+                                  - /url: javascript:openProtocol('OB4252365797636390952','OB1075595726247538699','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "Yet to Submit to IRB":
+                                - link "Yet to Submit to IRB":
+                                  - /url: "javascript:performAction('OB4781172895725957763','OB6468701269849257540',\n\t\t\t\t\t\t\t\t\t\t\t\t'Yet to Submit to IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "NEW"
+                              - gridcell
+                              - gridcell "0"
+                            - row "25-06-035 Simon, Jones Comments Received (Cycle 1) IN-PROGRESS IRB Panel 20250706 07/06/2025":
+                              - gridcell "25-06-035":
+                                - link "25-06-035":
+                                  - /url: javascript:openProtocol('OB3455976601376177789','OB6711381168121494152','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "Comments Received (Cycle 1)":
+                                - link "Comments Received (Cycle 1)":
+                                  - /url: "javascript:performAction('OB8758558007883415622','OB4453286695273017426',\n\t\t\t\t\t\t\t\t\t\t\t\t'Comments Received (Cycle 1)',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'M',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "IN-PROGRESS"
+                              - gridcell "IRB Panel"
+                              - gridcell "20250706 07/06/2025": 07/06/2025
+                            - row "25-06-036 Simon, Jones SUBMITTED TO IRB SUBMITTED IRB Panel 20250706 07/06/2025":
+                              - gridcell "25-06-036":
+                                - link "25-06-036":
+                                  - /url: javascript:openProtocol('OB2926469791246696132','OB374597770118185928','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "SUBMITTED TO IRB":
+                                - link "SUBMITTED TO IRB":
+                                  - /url: "javascript:performAction('OB5899463895252486541','OB8981943456733181580',\n\t\t\t\t\t\t\t\t\t\t\t\t'SUBMITTED TO IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'N',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "SUBMITTED"
+                              - gridcell "IRB Panel"
+                              - gridcell "20250706 07/06/2025": 07/06/2025
+                            - row "25-06-047 Simon, Jones CONTINGENT CONTINGENT IRB Panel 20250706 07/06/2025":
+                              - gridcell "25-06-047":
+                                - link "25-06-047":
+                                  - /url: javascript:openProtocol('OB7559670939441775730','OB2479938295572352755','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "CONTINGENT"
+                              - gridcell "CONTINGENT"
+                              - gridcell "IRB Panel"
+                              - gridcell "20250706 07/06/2025": 07/06/2025
+                            - row "25-06-034 Simon, Jones SUBMITTED TO IRB SUBMITTED 0":
+                              - gridcell "25-06-034":
+                                - link "25-06-034":
+                                  - /url: javascript:openProtocol('OB7435974802857412549','OB8890669076330361931','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "SUBMITTED TO IRB":
+                                - link "SUBMITTED TO IRB":
+                                  - /url: "javascript:performAction('OB8664057507698491064','OB8488060462991429336',\n\t\t\t\t\t\t\t\t\t\t\t\t'SUBMITTED TO IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "SUBMITTED"
+                              - gridcell
+                              - gridcell "0"
+                            - row "25-06-037 Simon, Jones SUBMITTED TO IRB SUBMITTED IRB Panel 20250706 07/06/2025":
+                              - gridcell "25-06-037":
+                                - link "25-06-037":
+                                  - /url: javascript:openProtocol('OB1285040163922686911','OB7050474207350667834','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "SUBMITTED TO IRB":
+                                - link "SUBMITTED TO IRB":
+                                  - /url: "javascript:performAction('OB3610011959429479823','OB6550305314741895336',\n\t\t\t\t\t\t\t\t\t\t\t\t'SUBMITTED TO IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'A',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "SUBMITTED"
+                              - gridcell "IRB Panel"
+                              - gridcell "20250706 07/06/2025": 07/06/2025
+                            - row "25-06-043 Simon, Jones SUBMITTED TO IRB SUBMITTED IRB Panel 0":
+                              - gridcell "25-06-043":
+                                - link "25-06-043":
+                                  - /url: javascript:openProtocol('OB2602839684560667258','OB1893061305242765319','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "SUBMITTED TO IRB":
+                                - link "SUBMITTED TO IRB":
+                                  - /url: "javascript:performAction('OB1758289580532350218','OB6884577107160512450',\n\t\t\t\t\t\t\t\t\t\t\t\t'SUBMITTED TO IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "SUBMITTED"
+                              - gridcell "IRB Panel"
+                              - gridcell "0"
+                    - row:
+                      - cell
+                    - row "Table":
+                      - cell "Table":
+                        - table "Table":
+                          - rowgroup:
+                            - row "AMENDMENT Hide":
+                              - cell "AMENDMENT"
+                              - cell "Hide":
+                                - img "Hide"
+                    - row "Table":
+                      - cell "Table":
+                        - grid "Table":
+                          - rowgroup:
+                            - row "Protocol ID Principal Investigator Protocol Event Status/Comments Panel Meeting Date":
+                              - gridcell "Protocol ID":
+                                - link "Protocol ID":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Principal Investigator":
+                                - link "Principal Investigator":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Protocol Event":
+                                - link "Protocol Event":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Status/Comments":
+                                - link "Status/Comments":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Panel":
+                                - link "Panel":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Meeting Date":
+                                - link "Meeting Date":
+                                  - /url: JavaScript:displayData();
+                          - rowgroup:
+                            - row "25-06-046 Simon, Jones SUBMITTED TO IRB SUBMITTED IRB Panel 0":
+                              - gridcell "25-06-046":
+                                - link "25-06-046":
+                                  - /url: javascript:openProtocol('OB6398693368266639186','OB50244446619847884','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "SUBMITTED TO IRB":
+                                - link "SUBMITTED TO IRB":
+                                  - /url: "javascript:performAction('OB499365462660267948','OB789205178762311209',\n\t\t\t\t\t\t\t\t\t\t\t'SUBMITTED TO IRB',\n\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "SUBMITTED"
+                              - gridcell "IRB Panel"
+                              - gridcell "0"
+                    - row:
+                      - cell
+                    - row "Table":
+                      - cell "Table":
+                        - table "Table":
+                          - rowgroup:
+                            - row "CONTINUING REVIEW Hide":
+                              - cell "CONTINUING REVIEW"
+                              - cell "Hide":
+                                - img "Hide"
+                    - row "Table":
+                      - cell "Table":
+                        - table "Table":
+                          - rowgroup:
+                            - row "Currently there are no Continuing Review protocols.":
+                              - cell "Currently there are no Continuing Review protocols."
+                    - row:
+                      - cell
+                    - row "Table":
+                      - cell "Table":
+                        - table "Table":
+                          - rowgroup:
+                            - row "STATUS REPORT FORM Hide":
+                              - cell "STATUS REPORT FORM"
+                              - cell "Hide":
+                                - img "Hide"
+                    - row "Table":
+                      - cell "Table":
+                        - table "Table":
+                          - rowgroup:
+                            - row "Currently there are no Status Report Form protocols.":
+                              - cell "Currently there are no Status Report Form protocols."
+                    - row:
+                      - cell
+                    - row:
+                      - cell
+                    - row "REPORT Hide":
+                      - cell "REPORT Hide":
+                        - table "Table":
+                          - rowgroup:
+                            - row "REPORT Hide":
+                              - cell "REPORT"
+                              - cell "Hide":
+                                - img "Hide"
+                    - row "Table":
+                      - cell "Table":
+                        - grid "Table":
+                          - rowgroup:
+                            - row "Protocol ID Principal Investigator Protocol Event Status/Comments Panel Meeting Date":
+                              - gridcell "Protocol ID":
+                                - link "Protocol ID":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Principal Investigator":
+                                - link "Principal Investigator":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Protocol Event":
+                                - link "Protocol Event":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Status/Comments":
+                                - link "Status/Comments":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Panel":
+                                - link "Panel":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Meeting Date":
+                                - link "Meeting Date":
+                                  - /url: JavaScript:displayData();
+                          - rowgroup:
+                            - row "25-06-044 Simon, Jones SUBMITTED TO IRB SUBMITTED IRB Panel 20250706 07/06/2025":
+                              - gridcell "25-06-044":
+                                - link "25-06-044":
+                                  - /url: javascript:openProtocol('OB4976966166688218094','OB8767041706004859956','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "SUBMITTED TO IRB":
+                                - link "SUBMITTED TO IRB":
+                                  - /url: "javascript:performAction('OB8044049084712108778','OB6175572945254592754',\n\t\t\t\t\t\t\t\t\t\t\t\t'SUBMITTED TO IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'M',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "SUBMITTED"
+                              - gridcell "IRB Panel"
+                              - gridcell "20250706 07/06/2025": 07/06/2025
+                            - row "25-06-044 Simon, Jones Yet to Submit to IRB NEW IRB Panel 0":
+                              - gridcell "25-06-044":
+                                - link "25-06-044":
+                                  - /url: javascript:openProtocol('OB2002960574526800400','OB2934044736782973191','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "Yet to Submit to IRB":
+                                - link "Yet to Submit to IRB":
+                                  - /url: "javascript:performAction('OB1109146151833089413','OB213047415045468808',\n\t\t\t\t\t\t\t\t\t\t\t\t'Yet to Submit to IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "NEW"
+                              - gridcell "IRB Panel"
+                              - gridcell "0"
+                    - row:
+                      - cell
+                    - row "SAE REPORT FORM Hide":
+                      - cell "SAE REPORT FORM Hide":
+                        - table "Table":
+                          - rowgroup:
+                            - row "SAE REPORT FORM Hide":
+                              - cell "SAE REPORT FORM"
+                              - cell "Hide":
+                                - img "Hide"
+                    - row "Table":
+                      - cell "Table":
+                        - grid "Table":
+                          - rowgroup:
+                            - row "Protocol ID Principal Investigator Protocol Event Status/Comments Panel Meeting Date":
+                              - gridcell "Protocol ID":
+                                - link "Protocol ID":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Principal Investigator":
+                                - link "Principal Investigator":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Protocol Event":
+                                - link "Protocol Event":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Status/Comments":
+                                - link "Status/Comments":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Panel":
+                                - link "Panel":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Meeting Date":
+                                - link "Meeting Date":
+                                  - /url: JavaScript:displayData();
+                          - rowgroup:
+                            - row "25-06-044 Simon, Jones SUBMITTED TO IRB SUBMITTED IRB Panel 20250706 07/06/2025":
+                              - gridcell "25-06-044":
+                                - link "25-06-044":
+                                  - /url: javascript:openProtocol('OB8081454727262222474','OB2165920298007218390','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "SUBMITTED TO IRB":
+                                - link "SUBMITTED TO IRB":
+                                  - /url: "javascript:performAction('OB3212520326663419394','OB7772947183667887695',\n\t\t\t\t\t\t\t\t\t\t\t\t'SUBMITTED TO IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'N',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "SUBMITTED"
+                              - gridcell "IRB Panel"
+                              - gridcell "20250706 07/06/2025": 07/06/2025
+                            - row "25-06-044 Simon, Jones Yet to Submit to IRB NEW IRB Panel 0":
+                              - gridcell "25-06-044":
+                                - link "25-06-044":
+                                  - /url: javascript:openProtocol('OB9132641996594327571','OB4260586022800672872','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "Yet to Submit to IRB":
+                                - link "Yet to Submit to IRB":
+                                  - /url: "javascript:performAction('OB2791549500302837105','OB3095436751419453857',\n\t\t\t\t\t\t\t\t\t\t\t\t'Yet to Submit to IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "NEW"
+                              - gridcell "IRB Panel"
+                              - gridcell "0"
+                    - row:
+                      - cell
+                    - row "PROTOCOL VIOLATION FORM Hide":
+                      - cell "PROTOCOL VIOLATION FORM Hide":
+                        - table "Table":
+                          - rowgroup:
+                            - row "PROTOCOL VIOLATION FORM Hide":
+                              - cell "PROTOCOL VIOLATION FORM"
+                              - cell "Hide":
+                                - img "Hide"
+                    - row "Table":
+                      - cell "Table":
+                        - grid "Table":
+                          - rowgroup:
+                            - row "Protocol ID Principal Investigator Protocol Event Status/Comments Panel Meeting Date":
+                              - gridcell "Protocol ID":
+                                - link "Protocol ID":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Principal Investigator":
+                                - link "Principal Investigator":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Protocol Event":
+                                - link "Protocol Event":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Status/Comments":
+                                - link "Status/Comments":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Panel":
+                                - link "Panel":
+                                  - /url: JavaScript:displayData();
+                              - gridcell "Meeting Date":
+                                - link "Meeting Date":
+                                  - /url: JavaScript:displayData();
+                          - rowgroup:
+                            - row "25-06-044 Simon, Jones Yet to Submit to IRB NEW IRB Panel 0":
+                              - gridcell "25-06-044":
+                                - link "25-06-044":
+                                  - /url: javascript:openProtocol('OB4513351453527720422','OB7656617605276283198','1','S')
+                              - gridcell "Simon, Jones"
+                              - gridcell "Yet to Submit to IRB":
+                                - link "Yet to Submit to IRB":
+                                  - /url: "javascript:performAction('OB2416668934613387738','OB4311012866152089785',\n\t\t\t\t\t\t\t\t\t\t\t\t'Yet to Submit to IRB',\n\t\t\t\t\t\t\t\t\t\t\t\t'S',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'',\n\t\t\t\t\t\t\t\t\t\t\t\t'1','')"
+                              - gridcell "NEW"
+                              - gridcell "IRB Panel"
+                              - gridcell "0"
+                    - row:
+                      - cell
+                    - row "FINAL REPORT Hide":
+                      - cell "FINAL REPORT Hide":
+                        - table "Table":
+                          - rowgroup:
+                            - row "FINAL REPORT Hide":
+                              - cell "FINAL REPORT"
+                              - cell "Hide":
+                                - img "Hide"
+                    - row "Currently there are no Final Report forms.":
+                      - cell "Currently there are no Final Report forms.":
+                        - table "Table":
+                          - rowgroup:
+                            - row "Currently there are no Final Report forms.":
+                              - cell "Currently there are no Final Report forms."
+            - row:
+              - cell
+            - row:
+              - cell
+            - row "Table":
+              - cell "Table":
+                - table "Table":
+                  - rowgroup:
+                    - row "Approved Protocols Hide":
+                      - cell "Approved Protocols"
+                      - cell "Hide":
+                        - img "Hide"
+            - row "Table":
+              - cell "Table":
+                - grid "Table":
+                  - rowgroup:
+                    - row "Protocol ID Principal Investigator Approval Date Last Approval Date Expiration Date Review Decision Form Type":
+                      - gridcell "Protocol ID":
+                        - link "Protocol ID":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Principal Investigator":
+                        - link "Principal Investigator":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Approval Date":
+                        - link "Approval Date":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Last Approval Date":
+                        - link "Last Approval Date":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Expiration Date":
+                        - link "Expiration Date":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Review Decision":
+                        - link "Review Decision":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Form Type":
+                        - link "Form Type":
+                          - /url: JavaScript:displayData();
+                  - rowgroup:
+                    - row "25-06-052 Simon, Jones 20250624 06/24/2025 2025062406/24/2025 2028062306/23/2028 Panel Manager Review NEW":
+                      - gridcell "25-06-052":
+                        - link "25-06-052":
+                          - /url: javascript:openApprovedProtocol('OB2478525745650515946','OB3405641323297720382','25-06-052','1','true')
+                      - gridcell "Simon, Jones"
+                      - gridcell "20250624 06/24/2025": 06/24/2025
+                      - gridcell "2025062406/24/2025": 06/24/2025
+                      - gridcell "2028062306/23/2028": 06/23/2028
+                      - gridcell "Panel Manager Review"
+                      - gridcell "NEW"
+                    - row "25-06-046 Simon, Jones 20250624 06/24/2025 2025062406/24/2025 2028062306/23/2028 Panel Manager Review NEW":
+                      - gridcell "25-06-046":
+                        - link "25-06-046":
+                          - /url: javascript:openApprovedProtocol('OB2790901450380690628','OB6907099477538943002','25-06-046','1','true')
+                      - gridcell "Simon, Jones"
+                      - gridcell "20250624 06/24/2025": 06/24/2025
+                      - gridcell "2025062406/24/2025": 06/24/2025
+                      - gridcell "2028062306/23/2028": 06/23/2028
+                      - gridcell "Panel Manager Review"
+                      - gridcell "NEW"
+                    - row "25-06-044 Simon, Jones 20240625 06/25/2024 2025062406/24/2025 2027062406/24/2027 Panel Manager Review AMENDMENT":
+                      - gridcell "25-06-044":
+                        - link "25-06-044":
+                          - /url: javascript:openApprovedProtocol('OB1623780134460503037','OB4644491282724504754','25-06-044','1','true')
+                      - gridcell "Simon, Jones"
+                      - gridcell "20240625 06/25/2024": 06/25/2024
+                      - gridcell "2025062406/24/2025": 06/24/2025
+                      - gridcell "2027062406/24/2027": 06/24/2027
+                      - gridcell "Panel Manager Review"
+                      - gridcell "AMENDMENT"
+            - row "Table":
+              - cell "Table":
+                - table "Table":
+                  - rowgroup:
+                    - row:
+                      - cell
+                    - row "Table":
+                      - cell "Table":
+                        - table "Table":
+                          - rowgroup:
+                            - row "Non Active Protocols Hide":
+                              - cell "Non Active Protocols"
+                              - cell "Hide":
+                                - img "Hide"
+                    - row:
+                      - cell
+            - row "Table":
+              - cell "Table":
+                - grid "Table":
+                  - rowgroup:
+                    - row "Protocol ID Principal Investigator Approval Date Last Approval Date Status/Comments Form Type":
+                      - gridcell "Protocol ID":
+                        - link "Protocol ID":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Principal Investigator":
+                        - link "Principal Investigator":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Approval Date":
+                        - link "Approval Date":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Last Approval Date":
+                        - link "Last Approval Date":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Status/Comments":
+                        - link "Status/Comments":
+                          - /url: JavaScript:displayData();
+                      - gridcell "Form Type":
+                        - link "Form Type":
+                          - /url: JavaScript:displayData();
+                  - rowgroup:
+                    - row "25-06-038 Simon, Jones 20240625 06/25/2024 20240625 06/25/2024 SUSPENDED":
+                      - gridcell "25-06-038":
+                        - link "25-06-038":
+                          - /url: javascript:openArchivedProtocolDtls('OB662025157409943816','OB191873877144023090','25-06-038','1')
+                      - gridcell "Simon, Jones"
+                      - gridcell "20240625 06/25/2024": 06/25/2024
+                      - gridcell "20240625 06/25/2024": 06/25/2024
+                      - gridcell "SUSPENDED"
+                      - gridcell
+                    - row "25-06-039 Simon, Jones 0 0 WITHDRAWN":
+                      - gridcell "25-06-039":
+                        - link "25-06-039":
+                          - /url: javascript:openArchivedProtocolDtls('OB8079873985770273538','OB6639160982810374458','25-06-039','1')
+                      - gridcell "Simon, Jones"
+                      - gridcell "0"
+                      - gridcell "0"
+                      - gridcell "WITHDRAWN"
+                      - gridcell
+                    - row "25-06-040 Simon, Jones 0 0 NOT APPROVED":
+                      - gridcell "25-06-040":
+                        - link "25-06-040":
+                          - /url: javascript:openArchivedProtocolDtls('OB7276678280099315462','OB7349281678157264461','25-06-040','1')
+                      - gridcell "Simon, Jones"
+                      - gridcell "0"
+                      - gridcell "0"
+                      - gridcell "NOT APPROVED"
+                      - gridcell
+            - row:
+              - cell
+- contentinfo
+```

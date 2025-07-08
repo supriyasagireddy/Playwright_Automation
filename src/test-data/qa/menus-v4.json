@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Adverse Event Report Form",
+    "item_id": "M_588",
+    "description": "Adverse Event Report Form",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('588')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Report Form",
+    "item_id": "M_188",
+    "description": "Report Form",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('188')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Violation Form",
+    "item_id": "M_688",
+    "description": "Violation Form",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('688')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Final Report Form",
+    "item_id": "M_178",
+    "description": "Final Report Form",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('178')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Status Report Form",
+    "item_id": "M_268",
+    "description": "Status Report Form",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('268')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Continuing Review",
+    "item_id": "M_168",
+    "description": "Continuing Review",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('168')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Amendment",
+    "item_id": "M_148",
+    "description": "Amendment",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('148')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "IRB Comments",
+    "item_id": "M_400",
+    "description": "IRB Comments",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('400')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "IRB Notes",
+    "item_id": "M_401",
+    "description": "IRB Notes",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('401')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Personnel Information",
+    "item_id": "M_101",
+    "description": "Personnel Information",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('101')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Subject Checklist",
+    "item_id": "M_131",
+    "description": "Subject Checklist",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('131')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Study Location",
+    "item_id": "M_132",
+    "description": "Study Location",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('132')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "General Checklist",
+    "item_id": "M_133",
+    "description": "General Checklist",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('133')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Application Type Checklist",
+    "item_id": "M_172",
+    "description": "Application Type Checklist",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('172')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Application Type Checklist",
+    "item_id": "M_172",
+    "description": "Application Type Checklist",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('172')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Funding",
+    "item_id": "M_135",
+    "description": "Funding",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('135')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Exempt Paragraph(s)",
+    "item_id": "M_151",
+    "description": "Exempt Paragraph(s)",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('151')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Summary, Purpose, Procedures",
+    "item_id": "M_170",
+    "description": "Summary, Purpose, Procedures",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('170')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Background and additional procedures",
+    "item_id": "M_173",
+    "description": "Background and additional procedures",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('173')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Drugs and Devices",
+    "item_id": "M_149",
+    "description": "Drugs and Devices",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('149')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Subject Population (a-f)",
+    "item_id": "M_141",
+    "description": "Subject Population (a-f)",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('141')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Subject Population (g-j)",
+    "item_id": "M_142",
+    "description": "Subject Population (g-j)",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('142')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Recruitment Process, Subject Compensation and Costs",
+    "item_id": "M_152",
+    "description": "Recruitment Process, Subject Compensation and Costs",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('152')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Risks",
+    "item_id": "M_250",
+    "description": "Risks",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('250')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Benefits",
+    "item_id": "M_143",
+    "description": "Benefits",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('143')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Procedures to Maintain Confidentiality",
+    "item_id": "M_230",
+    "description": "Procedures to Maintain Confidentiality",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('230')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Potential Conflict of Interest",
+    "item_id": "M_145",
+    "description": "Potential Conflict of Interest",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('145')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Consent Information",
+    "item_id": "M_146",
+    "description": "Consent Information",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('146')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Pre-Approval Page Language",
+    "item_id": "M_340",
+    "description": "Pre-Approval Page Language",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('340')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "Assent Background",
+    "item_id": "M_157",
+    "description": "Assent Background",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('157')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "HIPAA",
+    "item_id": "M_147",
+    "description": "HIPAA",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('147')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Attachments",
+    "item_id": "M_200",
+    "description": "Attachments",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('200')",
+    "parent_id": 172,
+    "parent_name": "Protocol Information",
+    "parent_href": "javascript:getSectionCaptions('172')"
+  },
+  {
+    "name": "Obligations",
+    "item_id": "M_136",
+    "description": "Obligations",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('136')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  },
+  {
+    "name": "IRB Use Only",
+    "item_id": "M_410",
+    "description": "IRB Use Only",
+    "validation_groups": "25-06-041",
+    "href": "javascript:getSectionCaptions('410')",
+    "parent_id": null,
+    "parent_name": null,
+    "parent_href": null
+  }
+]

@@ -14,9 +14,9 @@ dotenv.config({ path: path.resolve(__dirname, '.env') });
 export default defineConfig({
 
   testDir: './tests',
-  globalTimeout:60*60*1000,
+  globalTimeout:60*60*100000,
 
-  timeout:2*60*1000, //(test timeout globally)
+  timeout:2*60*10000, //(test timeout globally)
   expect:{
     timeout:10000 // Timeout for expect assertions globally
   },

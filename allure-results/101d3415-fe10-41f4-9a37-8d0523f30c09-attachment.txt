@@ -1,0 +1,60 @@
+
+🔹 Parent Menu Validation (parent_id is null)
+❌ Not Found: Adverse Event Report Form
+   → Expected: "Adverse Event Report Form"
+   ← Found   : "Not visible"
+❌ Not Found: Report Form
+   → Expected: "Report Form"
+   ← Found   : "Not visible"
+❌ Not Found: Violation Form
+   → Expected: "Violation Form"
+   ← Found   : "Not visible"
+❌ Not Found: Final Report Form
+   → Expected: "Final Report Form"
+   ← Found   : "Not visible"
+❌ Not Found: Status Report Form
+   → Expected: "Status Report Form"
+   ← Found   : "Not visible"
+❌ Not Found: Continuing Review
+   → Expected: "Continuing Review"
+   ← Found   : "Not visible"
+❌ Not Found: Amendment
+   → Expected: "Amendment"
+   ← Found   : "Not visible"
+❌ Not Found: IRB Comments
+   → Expected: "IRB Comments"
+   ← Found   : "Not visible"
+❌ Not Found: IRB Notes
+   → Expected: "IRB Notes"
+   ← Found   : "Not visible"
+✅ Visible: Personnel Information
+   → Expected: "Personnel Information"
+   ← Found   : "personnel information"
+✅ Visible: Subject Checklist
+   → Expected: "Subject Checklist"
+   ← Found   : "subject checklist"
+✅ Visible: Study Location
+   → Expected: "Study Location"
+   ← Found   : "study location"
+✅ Visible: General Checklist
+   → Expected: "General Checklist"
+   ← Found   : "general checklist"
+❌ Not Found: Application Type Checklist
+   → Expected: "Application Type Checklist"
+   ← Found   : "Not visible"
+✅ Visible: Funding
+   → Expected: "Funding"
+   ← Found   : "funding"
+❌ Not Found: Pre-Approval Page Language
+   → Expected: "Pre-Approval Page Language"
+   ← Found   : "Not visible"
+✅ Visible: Obligations
+   → Expected: "Obligations"
+   ← Found   : "obligations"
+❌ Not Found: IRB Use Only
+   → Expected: "IRB Use Only"
+   ← Found   : "Not visible"
+
+🔹 Child Menu Validation (parent_id is NOT null)
+
+🔸 Checking under Parent Menu: Protocol Information

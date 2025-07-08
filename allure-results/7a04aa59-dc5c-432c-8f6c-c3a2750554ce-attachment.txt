@@ -1,0 +1,141 @@
+
+🔹 Parent Menu Validation (parent_id is null)
+❌ Not Found: Adverse Event Report Form
+   → Expected: "Adverse Event Report Form"
+   ← Found   : "Not visible"
+❌ Not Found: Report Form
+   → Expected: "Report Form"
+   ← Found   : "Not visible"
+❌ Not Found: Violation Form
+   → Expected: "Violation Form"
+   ← Found   : "Not visible"
+❌ Not Found: Final Report Form
+   → Expected: "Final Report Form"
+   ← Found   : "Not visible"
+❌ Not Found: Status Report Form
+   → Expected: "Status Report Form"
+   ← Found   : "Not visible"
+❌ Not Found: Continuing Review
+   → Expected: "Continuing Review"
+   ← Found   : "Not visible"
+❌ Not Found: Amendment
+   → Expected: "Amendment"
+   ← Found   : "Not visible"
+❌ Not Found: IRB Comments
+   → Expected: "IRB Comments"
+   ← Found   : "Not visible"
+❌ Not Found: IRB Notes
+   → Expected: "IRB Notes"
+   ← Found   : "Not visible"
+✅ Visible: Personnel Information
+   → Expected: "Personnel Information"
+   ← Found   : "personnel information"
+✅ Visible: Subject Checklist
+   → Expected: "Subject Checklist"
+   ← Found   : "subject checklist"
+✅ Visible: Study Location
+   → Expected: "Study Location"
+   ← Found   : "study location"
+✅ Visible: General Checklist
+   → Expected: "General Checklist"
+   ← Found   : "general checklist"
+❌ Not Found: Application Type Checklist
+   → Expected: "Application Type Checklist"
+   ← Found   : "protocol information"
+✅ Visible: Funding
+   → Expected: "Funding"
+   ← Found   : "funding"
+❌ Not Found: Pre-Approval Page Language
+   → Expected: "Pre-Approval Page Language"
+   ← Found   : "Not visible"
+✅ Visible: Obligations
+   → Expected: "Obligations"
+   ← Found   : "obligations"
+❌ Not Found: IRB Use Only
+   → Expected: "IRB Use Only"
+   ← Found   : "Not visible"
+
+🔹 Child Menu Validation (parent_id is NOT null)
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Application Type Checklist
+   → Expected: "Application Type Checklist"
+   ← Found   : "protocol information"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Exempt Paragraph(s)
+   → Expected: "Exempt Paragraph(s)"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Summary, Purpose, Procedures
+   → Expected: "Summary, Purpose, Procedures"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Background and additional procedures
+   → Expected: "Background and additional procedures"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Drugs and Devices
+   → Expected: "Drugs and Devices"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Subject Population (a-f)
+   → Expected: "Subject Population (a-f)"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Subject Population (g-j)
+   → Expected: "Subject Population (g-j)"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Recruitment Process, Subject Compensation and Costs
+   → Expected: "Recruitment Process, Subject Compensation and Costs"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Risks
+   → Expected: "Risks"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Benefits
+   → Expected: "Benefits"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Procedures to Maintain Confidentiality
+   → Expected: "Procedures to Maintain Confidentiality"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Potential Conflict of Interest
+   → Expected: "Potential Conflict of Interest"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Consent Information
+   → Expected: "Consent Information"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Assent Background
+   → Expected: "Assent Background"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: HIPAA
+   → Expected: "HIPAA"
+   ← Found   : "Not visible"
+
+🔸 Checking under Parent Menu: Protocol Information
+❌ Child Not Found: Attachments
+   → Expected: "Attachments"
+   ← Found   : "Not visible"
+
+✅ Total Visible: 6
+❌ Total Not Found/Text Mismatch: 28

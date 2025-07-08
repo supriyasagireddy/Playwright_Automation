@@ -1,0 +1,68 @@
+❌ [27ms] Title mismatch for: Application Type Checklist
+   → Title: 
+❌ [2853ms] Title mismatch for: Exempt Paragraph(s)
+   → Title: 
+❌ [13ms] Title mismatch for: Summary, Purpose, Procedures
+   → Title: 
+❌ [17ms] Title mismatch for: Background and additional procedures
+   → Title: 
+❌ [17ms] Title mismatch for: Drugs and Devices
+   → Title: 
+❌ [17ms] Title mismatch for: Subject Population (a-f)
+   → Title: 
+❌ [18ms] Title mismatch for: Subject Population (g-j)
+   → Title: 
+❌ [16ms] Title mismatch for: Recruitment Process, Subject Compensation and Costs
+   → Title: 
+❌ [11ms] Title mismatch for: Risks
+   → Title: 
+❌ [13ms] Title mismatch for: Benefits
+   → Title: 
+❌ [11ms] Title mismatch for: Procedures to Maintain Confidentiality
+   → Title: 
+❌ [13ms] Title mismatch for: Potential Conflict of Interest
+   → Title: 
+❌ [14ms] Title mismatch for: Consent Information
+   → Title: 
+❌ [12ms] Title mismatch for: Assent Background
+   → Title: 
+❌ [15ms] Title mismatch for: HIPAA
+   → Title: 
+❌ [13ms] Title mismatch for: Attachments
+   → Title: 
+🔁 Retry 1 for Adverse Event Report Form
+❌ [11035ms] Not Found: Adverse Event Report Form
+🔁 Retry 1 for Report Form
+❌ [11033ms] Not Found: Report Form
+🔁 Retry 1 for Violation Form
+❌ [11023ms] Not Found: Violation Form
+🔁 Retry 1 for Final Report Form
+❌ [11039ms] Not Found: Final Report Form
+🔁 Retry 1 for Status Report Form
+❌ [11019ms] Not Found: Status Report Form
+🔁 Retry 1 for Continuing Review
+❌ [11030ms] Not Found: Continuing Review
+🔁 Retry 1 for Amendment
+❌ [11033ms] Not Found: Amendment
+🔁 Retry 1 for IRB Comments
+❌ [11035ms] Not Found: IRB Comments
+🔁 Retry 1 for IRB Notes
+❌ [11036ms] Not Found: IRB Notes
+❌ [11ms] Title mismatch for: Personnel Information
+   → Title: 
+❌ [12ms] Title mismatch for: Subject Checklist
+   → Title: 
+❌ [21ms] Title mismatch for: Study Location
+   → Title: 
+❌ [18ms] Title mismatch for: General Checklist
+   → Title: 
+❌ [11ms] Title mismatch for: Application Type Checklist
+   → Title: 
+❌ [10ms] Title mismatch for: Funding
+   → Title: 
+🔁 Retry 1 for Pre-Approval Page Language
+❌ [11021ms] Not Found: Pre-Approval Page Language
+❌ [17ms] Title mismatch for: Obligations
+   → Title: 
+🔁 Retry 1 for IRB Use Only
+❌ [11031ms] Not Found: IRB Use Only

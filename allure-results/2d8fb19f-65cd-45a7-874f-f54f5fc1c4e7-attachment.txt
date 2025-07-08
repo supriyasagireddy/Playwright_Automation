@@ -1,0 +1,27 @@
+Retrieved menus: 34
+Navigated to Edit Page
+Clicking parent group: Protocol Information
+[541ms] Matched: Summary, Purpose, Procedures
+[543ms] Matched: Background and additional procedures
+[542ms] Matched: Drugs and Devices
+[532ms] Matched: Subject Population (a-f)
+[526ms] Matched: Subject Population (g-j)
+[527ms] Matched: Recruitment Process, Subject Compensation and Costs
+[536ms] Matched: Risks
+[528ms] Matched: Benefits
+[530ms] Matched: Procedures to Maintain Confidentiality
+[525ms] Matched: Potential Conflict of Interest
+[523ms] Matched: Consent Information
+[526ms] Matched: Assent Background
+[528ms] Matched: HIPAA
+[530ms] Matched: Attachments
+[525ms] Matched: Personnel Information
+[527ms] Matched: Subject Checklist
+[526ms] Matched: Study Location
+[532ms] Matched: General Checklist
+[531ms] Matched: Funding
+[531ms] Matched: Obligations
+Test Summary:
+Total Menus: 34
+Matched: 20
+Not Found/Text Mismatch: 14

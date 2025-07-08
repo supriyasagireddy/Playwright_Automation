@@ -1,0 +1,32 @@
+❌ [38ms] Text mismatch for: Application Type Checklist
+   → Found: protocol information
+❌ [1566ms] Text mismatch for: Exempt Paragraph(s)
+   → Found: expedited paragraphs
+❌ [18ms] Text mismatch for: Summary, Purpose, Procedures
+   → Found: summary, purpose, pr...
+❌ [17ms] Text mismatch for: Background and additional procedures
+   → Found: background and addit...
+❌ [18ms] Text mismatch for: Subject Population (a-f)
+   → Found: subject population (...
+❌ [16ms] Text mismatch for: Subject Population (g-j)
+   → Found: subject population (...
+❌ [17ms] Text mismatch for: Recruitment Process, Subject Compensation and Costs
+   → Found: recruitment process,...
+❌ [18ms] Text mismatch for: Procedures to Maintain Confidentiality
+   → Found: procedures to mainta...
+❌ [17ms] Text mismatch for: Potential Conflict of Interest
+   → Found: potential conflict o...
+❌ [10015ms] Not Found: Adverse Event Report Form
+❌ [10012ms] Not Found: Report Form
+❌ [10013ms] Not Found: Violation Form
+❌ [10011ms] Not Found: Final Report Form
+❌ [10014ms] Not Found: Status Report Form
+❌ [10016ms] Not Found: Continuing Review
+❌ [10013ms] Not Found: Amendment
+❌ [10006ms] Not Found: IRB Comments
+❌ [10008ms] Not Found: IRB Notes
+❌ [15ms] Text mismatch for: Application Type Checklist
+   → Found: protocol information
+❌ [10003ms] Not Found: Pre-Approval Page Language
+❌ [10009ms] Not Found: IRB Use Only
+⚠️ Page was closed unexpectedly

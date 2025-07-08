@@ -1,0 +1,11 @@
+✅ Menu Visible → Personnel Information (effective id: 101)
+✅ Menu Visible → Subject Checklist (effective id: 131)
+✅ Menu Visible → Study Location (effective id: 132)
+✅ Menu Visible → General Checklist (effective id: 133)
+✅ Menu Visible → Funding (effective id: 135)
+✅ Menu Visible → Obligations (effective id: 136)
+✅ Menu Visible → Protocol Information (effective id: 172)
+Test Case 4 Summary:
+  Total Menus   : 34
+  Visible Menus : 7
+  Hidden Menus  : 27

@@ -1,0 +1,42 @@
+
+✅ Matched Menus:
+   ✔ personnel information
+   ✔ subject checklist
+   ✔ study location
+   ✔ general checklist
+   ✔ funding
+   ✔ subject population (a-f)
+   ✔ subject population (g-j)
+   ✔ obligations
+
+❌ Missing Menus:
+   ✘ adverse event report form
+   ✘ report form
+   ✘ violation form
+   ✘ final report form
+   ✘ status report form
+   ✘ continuing review
+   ✘ amendment
+   ✘ irb comments
+   ✘ irb notes
+   ✘ application type checklist
+   ✘ application type checklist
+   ✘ exempt paragraph(s)
+   ✘ summary, purpose, procedures
+   ✘ background and additional procedures
+   ✘ drugs and devices
+   ✘ recruitment process, subject compensation and costs
+   ✘ risks
+   ✘ benefits
+   ✘ procedures to maintain confidentiality
+   ✘ potential conflict of interest
+   ✘ consent information
+   ✘ pre-approval page language
+   ✘ assent background
+   ✘ hipaa
+   ✘ attachments
+   ✘ irb use only
+
+📊 Total Expected : 34
+✅ Matched        : 8
+❌ Missing        : 26

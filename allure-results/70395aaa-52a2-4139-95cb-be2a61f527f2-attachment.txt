@@ -1,0 +1,67 @@
+
+🔍 Rendered Menu Titles in DOM:
+   → Personnel Information
+   → Subject Checklist
+   → Study Location
+   → General Checklist
+   → Funding
+   → Protocol Information
+   → Obligations
+   → Check For Completeness
+   → Submit Form
+   → Print View
+   → Event History
+   → Next
+   → Add
+   → Delete
+   → Add
+   → Delete
+   → Clear
+   → Add
+   → Next
+   → Save
+   → Spell Check
+   → Help
+   → Close
+
+✅ Matched Menus:
+   ✔ personnel information
+   ✔ subject checklist
+   ✔ study location
+   ✔ general checklist
+   ✔ funding
+   ✔ subject population (a-f)
+   ✔ subject population (g-j)
+   ✔ obligations
+
+❌ Missing Menus (not rendered):
+   ✘ adverse event report form
+   ✘ report form
+   ✘ violation form
+   ✘ final report form
+   ✘ status report form
+   ✘ continuing review
+   ✘ amendment
+   ✘ irb comments
+   ✘ irb notes
+   ✘ application type checklist
+   ✘ application type checklist
+   ✘ exempt paragraph(s)
+   ✘ summary, purpose, procedures
+   ✘ background and additional procedures
+   ✘ drugs and devices
+   ✘ recruitment process, subject compensation and costs
+   ✘ risks
+   ✘ benefits
+   ✘ procedures to maintain confidentiality
+   ✘ potential conflict of interest
+   ✘ consent information
+   ✘ pre-approval page language
+   ✘ assent background
+   ✘ hipaa
+   ✘ attachments
+   ✘ irb use only
+
+📊 Total Expected : 34
+✅ Matched        : 8
+❌ Missing        : 26

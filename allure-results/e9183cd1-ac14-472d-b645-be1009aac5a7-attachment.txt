@@ -1,0 +1,57 @@
+
+🔹 Parent Menu Validation (parent_id is null)
+❌ Error accessing: Adverse Event Report Form → Error: locator.count: Execution context was destroyed, most likely because of a navigation
+❌ Error accessing: Report Form → Error: Element not found
+❌ Error accessing: Violation Form → Error: Element not found
+❌ Error accessing: Final Report Form → Error: Element not found
+❌ Error accessing: Status Report Form → Error: Element not found
+❌ Error accessing: Continuing Review → Error: Element not found
+❌ Error accessing: Amendment → Error: Element not found
+❌ Error accessing: IRB Comments → Error: Element not found
+❌ Error accessing: IRB Notes → Error: Element not found
+❌ Error accessing: Personnel Information → Error: Element not found
+❌ Error accessing: Subject Checklist → Error: Element not found
+❌ Error accessing: Study Location → Error: Element not found
+❌ Error accessing: General Checklist → Error: Element not found
+❌ Error accessing: Application Type Checklist → Error: Element not found
+❌ Error accessing: Funding → Error: Element not found
+❌ Error accessing: Pre-Approval Page Language → Error: Element not found
+❌ Error accessing: Obligations → Error: Element not found
+❌ Error accessing: IRB Use Only → Error: Element not found
+
+🔹 Child Menu Validation (parent_id is NOT null)
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+🔸 Checking under Parent Menu: Protocol Information
+
+✅ Total Visible: 0
+❌ Total Not Found/Text Mismatch: 34
